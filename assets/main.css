@@ -276,4 +276,6 @@ table td { border: 1px solid #e8e8e8; }
 
 p { font-size: 14pt; text-indent: 2em; margin-bottom: 2em; }
 
+img:first-child { margin-left: -2em; }
+
 /*# sourceMappingURL=main.css.map */
