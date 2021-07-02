@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>雄关漫道真如铁 | 刘教链</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="雄关漫道真如铁" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="公众号文章存档" />
+<meta property="og:description" content="公众号文章存档" />
+<link rel="canonical" href="/prose/2021/04/12/09-2-notes.html" />
+<meta property="og:url" content="/prose/2021/04/12/09-2-notes.html" />
+<meta property="og:site_name" content="刘教链" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-04-12T08:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="雄关漫道真如铁" />
+<script type="application/ld+json">
+{"datePublished":"2021-04-12T08:00:00+08:00","dateModified":"2021-04-12T08:00:00+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"/prose/2021/04/12/09-2-notes.html"},"url":"/prose/2021/04/12/09-2-notes.html","description":"公众号文章存档","headline":"雄关漫道真如铁","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="刘教链" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">刘教链</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/bio/">Bio</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">雄关漫道真如铁</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-04-12T08:00:00+08:00" itemprop="datePublished">Apr 12, 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><img src="/images/2021/20210412.jpg" alt="" /></p>
+
+<p>(图片来源于网络)</p>
+
+<p>比特币在6万刀这个位置整理许久，足见此关突破之难。比特币整理，小币虽然各种拉飞，但是比特币就像地心引力，小币无论怎么放飞终归还是要回到地面。没有比特币继续为全行业输入增量资本，山寨飞扬就是零和游戏，终归会走向均值回归。从周线上看，比特币仍然在主升浪里，图形并没有走坏。横久必跌那是熊市，对于牛市，则是蓄力。只是，你永远无法预测何时发力。你能做的，只能是提前预判，提前布局，耐心持币。从长线上来开，在中场这个关口反复整理的越久，越有助于在这个位置形成坚实的基础，在一年后牛市结束转熊市之后，无论从多高跌下来，都能够在这个位置得到有力的支撑。今日难攻，他日亦可据守。</p>
+
+<p>今天我们继续温习「比特币原理」音频课（“刘教链”公众号菜单可以找到目录和收听入口）第九章“轻量账本压缩百倍 快速支付不到十秒”的第2小节“简化支付验证”。（温习笔记09-2）</p>
+
+<p>SPV，全称Simplified Payment Verification，简化支付验证。中本聪在比特币白皮书中对SPV技术进行了介绍。通过使用SPV技术，可以把比特币交易组织成默克尔树（merkle tree），然后把默克尔根（merkle root）写入区块头，仅用区块头组成的区块链以及默克尔树就可以完成对于交易存在性的证明，成为默克尔证明（merkle proof）。比如，2048笔交易的数据量为512KB，但是默克尔路径只用11个哈希值即可，仅需352字节。这样尺寸上大大压缩之后，就可以很轻松地把区块链放进轻量级设备中。</p>
+
+<p>比特币的设计要求允许客户端随时离线，当客户端再次上线之后，它需要获得在其离线期间发生了什么事情的证明。中本聪说过，有两种方法让它知道这件事。第一就是展示全账本，证明交易可以一直回溯到该笔比特币的铸币源头，coinbase交易；第二就是展示一段回溯到足够深的区块的历史，证明交易被埋在足够深的区块链高度之下，如果有一半以上的节点（算力）验证了这项交易，那么旧的交易就可以丢弃了。</p>
+
+<p>用户只需要保留区块头，每天大概12K字节，就可以足以用来检查双花。只有需要挖矿产币的人才需要运行全节点。刚开始所有人都会运行节点，但是未来网络带宽需求增加时，就会只有专业设备运行节点。中本聪还测算了一下，如果比特币要达到VISA信用卡的用量，那么每天需要传输的数据量大概是2部DVD，他觉得，一二十年之后，在网络上传输2部DVD应该不是一件很困难的事情。</p>
+
+<p>中本聪是一个实用主义者。他并没有认为比特币永远需要保持每个个人电脑都运行全节点。也就是说，在去中心化这个问题上，中本聪并不是一个原教旨主义者。充斥这个行业的各种迷思，或者向左，激进的认为所有节点都需要是普通电脑，进而攻击比特币算力集中破坏了去中心化，或者向右，认为中本聪的设计不足以支撑高性能的操作，并提出各种新的共识机制，典型的如建立超级节点结构来专营记账服务，从而极大的削弱了去中心化。</p>
+
+<p>事实证明，中本聪的设计是一种巧妙的、有效的均衡，无论是左倾还是右倾，都是一种傲慢无知而危险的错误。</p>
+
+<p>(公众号：刘教链)
+(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)</p>
+
+  </div><a class="u-url" href="/prose/2021/04/12/09-2-notes.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">刘教链</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">刘教链</li><li><a class="u-email" href="mailto:evan@blockcoach.com">evan@blockcoach.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>公众号文章存档</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-01T00:40:53+08:00</updated><id>/feed.xml</id><title type="html">刘教链</title><subtitle>公众号文章存档</subtitle><entry><title type="html">小杂感</title><link href="/prose/2021/06/30/little-thoughts.html" rel="alternate" type="text/html" title="小杂感" /><published>2021-06-30T07:48:00+08:00</published><updated>2021-06-30T07:48:00+08:00</updated><id>/prose/2021/06/30/little-thoughts</id><content type="html" xml:base="/prose/2021/06/30/little-thoughts.html">&lt;p&gt;&lt;img src=&quot;/images/20210630.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-02T23:55:21+08:00</updated><id>/feed.xml</id><title type="html">刘教链</title><subtitle>公众号文章存档</subtitle><entry><title type="html">笨钱效应</title><link href="/prose/2021/07/02/dumb-money-effect.html" rel="alternate" type="text/html" title="笨钱效应" /><published>2021-07-02T07:30:00+08:00</published><updated>2021-07-02T07:30:00+08:00</updated><id>/prose/2021/07/02/dumb-money-effect</id><content type="html" xml:base="/prose/2021/07/02/dumb-money-effect.html">&lt;p&gt;&lt;img src=&quot;/images/2021/20210702.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(图片来源于网络)&lt;/p&gt;
+
+&lt;p&gt;根据2006年NBER（国立经济研究院）一项对美国共同基金的数据研究，发现了一个十分有趣的现象，那就是深受投资者追捧的股票其表现往往不如那些投资者撤出资金的股票[1]，以至于投资者的资金流动可以作为预测股票表现的一个反向指标。&lt;/p&gt;
+
+&lt;p&gt;这个现象在投资领域被称为“笨钱效应”（dumb money effect）。之所以叫这个名字，是因为这些“笨钱”的集体选择是追逐长期表现不佳的投资，而弃优质投资于不顾。与笨钱相对的聪明钱（smart money）则是指那些坚守优质投资，初心不改而最终获得超额回报的投资资金。&lt;/p&gt;
+
+&lt;p&gt;很多人看到这里会想，笨钱可能就是散户，而聪明钱应该就是机构吧？事实上，并非如此简单的非黑即白。一大部分的基金经理表现也不佳，而个别的散户也可以进行成功的投资。&lt;/p&gt;
+
+&lt;p&gt;投资资金成为笨钱，原因并不是投资的人笨，相反的，往往是由于投资的人太聪明；不是因为投资者太感性，而是由于投资者太理性。笨钱效应的罪魁祸首，不在掌控形象思维的右脑，而在发挥逻辑思维的左脑。是左脑发生了“过拟合”（over-fitting）。&lt;/p&gt;
+
+&lt;p&gt;所谓过拟合，是人们在研究AI（人工智能）或者说机器学习（machine learnign）时常常使用的一个来自于统计学的术语。它是指对历史数据的过度学习，拼命寻找规律，结果找到了并不存在的规律。这在统计学中叫做犯了错误，1类错误（Type I error）。1类错误也称为假阳性，当研究人员错误地拒绝了真正的零假设（null hypothesis）时就会发生这种错误。它意味着你报告说你的发现很重要，但实际上它是偶然发生的。&lt;/p&gt;
+
+&lt;p&gt;在市场，我们常常听说的，“一根大阳线，千军万马来相见”，“一涨就是牛市，一跌就是熊市”，“涨了就是区块链革命，跌了就是区块链骗局”，等等，其实都是笨钱效应的形象化表现。&lt;/p&gt;
+
+&lt;p&gt;拿过去几天的市场表现来作为例子。6/27、6/28、6/29比特币连续三天长阳，从最低3万出头，一路来到3万6这个此前的中枢位置。6/26下探到3万时要死要活、悲观看空的人们，迅速从对反弹的怀疑转变成对反弹的笃信，于是摩拳擦掌，调转枪头，高喊着这一波反弹必到4万5甚至4万7，然后3万6开多。&lt;/p&gt;
+
+&lt;p&gt;结局就是，6/30开始转为下跌，第一天跌到3万4，第二天跌到3万3，今天，开局3万3。你说会怎么走？通常而言，你敢开多它就继续跌，你敢开空它就止跌反弹。&lt;/p&gt;
+
+&lt;p&gt;所以不需要找远在天边的案例，过去一周的比特币市场，就是笨钱效应的完美呈现。&lt;/p&gt;
+
+&lt;p&gt;脑科学家做过一个实验。首先让鸽子学习啄两个开关来控制食物掉落。其中一个开关有80%的概率会掉落食物，另一个只有20%。经过一段时间的学习，鸽子就会找到规律，然后一心一意地啄那个80%的高概率开关。从而，鸽子获得食物的数学期望就稳定在80%这个概率上。也就是说，鸽子最终能得到80%的食物。&lt;/p&gt;
+
+&lt;p&gt;然后把实验对象换成我们人类，比鸽子聪明一万倍的智人。令人惊讶的是，人类最终只能获得68%的食物。仔细观察就会发现人类表现不如鸽子的秘密，就是人实在是过于聪明了，当他们发现两个开关的概率比大约是4:1的时候，他们真的会按照4:1的比例去分别按这两个开关！这个策略被称为“频率配对”。但这个更聪明的策略最终导致他们的实际成绩变得更糟糕。&lt;/p&gt;
+
+&lt;p&gt;这个实验向我们揭示了笨钱效应的心理源头。投资者常常是聪明反被聪明误，自作聪明地调仓，把钱从表现不好的股票挪到表现好的股票去，从表现不好的基金挪到表现好的基金去，从表现不好的币种挪到表现好的币种去，最终，往往是资金从哪里撤走，哪里就开始上涨，而资金调往的地方，就开始回调整理。这样的错误，我也曾经犯过。曾经我把浮亏的比亚迪股票清仓全部换成招行，然后完美错过2020年新能源的行情。&lt;/p&gt;
+
+&lt;p&gt;我们常常看到两种截然相反的调仓建议：&lt;/p&gt;
+
+&lt;p&gt;一种是汰弱补强。很多大V都会这样讲，全世界的指数基金都是汰弱补强的策略，淘汰表现不佳的旧股票，收入表现良好的新股票，保持其长久的生命力。而散户往往跌了就补仓，涨了就卖掉，套的时候越套越牢，赚的时候只吃了点前菜。&lt;/p&gt;
+
+&lt;p&gt;另一种则是削强补弱。桥水基金的网站上，投资者教程里，就是建议投资者调仓时，要卖出超涨的标的，买入表现弱势的标的，以进行再平衡。&lt;/p&gt;
+
+&lt;p&gt;当你多学习、多了解、多研究之后，你会发现，几乎所有的投资建议都是有与之针锋相对、截然相反的建议存在的。所以说，投资是一门艺术。&lt;/p&gt;
+
+&lt;p&gt;人有小九九，天有大算盘。有时候太聪明，还不如鸽子。看似笨的办法，反而更有效，就像咱们常说的八字诀。&lt;/p&gt;
+
+&lt;p&gt;[1] https://www.nber.org/digest/feb06/mutual-fund-switching-lowers-investors-returns&lt;/p&gt;
+
+&lt;p&gt;(公众号：刘教链。知识星球：公众号回复“星球”)
+(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html"></summary></entry><entry><title type="html">人间正道是沧桑</title><link href="/prose/2021/07/01/just-poem.html" rel="alternate" type="text/html" title="人间正道是沧桑" /><published>2021-07-01T07:30:00+08:00</published><updated>2021-07-01T07:30:00+08:00</updated><id>/prose/2021/07/01/just-poem</id><content type="html" xml:base="/prose/2021/07/01/just-poem.html">&lt;p&gt;&lt;img src=&quot;/images/2021/20210701.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(图片来源于网络)&lt;/p&gt;
+
+&lt;p&gt;钟山风雨起苍黄，百万雄师过大江。&lt;/p&gt;
+
+&lt;p&gt;虎踞龙盘今胜昔，天翻地覆慨而慷。&lt;/p&gt;
+
+&lt;p&gt;宜将剩勇追穷寇，不可沽名学霸王。&lt;/p&gt;
+
+&lt;p&gt;天若有情天亦老，人间正道是沧桑。&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html"></summary></entry><entry><title type="html">小杂感</title><link href="/prose/2021/06/30/little-thoughts.html" rel="alternate" type="text/html" title="小杂感" /><published>2021-06-30T07:48:00+08:00</published><updated>2021-06-30T07:48:00+08:00</updated><id>/prose/2021/06/30/little-thoughts</id><content type="html" xml:base="/prose/2021/06/30/little-thoughts.html">&lt;p&gt;&lt;img src=&quot;/images/2021/20210630.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;(图片来源于网络)&lt;/p&gt;
 
@@ -77,7 +128,7 @@
 &lt;p&gt;不要听取任何人给你的投资建议。包括我。&lt;/p&gt;
 
 &lt;p&gt;(公众号：刘教链。知识星球：公众号回复“星球”)
-(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html"></summary></entry><entry><title type="html">LP是傻瓜吗？</title><link href="/prose/2021/06/29/is-lp-fool.html" rel="alternate" type="text/html" title="LP是傻瓜吗？" /><published>2021-06-29T08:11:00+08:00</published><updated>2021-06-29T08:11:00+08:00</updated><id>/prose/2021/06/29/is-lp-fool</id><content type="html" xml:base="/prose/2021/06/29/is-lp-fool.html">&lt;p&gt;&lt;img src=&quot;/images/20210629.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html"></summary></entry><entry><title type="html">LP是傻瓜吗？</title><link href="/prose/2021/06/29/is-lp-fool.html" rel="alternate" type="text/html" title="LP是傻瓜吗？" /><published>2021-06-29T08:11:00+08:00</published><updated>2021-06-29T08:11:00+08:00</updated><id>/prose/2021/06/29/is-lp-fool</id><content type="html" xml:base="/prose/2021/06/29/is-lp-fool.html">&lt;p&gt;&lt;img src=&quot;/images/2021/20210629.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;(图片来源于网络)&lt;/p&gt;
 
@@ -98,7 +149,9 @@
 &lt;p&gt;那么还要做LP吗？我想答案是，你需要努力学习知识，提高专业能力，才能在激励的开放竞争中胜出。否则，还不如囤比特币，长期HODL。&lt;/p&gt;
 
 &lt;p&gt;(公众号：刘教链。知识星球：公众号回复“星球”)
-(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html"></summary></entry><entry><title type="html">比特币的元宇宙</title><link href="/prose/2021/06/28/btc-metaverse.html" rel="alternate" type="text/html" title="比特币的元宇宙" /><published>2021-06-28T08:00:00+08:00</published><updated>2021-06-28T08:00:00+08:00</updated><id>/prose/2021/06/28/btc-metaverse</id><content type="html" xml:base="/prose/2021/06/28/btc-metaverse.html">&lt;p&gt;(图片来源于网络)&lt;/p&gt;
+(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html"></summary></entry><entry><title type="html">比特币的元宇宙</title><link href="/prose/2021/06/28/btc-metaverse.html" rel="alternate" type="text/html" title="比特币的元宇宙" /><published>2021-06-28T08:00:00+08:00</published><updated>2021-06-28T08:00:00+08:00</updated><id>/prose/2021/06/28/btc-metaverse</id><content type="html" xml:base="/prose/2021/06/28/btc-metaverse.html">&lt;p&gt;&lt;img src=&quot;/images/2021/20210628.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(图片来源于网络)&lt;/p&gt;
 
 &lt;p&gt;元宇宙（metaverse）是一个集体的虚拟共享空间，由虚拟增强的物理现实和物理持久的虚拟空间融合创建，包括所有的虚拟世界、增强现实和互联网的总和。这是维基百科给出的定义。meta这个词根的意思是超越、超出、更进一步，比如metaphysics形而上学，字面的含义就是超越于物理之上。而verse这个词根来自于universe宇宙。所以，元宇宙的字面含义也就是超越于宇宙之上，一个非物质的世界。&lt;/p&gt;
 
@@ -123,7 +176,9 @@
 &lt;p&gt;元宇宙，是超越现实宇宙的存在，自然也是超越人类世俗生活的，超越人类的道德、法律、宗教、喜怒哀乐，像太阳、月亮、星星一样的不受任何人为意志左右的客观存在。圣人不仁，以百姓为刍狗。天地不仁，以万物为刍狗。“人心惟危，道心惟微。”愿诸君能够仔细了解中本聪精妙的设计，初心不改，坚守理想与信念，执中而行，矢志不渝。&lt;/p&gt;
 
 &lt;p&gt;(公众号：刘教链。知识星球：公众号回复“星球”)
-(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html">(图片来源于网络)</summary></entry><entry><title type="html">杀君马者道旁儿</title><link href="/prose/2021/06/27/kill-horse.html" rel="alternate" type="text/html" title="杀君马者道旁儿" /><published>2021-06-27T08:00:00+08:00</published><updated>2021-06-27T08:00:00+08:00</updated><id>/prose/2021/06/27/kill-horse</id><content type="html" xml:base="/prose/2021/06/27/kill-horse.html">&lt;p&gt;(图片来源于网络)&lt;/p&gt;
+(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html"></summary></entry><entry><title type="html">杀君马者道旁儿</title><link href="/prose/2021/06/27/kill-horse.html" rel="alternate" type="text/html" title="杀君马者道旁儿" /><published>2021-06-27T08:00:00+08:00</published><updated>2021-06-27T08:00:00+08:00</updated><id>/prose/2021/06/27/kill-horse</id><content type="html" xml:base="/prose/2021/06/27/kill-horse.html">&lt;p&gt;&lt;img src=&quot;/images/2021/20210627.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(图片来源于网络)&lt;/p&gt;
 
 &lt;p&gt;请问诸君，什么是法治？法治之精神，我认为，归根结底最重要的就是这么一句：公权力，法无授权不可为；私权利，法无禁止则可为。也就是说，国家机构动用公权力做任何事情，都必须有正式的法律条文授权才可以干；老百姓个人做任何事情，只要没有正式的法律条文禁止就都是可以干的。违反前一句，就会蜕变为“家天下”的封建皇权统治，生杀予夺，皇上就是法，无需共和；违反后一句，就会演变为《1984》里描述的法西斯极权统治，人民不仅要被捆缚住手脚，甚至要被禁锢住思想。&lt;/p&gt;
 
@@ -150,7 +205,9 @@
 &lt;p&gt;1919年6月13日，钱能训向徐世昌再一次提出辞呈，正式辞职。这一次辞职谈话，在今年热播的电视剧《觉醒年代》第35集第35分钟开始的一段戏对此进行了艺术化再现。徐世昌感慨，中国几千年都是农民起义，结果这一次，农民没怎样，秀才造反了。钱能训说，农民起义不可怕，王朝更替只是原地转圈，现在陈仲甫这些人要用西方的先进理论，改变中国人的思想，推动中国社会的进步。徐世昌问，什么理论这是？钱能训低下了头，不无悲凉地说，嗨，我也说不清楚；我只知道，我已经落伍了。&lt;/p&gt;
 
 &lt;p&gt;(公众号：刘教链。知识星球：公众号回复“星球”)
-(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html">(图片来源于网络)</summary></entry><entry><title type="html">偃旗息鼓，鸣金收兵</title><link href="/prose/2021/06/26/ceasefire.html" rel="alternate" type="text/html" title="偃旗息鼓，鸣金收兵" /><published>2021-06-26T08:00:00+08:00</published><updated>2021-06-26T08:00:00+08:00</updated><id>/prose/2021/06/26/ceasefire</id><content type="html" xml:base="/prose/2021/06/26/ceasefire.html">&lt;p&gt;(图片来源于网络)&lt;/p&gt;
+(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html"></summary></entry><entry><title type="html">偃旗息鼓，鸣金收兵</title><link href="/prose/2021/06/26/ceasefire.html" rel="alternate" type="text/html" title="偃旗息鼓，鸣金收兵" /><published>2021-06-26T08:00:00+08:00</published><updated>2021-06-26T08:00:00+08:00</updated><id>/prose/2021/06/26/ceasefire</id><content type="html" xml:base="/prose/2021/06/26/ceasefire.html">&lt;p&gt;&lt;img src=&quot;/images/2021/20210626.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(图片来源于网络)&lt;/p&gt;
 
 &lt;p&gt;今天是6月26日，星期六。昨晚还有觉悟不够的空头想搞大事情，当然需要予以迎头痛击。从今天开始之后几天，无论是多头还是空头，必须偃旗息鼓、鸣金收兵，坚决防止任何不顾大局操弄盘面暴涨暴跌、搞上热搜等行为的出现。这点儿大局观和觉悟高度，是行业的每一个从业者，都必须具备的基本素质。&lt;/p&gt;
 
@@ -173,7 +230,9 @@
 &lt;p&gt;这个能够让你在网络世界真正拥有和转让一个数字的技术，就是区块链。&lt;/p&gt;
 
 &lt;p&gt;(公众号：刘教链。知识星球：公众号回复“星球”)
-(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html">(图片来源于网络)</summary></entry><entry><title type="html">下雨和交易</title><link href="/prose/2021/06/25/rain-and-trade.html" rel="alternate" type="text/html" title="下雨和交易" /><published>2021-06-25T08:00:00+08:00</published><updated>2021-06-25T08:00:00+08:00</updated><id>/prose/2021/06/25/rain-and-trade</id><content type="html" xml:base="/prose/2021/06/25/rain-and-trade.html">&lt;p&gt;(图片来源于网络)&lt;/p&gt;
+(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html"></summary></entry><entry><title type="html">下雨和交易</title><link href="/prose/2021/06/25/rain-and-trade.html" rel="alternate" type="text/html" title="下雨和交易" /><published>2021-06-25T08:00:00+08:00</published><updated>2021-06-25T08:00:00+08:00</updated><id>/prose/2021/06/25/rain-and-trade</id><content type="html" xml:base="/prose/2021/06/25/rain-and-trade.html">&lt;p&gt;&lt;img src=&quot;/images/2021/20210625.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(图片来源于网络)&lt;/p&gt;
 
 &lt;p&gt;北京整体上是一个北方气候的城市，干燥的时候比较多。但是季节一旦进入了夏季，总归是会有那么一段时期，雨水比较充沛。这段时期，就经常会下点儿雨。有时候是飘风骤雨，有时候是绵绵细雨。写下这段话的时候，窗外正在下着沥沥的小雨。雨珠儿打在房檐顶上，发出啪嗒啪嗒的声响。&lt;/p&gt;
 
@@ -202,7 +261,9 @@
 &lt;p&gt;对于我们绝大部分人而言，天赋和运气都是正常人水平。那么怎么办？八字诀。放弃战胜市场的幻想，用无问西东的策略去进行长期投资。这是普通人能够从一个长期向上的市场中有所回报的最佳策略。这也是八字诀背后所蕴含的最朴实无华的道理。&lt;/p&gt;
 
 &lt;p&gt;(公众号：刘教链。知识星球：公众号回复“星球”)
-(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html">(图片来源于网络)</summary></entry><entry><title type="html">无人再谈“永恒牛市”</title><link href="/prose/2021/06/24/none-talking-foreverbull.html" rel="alternate" type="text/html" title="无人再谈“永恒牛市”" /><published>2021-06-24T08:00:00+08:00</published><updated>2021-06-24T08:00:00+08:00</updated><id>/prose/2021/06/24/none-talking-foreverbull</id><content type="html" xml:base="/prose/2021/06/24/none-talking-foreverbull.html">&lt;p&gt;(图片来源于网络)&lt;/p&gt;
+(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html"></summary></entry><entry><title type="html">无人再谈“永恒牛市”</title><link href="/prose/2021/06/24/none-talking-foreverbull.html" rel="alternate" type="text/html" title="无人再谈“永恒牛市”" /><published>2021-06-24T08:00:00+08:00</published><updated>2021-06-24T08:00:00+08:00</updated><id>/prose/2021/06/24/none-talking-foreverbull</id><content type="html" xml:base="/prose/2021/06/24/none-talking-foreverbull.html">&lt;p&gt;&lt;img src=&quot;/images/2021/20210624.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(图片来源于网络)&lt;/p&gt;
 
 &lt;p&gt;请问3月份比特币6万刀的时候是什么市？站在今天回顾过去很多人肯定说是牛市。那么今天比特币3万3是什么市？这个问题就有分歧了。有人说是牛市中的回调，有人说是熊市的途中。从来都是如此，回顾过往人人皆赛诸葛孔明，展望未来能有几人铁口直断？可见预判未来之难，而过往经验皆不足训。刘教链公众号3/18写过《不讲周期长短不足以谈牛熊》[链接]，其中记载到，当时比特币一度站上6万刀，是时市场上一度风行一种理论叫做“永恒牛市论”，“也就是说本轮牛市过后不会再有如过去三次牛熊转换那样的巨大跌幅后长达三年不见前高的漫漫熊市了，而是会一浪接着一浪，不断演绎牛市的节奏”。文章继续写道，“我说不会（有永恒牛市）”，并指出，“本轮牛市如果顶部到达15-20万刀（突破百万RMB大关）的话，回调到5-6万刀，60-70%的大幅下跌，足以宣告本轮牛市的结束和下一轮熊市的开始。”&lt;/p&gt;
 
@@ -227,7 +288,9 @@
 &lt;p&gt;只是，没有“永恒牛市”。这是本次中场成功暴跌回调带给我们最大的信息，也是最有价值的结论。&lt;/p&gt;
 
 &lt;p&gt;(公众号：刘教链。知识星球：公众号回复“星球”)
-(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html">(图片来源于网络)</summary></entry><entry><title type="html">鲍威尔助攻了</title><link href="/prose/2021/06/23/powell-helps.html" rel="alternate" type="text/html" title="鲍威尔助攻了" /><published>2021-06-23T08:00:00+08:00</published><updated>2021-06-23T08:00:00+08:00</updated><id>/prose/2021/06/23/powell-helps</id><content type="html" xml:base="/prose/2021/06/23/powell-helps.html">&lt;p&gt;(图片来源于网络)&lt;/p&gt;
+(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html"></summary></entry><entry><title type="html">鲍威尔助攻了</title><link href="/prose/2021/06/23/powell-helps.html" rel="alternate" type="text/html" title="鲍威尔助攻了" /><published>2021-06-23T08:00:00+08:00</published><updated>2021-06-23T08:00:00+08:00</updated><id>/prose/2021/06/23/powell-helps</id><content type="html" xml:base="/prose/2021/06/23/powell-helps.html">&lt;p&gt;&lt;img src=&quot;/images/2021/20210623.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(图片来源于网络)&lt;/p&gt;
 
 &lt;p&gt;隔夜，美联储主席鲍威尔（Jerome Powel）出席国会山（Capitol Hill）众议员听证会。鲍威尔表达了几个核心观点：第一，短缺问题会消退；第二，通胀威胁不大；第三，疫情控制进展良好；第四，就业市场恢复并不明朗；第五，美联储仍将继续量化宽松（购买债券以释放流动性）；第六，美联储不会着急加息。其实就是对16号隔夜美联储议息会议所做结论的重申（参阅刘教链公众号6/17文章《通胀未失控，联储不加息》[链接]），而这一结论，在FOMC议息会议之前，11号美国通胀统计数据刚刚释出后，刘教链公众号在12号发表文章《漏船载酒泛中流》[链接]分析了通胀数据，指出“实际核心通胀……的确不能算是太高”，并推论“美联储FOMC议息会议就要召开了，依我看大概率还是会维持量化宽松，不应该会这么快实施加息。”&lt;/p&gt;
 
@@ -254,46 +317,4 @@
 &lt;/ol&gt;
 
 &lt;p&gt;(公众号：刘教链。知识星球：公众号回复“星球”)
-(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html">(图片来源于网络)</summary></entry><entry><title type="html">行到水穷处，坐看云起时</title><link href="/prose/2021/06/22/river-end-cloud-float.html" rel="alternate" type="text/html" title="行到水穷处，坐看云起时" /><published>2021-06-22T08:00:00+08:00</published><updated>2021-06-22T08:00:00+08:00</updated><id>/prose/2021/06/22/river-end-cloud-float</id><content type="html" xml:base="/prose/2021/06/22/river-end-cloud-float.html">&lt;p&gt;(图片来源于网络)&lt;/p&gt;
-
-&lt;p&gt;市场的爆锤已经持续了8天。刚刚经过6/9绝地反弹和6/14发力上攻站上MA30d的大饼，已然几乎要抹去全部的涨幅，回到了32000的下方。再一次，3万近在咫尺，一步之遥。前序的反弹和上攻显然是受到消息面催动的投机性上行，主要是萨尔瓦多的消息、马斯克的发声以及Microstrategy的资金到账消息影响下的短期资金回流，当近日矿工面和交易面（主要是OTC商）遭受立体式打击时，便顿时失了信念，四散而逃了。夺门而出的资金量之大，Microstrategy加仓5亿刀（成本约37600）竟未有丝毫招架之功。&lt;/p&gt;
-
-&lt;p&gt;自昨日中午时起，以太坊链上gas费率就开始升高，并持续维持在30-60左右的近期相对高位，显示出换手的活跃。但又不像519激烈去杠杆短时飙升至上千的gas那样短促，倒是更像是钝刀子割肉。据说古有凌迟之刑，操作要求便是不可立即使人死，却要必须让犯人清醒地活着，以使痛苦的感受延续尽量长久的时间，否则行刑的刽子手便会被问责。杀头固然令普通人胆寒，但也会激发不惧死之士的慷慨之志。“引刀成一块，不负少年头。”所以，便不能让他们死的痛快了，须得慢慢地割、耐心的剐，才会有可能彻底摧毁人的心理意志。&lt;/p&gt;
-
-&lt;p&gt;山重水复疑无路，柳暗花明又一村。不到最难、最绝望的时候，便不会有转机、有希望。太阳照常升起，只有坚持到底、永不放弃的人才值得看到。曾于凌晨黎明之前，攀登西山，以观日出。日出规定了时间，意味着必须限时登顶。在东方泛起鱼肚白，距离山顶观景台还有最后也是最困难的几百米陡峭台阶时，体力耗尽、汗水湿透、两腿发软、困难重重，但如果不能坚持并加速登顶，赶在日出前站到合适的位置，之前的所有努力便成了白费，将会错过一切。这一刻，必须坚持，也不得不坚持，不仅要坚持，而且还要用意志里驱动身体发力，继续攀登。只因在心中，早已看到了那一轮红日，照常升起的太阳，温暖的光芒万丈，无限乐观的希望。八字诀，大道至简，没有人觉得它多么深奥。把它放到当下的市场里，你还能做得到吗？&lt;/p&gt;
-
-&lt;p&gt;投资大师霍华德·马克斯在书中写道：“不要寄希望于马上成功。”“事实上，你往往会发现自己买进的时机是在持续下跌的途中，很快你就会看到损失。”“除非是真正的抄底（几乎是不可能的），否则在进行投资之后的某个时刻，你终将经历下跌。”&lt;/p&gt;
-
-&lt;p&gt;“如果你不习惯这一点，那么你还是改行吧。”&lt;/p&gt;
-
-&lt;p&gt;“持有并继续以更低的价格买进（向下摊平）变得相当困难，特别是有证据表明下跌幅度将会比较大的时候。”但是如果价格进一步下跌，“你对它的喜爱应该会进一步加深。”&lt;/p&gt;
-
-&lt;p&gt;“你必须了解内在价值”，“你必须足够自信”，“坚定持有并不断买进，即使价格已经跌到似乎暗示你做错了的时候”，当然，“你必须是正确的”（刘教链注：选择了正确的标的，这就是为何新手入行3-5年内先只碰大饼的原因，因为新手尚没有建立起判断力和标的选择能力）。&lt;/p&gt;
-
-&lt;p&gt;“再也没有比在崩盘期间从不顾价格必须卖出的人手中买入更好的事了。”“要做到这一点，既需要长期资本，又需要强大的心理素质。”&lt;/p&gt;
-
-&lt;p&gt;唐代诗人王维有一首《终南别业》，其中有两句写道，“行到水穷处，坐看云起时。”闲庭信步，处变不惊。乌云压顶，心境坦然。不到山穷水尽，何来风云再起？“兴来每独往，胜事空自知。”怡然自得，成竹在胸，安心等待，静候转机。&lt;/p&gt;
-
-&lt;p&gt;(公众号：刘教链。知识星球：公众号回复“星球”)
-(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html">(图片来源于网络)</summary></entry><entry><title type="html">比特币是如何自适应算力骤降冲击的？</title><link href="/prose/2021/06/21/btc-network-resilience.html" rel="alternate" type="text/html" title="比特币是如何自适应算力骤降冲击的？" /><published>2021-06-21T08:00:00+08:00</published><updated>2021-06-21T08:00:00+08:00</updated><id>/prose/2021/06/21/btc-network-resilience</id><content type="html" xml:base="/prose/2021/06/21/btc-network-resilience.html">&lt;p&gt;(图片来源于网络)&lt;/p&gt;
-
-&lt;p&gt;币市最近低空焦灼，阴晴难定。各KOL已经全然失了方向感，可观察到的大部分群都成了热锅蚂蚁、无头苍蝇。市场的牛熊开始以“周”为长度进行转换。忽而蹭、蹭、蹭上涨5、6日，便一片欢喜，坚定看好后市。忽而duang、duang、duang下跌5、6日，便一片悲戚，以为熊之将至。后市之目标价位，欢喜时，便看高到10万、20万，悲戚时，便看低到2万、1万。&lt;/p&gt;
-
-&lt;p&gt;虽然距离519刚刚过去一个月，但是市场已经悄然在发生一些肉眼可见的变化。大V观点在纷纷转阴。很多519之后唱多的，现在开始唱空，或者不再唱多。对后市走熊的判断一个比一个更悲观，目标价一个比一个更低。一些嚷嚷着死扛到底的小韭菜开始慢慢受不了，开始割肉认输。合约市场的空头力量开始聚集，多头力量开始下降。要知道，合约的多空是空手套白狼。所以从本质上讲，合约多头是现货多头（满仓持币者）的敌人，因为前者是市场上涨的包袱，只要合约多头很多，市场就涨不起来；同理，合约空头是现货空头（空仓持币者）的敌人，因为前者是市场下跌的障碍，只要合约空头富集，市场就跌不下去。&lt;/p&gt;
-
-&lt;p&gt;在前日隔夜的“620大断电”事件中，比特币网络经受了又一次算力骤降的冲击。其简单情况，刘教链公众号6/20文《矿夜难眠》已有速写。在这一次算力波动冲击事件中，比特币网络体现出了应有的适应性和恢复力（resilience）。此次网络算力骤降，全网算力瞬间降低20%左右。自5月上旬达到170E～200E的高点之后，过去一个月以来，随着算力强制去中心化的帷幕开启，至620全网算力已跌破100E。目前，已有效回升至100E以上。那么，比特币是如何自适应这种大幅的算力波动冲击的呢？&lt;/p&gt;
-
-&lt;p&gt;众所周知，比特币网络会自动监测出块速度的变化，而出块速度则由网络的难度值进行调节。这个难度值是一个动态变化的数字，如果出块速度偏快了，就调高难度值，如果出块速度偏慢了，就调低难度值。重点是，在无人协调的情况下，分散全球的节点是如何一致调节这个难度值的呢？这就是把难度值及其调节内建到共识机制当中去。所有节点都遵循同一个出块速度测算以及难度值调整的规则。如果某个节点未能及时按照这套规则调整其难度值，则它所产生的区块就不会被其他节点所认可，会被丢弃从而浪费掉它的算力。它也就失去了区块奖励和手续费的收入，这种经济激励促使节点认真遵守规则。&lt;/p&gt;
-
-&lt;p&gt;对于出块速度的测算和难度值的调整遵从中本聪2008年在比特币白皮书中第4小节“工作量证明”中最后一段所写的方案：“为了抵消硬件的不断提速以及运行节点的收益随时间的不断变化，工作量证明的难度将取决于一个以每小时平均区块数量为目标的移动平均值。如果区块产生的太快，难度就会增加。”&lt;/p&gt;
-
-&lt;p&gt;在代码实现中，出块速度移动平均值的测算窗口是回溯前2016个区块，每2016个区块重新测算和调整一次（刘教链注：中本聪的代码里其实有一个小bug，就算计算时少算了一个区块，这个bug叫做off-by-one，一直未被修复）。以每个区块的设计时间间隔大概10分钟计算，这个窗口期就是大约14天也就是刚好2周（两个星期）。用这个目标窗口期时长除以实际窗口期时长，就可以得到难度调节的系数。比如因为算力下降，每个区块出块速度变慢，实际用了3周时间才产出了2016个区块，那么难度调节系数就是2除以3等于2/3，就在下一个窗口内把难度值乘以2/3，难度下降。如果难度调节系数过低，低于1/4，或者过高，高于4，那么就不能忽然做如此剧烈的调整，此时就会最小取到1/4，最大取到4。&lt;/p&gt;
-
-&lt;p&gt;在这次算力冲击中，我们就看到，算力骤降之后，网络出块速度立刻发生了显著的减缓。原本每小时大约应该产生6个区块，现在下降到4-5个。所以，虽然每个区块的区块奖励也就是挖矿的产量并未发生变化，但是从单位时间的产量而言，是发生了减少。不过coinbase的新币都是有一个冷却期的，矿工并不能立刻把新挖出来的币拿来砸盘。&lt;/p&gt;
-
-&lt;p&gt;网络会耐心等待矿工完成算力的搬迁和恢复工作。以两周为一个时间节点。如果不成，难度值就会继续降低，这会鼓励仍在坚持生产的矿工有更大的几率获得比特币，从而激励矿工尽快完成搬迁和恢复。&lt;/p&gt;
-
-&lt;p&gt;比特币通过二级市场完成对矿工工作的支付，矿工的代价就是割肉卖币。这两件事本就是一件事的两种视角、两种说法。有全球买家在二级市场上的支持，矿工才能顺利卖出自己手中的币，获得算力搬迁和恢复工作所需的资金。所以说，是价格决定算力，而不是算力决定价格。关于这一点，中本聪早在2010年2月21日论坛发言时就已经指出：“任何商品的价格都趋向于生产成本。如果价格低于成本，那么生产就会放慢速度。如果价格高于成本，则可以通过生产和出售更多产品来获利。同时，增加的产能(算力)将增加难度，将生产成本推向价格。”“在后面的几年中，当生成的新币只占现有总供应量的一小部分时，市场价格将决定生产成本，而不是反过来。”&lt;/p&gt;
-
-&lt;p&gt;(公众号：刘教链。知识星球：公众号回复“星球”)
-(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html">(图片来源于网络)</summary></entry></feed>
+(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)&lt;/p&gt;</content><author><name></name></author><category term="prose" /><summary type="html"></summary></entry></feed>
