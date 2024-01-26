@@ -1,5 +1,4 @@
-
-libbitcoin宣言
+# libbitcoin宣言
 
 今日荐读：8.31教链内参《美证监会推迟所有的BTC现货ETF申请》。9.1刘教链《SEC推迟ETF，BTC跌破26k，十年之约#6逢跌加仓》。
 
