@@ -44,4 +44,4 @@
 
 "Escape the arbitrary inflation risk of centrally managed currencies! Bitcoin's total circulation is limited to 21 million coins." -- Satoshi Nakamoto, 2010.7.6
 
-“逃离中央管理货币的任意通胀风险！比特币的总流通量限制在21万枚。” —— 中本聪，2010年7月6日
+“逃离中央管理货币的任意通胀风险！比特币的总流通量限制在2100万枚。” —— 中本聪，2010年7月6日
