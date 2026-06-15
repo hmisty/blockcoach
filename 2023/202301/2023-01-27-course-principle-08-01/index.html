@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>【刘教链比特币原理】8-1 龟兔赛跑和51%算力攻击 - BlockCoach - 刘教链</title>
+	<meta name="description" content="本节课我们开始学习第八章“网络同步有延时 账本尺寸不随意”的第一小节“龟兔赛跑和51%算力攻击”。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="【刘教链比特币原理】8-1 龟兔赛跑和51%算力攻击">
+	<meta property="og:description" content="本节课我们开始学习第八章“网络同步有延时 账本尺寸不随意”的第一小节“龟兔赛跑和51%算力攻击”。">
+	<meta property="og:url" content="https://blockcoach.com/2023/202301/2023-01-27-course-principle-08-01">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2023-01-27">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="【刘教链比特币原理】8-1 龟兔赛跑和51%算力攻击">
+	<meta name="twitter:description" content="本节课我们开始学习第八章“网络同步有延时 账本尺寸不随意”的第一小节“龟兔赛跑和51%算力攻击”。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2023/202301/2023-01-27-course-principle-08-01">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "【刘教链比特币原理】8-1 龟兔赛跑和51%算力攻击",
+		"description": "本节课我们开始学习第八章“网络同步有延时 账本尺寸不随意”的第一小节“龟兔赛跑和51%算力攻击”。",
+		"url": "https://blockcoach.com/2023/202301/2023-01-27-course-principle-08-01",
+		"datePublished": "2023-01-27",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2023">2023</a> > 
+			<a href="/2023/202301">2023年01月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>【刘教链比特币原理】8-1 龟兔赛跑和51%算力攻击</h1>
+			<div class="meta">
+				发布时间：2023-01-27
+				
+			</div>
+			<div class="content">
+				<p>付费合集文章前言：无</p>
+<hr>
+<p>本节课我们开始学习第八章“网络同步有延时 账本尺寸不随意”的第一小节“龟兔赛跑和51%算力攻击”。</p>
+<h2>本章目录：</h2>
+<h3>第八章 网络同步有延时 账本尺寸不随意</h3>
+<h4>第1节 龟兔赛跑和51%算力攻击</h4>
+<p>第2节 泊松分布和6个区块确认<br>第3节 为什么区块不能过大</p>
+<h2>本节音频：</h2>
+<p>【音频】</p>
+<h2>学习笔记：</h2>
+<p>要攻击比特币系统可以从两个层面入手。一是攻击算法之锁，即椭圆曲线数字签名算法和哈希算法，但是在理论有所突破之前，是很难做到的。某些人热衷鼓吹的量子计算机，已写过多篇文章论述过，对比特币是造不成威胁的。另一个攻击点就是攻击算力之锁，也就是所谓算力攻击、共识攻击、51%攻击。</p>
+<p>后一种攻击就是利用比特币系统去中心化的特点，尝试成为让大多数人相信被篡改的结果。怎么做到呢？就是算工作量证明，而且要比诚实节点更快的计算工作量证明。因此所谓51%攻击，说的就是攻击者如果控制了超过全网一半的算力，就总是可以压倒其他人取得优势，最早算出新区块，进而回滚和修改区块链。</p>
+<p>所以说，比特币花费巨大的资金补贴矿工，以维持巨大的全网算力，就是为了保护区块链的安全性。</p>
+<p>中本聪对攻击者发动算力攻击进行了数学建模并推测其攻击成功的概率。这在比特币白皮书中有一个很大的篇幅。把攻击者比做兔子，诚实网络比做乌龟。这就是兔子跑过乌龟的问题。这是一个概率论问题。事实上，兔子并不需要51%以上算力就可以发起攻击，并有一定概率取得成功。中本聪推演了多种情形。一个比较保守的情况，兔子掌握10%的算力，那么在落后几个区块的情况下还是有机会追上乌龟的。不过乌龟如果等待6个区块以上，被兔子追上的机会就会以指数级下降到万分之几的概率，基本上可以认为是不会再被追上的了。</p>
+<p>所以，我们可以看出，比特币区块链是没有确定性最终性的，只有概率最终性，节点之间也不会达成确定性的一致性，而是不断逼近1的概率达成一致性。正是这样一个改进，才让比特币系统突破了传统分布式理论，解决了拜占庭将军问题，实现了全局一致账本。我们也可以看出，所谓6个区块确认，不过是一种参数情况下的推演数据，并不是说总是需要等待6个区块即大约1小时左右时间来确认。例如，在星巴克点咖啡，大概率这个顾客不太可能掌握10%的比特币全网算力，也不太可能为了几十块钱去发动对比特币网络的攻击，那么只要星巴克运行一个全节点，而且要求顾客不能开启RBF，就可以在节点收到顾客签名的付款交易时进行即时确认，也就是所谓零确认交易。</p>
+<p>中本聪当年在论坛讨论时就说，这很快、很好，遭受欺诈的可能性很小，比信用卡还要小。不过当时有个网友BM，就是后来EOS的创始人，纠缠中本聪。逼得中本聪说了那句经典名言：如果你不理解或者不相信，我也没有时间去说服你，sorry。</p>
+<h2>课外资料：</h2>
+<p>以下是第八章“网络同步有延时 账本尺寸不随意”的补充学习材料，请在本章3节课学习过程中使用。</p>
+<ol>
+<li>中本聪《比特币白皮书》第5小节“网络”以及第11小节“计算（Calculations）”<br><a href="https://mp.weixin.qq.com/s/7R-THHIoTZfmAFSsQwdcZg">https://mp.weixin.qq.com/s/7R-THHIoTZfmAFSsQwdcZg</a> （比特币白皮书中文版（刘教链译本））<br><a href="https://mp.weixin.qq.com/s/U_qkDkAud0Hg4wyWeKAdZw">https://mp.weixin.qq.com/s/U_qkDkAud0Hg4wyWeKAdZw</a> （比特币白皮书英文原版）</li>
+<li>比特币挖矿算力（哈希算力）分布饼图：<br><a href="https://hashrateindex.com/hashrate/pools">https://hashrateindex.com/hashrate/pools</a> （英文）<br><a href="https://www.blockchain.com/explorer/charts/pools">https://www.blockchain.com/explorer/charts/pools</a> （英文）</li>
+<li>比特币区块大小波动图线：<br><a href="https://bitinfocharts.com/comparison/bitcoin-size.html">https://bitinfocharts.com/comparison/bitcoin-size.html</a> （英文）<br><a href="https://www.blockchain.com/explorer/charts/avg-block-size">https://www.blockchain.com/explorer/charts/avg-block-size</a> （英文）</li>
+<li>比特币区块链在线查看工具：<a href="https://blockstream.info/">https://blockstream.info/</a> （英文）<a href="https://mempool.space/">https://mempool.space/</a> （中文、英文） </li>
+<li>【扩展阅读】“泊松分布”（Possion Distribution）：<br><a href="https://baike.baidu.com/item/%E6%B3%8A%E6%9D%BE%E5%88%86%E5%B8%83/1442110">https://baike.baidu.com/item/泊松分布/1442110</a> （中文）<br><a href="https://en.wikipedia.org/wiki/Poisson_distribution">https://en.wikipedia.org/wiki/Poisson_distribution</a> （英文）</li>
+<li>【扩展阅读】《精通比特币》第10章“挖矿和共识”第10.12节“共识攻击”：<a href="https://www.8btc.com/books/834/masterbitcoin2cn/_book/ch10.html">https://www.8btc.com/books/834/masterbitcoin2cn/_book/ch10.html</a> （中文）</li>
+</ol>
+<p>(公众号/同名推特：刘教链。知识星球：公众号回复“星球”)<br>(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

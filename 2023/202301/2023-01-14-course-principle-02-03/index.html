@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>【刘教链比特币原理】2-3 私钥和地址是什么 - BlockCoach - 刘教链</title>
+	<meta name="description" content="本节课我们开始学习第二章“椭圆曲线防篡改 哈希算法保平安”的第三小节“私钥和地址是什么”。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="【刘教链比特币原理】2-3 私钥和地址是什么">
+	<meta property="og:description" content="本节课我们开始学习第二章“椭圆曲线防篡改 哈希算法保平安”的第三小节“私钥和地址是什么”。">
+	<meta property="og:url" content="https://blockcoach.com/2023/202301/2023-01-14-course-principle-02-03">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2023-01-14">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="【刘教链比特币原理】2-3 私钥和地址是什么">
+	<meta name="twitter:description" content="本节课我们开始学习第二章“椭圆曲线防篡改 哈希算法保平安”的第三小节“私钥和地址是什么”。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2023/202301/2023-01-14-course-principle-02-03">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "【刘教链比特币原理】2-3 私钥和地址是什么",
+		"description": "本节课我们开始学习第二章“椭圆曲线防篡改 哈希算法保平安”的第三小节“私钥和地址是什么”。",
+		"url": "https://blockcoach.com/2023/202301/2023-01-14-course-principle-02-03",
+		"datePublished": "2023-01-14",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2023">2023</a> > 
+			<a href="/2023/202301">2023年01月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>【刘教链比特币原理】2-3 私钥和地址是什么</h1>
+			<div class="meta">
+				发布时间：2023-01-14
+				
+			</div>
+			<div class="content">
+				<p>付费合集文章前言：无</p>
+<hr>
+<p>本节课我们开始学习第二章“椭圆曲线防篡改 哈希算法保平安”的第三小节“私钥和地址是什么”。</p>
+<h2>本章目录：</h2>
+<h3>第二章 椭圆曲线防篡改 哈希算法保平安</h3>
+<p>第1节 如何保护付款信息不被篡改<br>第2节 曲线千万条 安全第一条</p>
+<h4>第3节 私钥和地址是什么</h4>
+<h2>本节音频：</h2>
+<p>【音频】</p>
+<h2>学习笔记：</h2>
+<p>前面学完椭圆曲线数字签名算法ECDSA。还要说说私钥、公钥和地址的问题。</p>
+<p>私钥本质就是一个随机数，256位的一个二进制数。扔256次硬币就可以得到一个很不错的私钥，只是有点儿太麻烦了。反而是很多不靠谱的钱包软件生成的私钥不够随机，有着很大的安全隐患。计算机里很多随机数是伪随机数，不是真随机数。扔硬币是真随机。</p>
+<p>有了私钥就能推算出公钥。有了公钥就能推算出地址。有了地址就能向别人收款了。所以说，比特币地址（或者你理解成账号）是不需要向什么机构（比如银行、第三方平台等）注册申请的，你自己就可以随意生成。你就是你自己的银行。</p>
+<p>掌握了私钥就掌握了地址里的比特币。所以私钥一定不能太简单而容易被破解，它和银行卡密码可不是一个性质的东西。私钥一定要严格保管，绝不能泄露。可以阅读一下旧文《如何用私钥保管比特币》[链接]。</p>
+<p>私钥和公钥是ECDSA算法确定的。而公钥到地址却是用了SHA-256和RIPEMD-160两层哈希得到的。这里有一个非常耐人寻味的细节，就是如果你只是用地址收币，而不支出币的话，你的公钥是不需要上链的。</p>
+<p>插一句，这些年来老有人问我量子计算机的事儿，是不是会在不久的将来攻破比特币。我反复解释，量子计算机进展没有某些别有用心的人鼓吹的那么快。另外，就是量子计算机容易破解签名算法，从公钥反推私钥，却对哈希算法束手无策。</p>
+<p>中本聪的神来之笔就是，如果你的地址只收币、不支出的话，你的公钥是不上链的！也就是说，量子计算机就算有了，也没有办法去攻击你，因为它根本拿不到你的公钥。哈希算法是抗量子的，量子计算机对从地址反推公钥是没有胜算希望的。</p>
+<p>如果你要动币，中本聪给出的建议是，一个地址只用一次。每次支付都用一个新地址作为找零地址。这样，即使你支出完公钥上链了，但是对应地址下的比特币全被转走了。就是黑掉这个支付地址的私钥，也已经没有用了。</p>
+<p>中本聪对引入地址的说法是，地址比公钥更短（以太坊至今还是十六进制原始地址）。但是我们可以看出，使用地址而不是原始公钥至少提供了两个额外的好处。第一个好处就是保护了公钥不上链，量子计算机就算有了也拿它没辙。第二个就是地址带有自校验位，避免了书写错误从而打款给了别人。</p>
+<p>中本聪对一个地址只用一次的说法是，更好的保护隐私。这种“打一枪换一个地方”的策略，却很好的规避了公钥泄露从而被量子计算机攻击的风险。</p>
+<p>最后，最后的最后，比特币通过一次软升级就可以更换签名算法。未来如果真的需要替换成可以抗量子计算的签名算法，那也是很容易实施的一件事情，根本没有很多人鼓吹的那么困难，需要抛弃现有系统，改弦更张。前段时间刚刚发布的比特币0.21.0版本客户端就引入了schnorr签名算法，通过实际成功案例有力证明了比特币系统改变签名算法的可行性。</p>
+<p>据说，一个人告诉你什么，如果其目的是为了说服你不要买比特币，而是买他的币，他的币比比特币更好，那么他大概率是个骗子。这就是币圈骗子定律。而学习正宗的比特币原理，深刻掌握中本聪思想，就是币圈生存防骗的最佳武器。</p>
+<h2>课外资料：</h2>
+<p>以下是第二章“椭圆曲线防篡改 哈希算法保平安”的补充学习材料，请在本章3节课学习过程中使用。</p>
+<ol>
+<li>公众号“刘教链”椭圆曲线科普文章：<a href="https://mp.weixin.qq.com/s/-Ptdr6KkqGhzhBJT6ZqaKw">https://mp.weixin.qq.com/s/-Ptdr6KkqGhzhBJT6ZqaKw</a> （中文）</li>
+<li>椭圆曲线在线演示工具：<a href="https://www.desmos.com/calculator/ialhd71we3">https://www.desmos.com/calculator/ialhd71we3</a> （英文）</li>
+<li>哈希计算在线工具：<a href="http://www.fileformat.info/tool/hash.htm">http://www.fileformat.info/tool/hash.htm</a> （英文）</li>
+<li>比特币公私钥计算在线工具：<a href="https://brainwalletx.github.io/">https://brainwalletx.github.io/</a> （英文）</li>
+<li>【扩展阅读】《精通比特币》第4章“密钥和地址”：<a href="https://www.8btc.com/books/834/masterbitcoin2cn/_book/ch04.html">https://www.8btc.com/books/834/masterbitcoin2cn/_book/ch04.html</a> （中文）</li>
+</ol>
+<h2>课后作业：</h2>
+<p>以下是第二章“椭圆曲线防篡改 哈希算法保平安”的作业。请学完本章之后尝试一下，并把你的答案发到学习群进行分享，和其他学友一起进步。</p>
+<ol>
+<li>使用哈希计算在线工具，计算“刘教链比特币原理”的SHA-256哈希值是什么？</li>
+<li>使用比特币公钥私钥计算在线工具，把上一题的答案，也就是“刘教链比特币原理”的SHA-256哈希值作为私钥（选择“Secret Exponent”，并把上一题的哈希值拷贝粘贴到“Secret Exponent”的输入框中），那么对应的公钥（“Public Key”）是什么？</li>
+<li>接上题，以“刘教链比特币原理”的SHA-256哈希值作为私钥，其最终对应的比特币地址（“Address”）是什么？</li>
+</ol>
+<p>(公众号：刘教链。知识星球：公众号回复“星球”)<br>(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>Bitcoin Core描述符钱包如何导出私钥？ - BlockCoach - 刘教链</title>
+	<meta name="description" content="去年2024.6.23教链文章《真的假的？Bitcoin Core不支持导入私钥了？》介绍了手搓BTC私钥后如何导入到Bitcoin Core最新的描述符钱包（descriptor wallet）的方法和相关具体指令。有朋友看后问了一些延伸问题，作此文简要补充。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="Bitcoin Core描述符钱包如何导出私钥？">
+	<meta property="og:description" content="去年2024.6.23教链文章《真的假的？Bitcoin Core不支持导入私钥了？》介绍了手搓BTC私钥后如何导入到Bitcoin Core最新的描述符钱包（descriptor wallet）的方法和相关具体指令。有朋友看后问了一些延伸问题，作此文简要补充。">
+	<meta property="og:url" content="https://blockcoach.com/2025/202507/2025-07-23-A-bitcoin-core-privkey-export">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2025-07-23">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Bitcoin Core描述符钱包如何导出私钥？">
+	<meta name="twitter:description" content="去年2024.6.23教链文章《真的假的？Bitcoin Core不支持导入私钥了？》介绍了手搓BTC私钥后如何导入到Bitcoin Core最新的描述符钱包（descriptor wallet）的方法和相关具体指令。有朋友看后问了一些延伸问题，作此文简要补充。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2025/202507/2025-07-23-A-bitcoin-core-privkey-export">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "Bitcoin Core描述符钱包如何导出私钥？",
+		"description": "去年2024.6.23教链文章《真的假的？Bitcoin Core不支持导入私钥了？》介绍了手搓BTC私钥后如何导入到Bitcoin Core最新的描述符钱包（descriptor wallet）的方法和相关具体指令。有朋友看后问了一些延伸问题，作此文简要补充。",
+		"url": "https://blockcoach.com/2025/202507/2025-07-23-A-bitcoin-core-privkey-export",
+		"datePublished": "2025-07-23",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2025">2025</a> > 
+			<a href="/2025/202507">2025年07月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>Bitcoin Core描述符钱包如何导出私钥？</h1>
+			<div class="meta">
+				发布时间：2025-07-23
+				
+			</div>
+			<div class="content">
+				<p>去年2024.6.23教链文章《真的假的？Bitcoin Core不支持导入私钥了？》介绍了手搓BTC私钥后如何导入到Bitcoin Core最新的描述符钱包（descriptor wallet）的方法和相关具体指令。有朋友看后问了一些延伸问题，作此文简要补充。</p>
+<p>问题一：描述符钱包是否支持导入BIP39助记词？</p>
+<p>答：不支持。</p>
+<p>描述符钱包虽然支持BIP32分层确定性钱包，但是并不支持BIP39助记词。</p>
+<p>这就是教链为何在《刘教链超级小白课》中不建议使用助记词制作囤BTC的冷钱包，而是直接创建并抄写私钥的原因之一。而即便是助记词，不同的软硬件钱包也可能按照不同的规范实现，导致你在A软件中创建的助记词无法导入到B软件，或者导入进去后得到的是全然不同的地址，从而找不到自己囤的BTC了。</p>
+<p>问题二：如何创建支持私钥的描述符钱包？</p>
+<p>答：最新版本Bitcoin Core不会自动帮你初始化钱包。你需要使用命令自行创建钱包。创建时禁用私钥则会创建为观察钱包（watch-only wallet），不禁用私钥创建标准钱包。具体命令如下：</p>
+<pre><code>$ bitcoin-cli -named createwallet wallet_name=&quot;testwallet&quot; descriptors=true disable_private_keys=false
+</code></pre><p>请注意上述命令中的 disable_private_keys=false 显式指明不禁用私钥。</p>
+<p>如果要增加安全性，最好把钱包加密。</p>
+<pre><code>$ bitcoin-cli -rpcwallet=testwallet encryptwallet &quot;你的本地加密密码&quot;
+</code></pre><p>问题三：那么，如何导出描述钱包中某个地址的私钥呢？</p>
+<p>答：十分简单！直接把描述符显示出来就可以了。具体命令：</p>
+<pre><code>$ bitcoin-cli listdescriptors true
+{
+  &quot;wallet_name&quot;: &quot;testwallet&quot;,
+  &quot;descriptors&quot;: [
+    {
+      &quot;desc&quot;: &quot;pkh(5KQ2upQdz2wPfYCT2MfXdgmqZKZtFPDmzm8ubXimR76pYMANUdM)#8rrz94h2&quot;,
+      &quot;timestamp&quot;: 1753270055,
+      &quot;active&quot;: false
+    },
+...
+</code></pre><p>上面命令的结果所显示的就是2024.6.23教链文章《真的假的？Bitcoin Core不支持导入私钥了？》中导入的私钥描述符。可见，Bitcoin Core既不加密、也不隐藏你导入的描述符，而是完整地展现出来。</p>
+<p>请注意listdescriptors命令后面的参数true，它指明了显示私钥描述符。如果不加这个参数的话，则只会显示公钥描述符，那么你就看不见私钥。</p>
+<p>看到私钥描述符后，我们就可以用2024.6.23教链文章《真的假的？Bitcoin Core不支持导入私钥了？》中介绍过的getdescriptorinfo进行验证：</p>
+<pre><code>$ bitcoin-cli getdescriptorinfo &quot;pkh(5KQ2upQdz2wPfYCT2MfXdgmqZKZtFPDmzm8ubXimR76pYMANUdM)&quot;
+{
+  &quot;descriptor&quot;: &quot;pkh(04e510bfa12225bbc2044a1847eda44a26e8a842cbf45c11d74ade893e506fc9e209c7c0044c5321ea22edf9dc1d8e45bed3663ed7c637eb564a7dd0a23ca8e45c)#afvrzgrk&quot;,
+  &quot;checksum&quot;: &quot;8rrz94h2&quot;,
+  &quot;isrange&quot;: false,
+  &quot;issolvable&quot;: true,
+  &quot;hasprivatekeys&quot;: true
+}
+</code></pre><p>结果不是很直观，看不见私钥描述符对应的BTC地址。我们还需要使用下面的命令来查看对应地址：</p>
+<pre><code>$ bitcoin-cli deriveaddresses &quot;pkh(04e510bfa12225bbc2044a1847eda44a26e8a842cbf45c11d74ade893e506fc9e209c7c0044c5321ea22edf9dc1d8e45bed3663ed7c637eb564a7dd0a23ca8e45c)#afvrzgrk&quot;
+[
+  &quot;13cuZK94jvtCBPDoXd86MiiFTyMnQWkCS6&quot;
+]
+</code></pre><p>注意上面deriveaddresses指令后面给的参数是上一命令执行结果中的公钥描述符。</p>
+<p>至此我们就足够确信最初从描述符列表中获取到的私钥描述符及其所对应的地址了。</p>
+<p>是不是很简单？啊，其实并不是！所以教链偷懒，用的其实是electrum。这在之前手搓私钥等文章中早就说过了。</p>
+<p>另外说一句，上面演示命令教链其实是使用Bitcoin Knots操作的。Knots是Core的一个分支版本，增加了一些过滤瘦身功能，有助于节省运行节点所需的资源。</p>
+<p>什么，你还想问HD钱包地址和私钥的问题？这篇文章已经太长了。这个更复杂、困难的话题，我们还是留着以后再说吧！</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

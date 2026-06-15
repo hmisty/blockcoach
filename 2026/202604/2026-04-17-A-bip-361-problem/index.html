@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜量子恐慌的两副解药，救不了中本聪的币 - BlockCoach - 刘教链</title>
+	<meta name="description" content="隔夜BTC继续75k附近反复摩擦，市场上各种声音都有。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜量子恐慌的两副解药，救不了中本聪的币">
+	<meta property="og:description" content="隔夜BTC继续75k附近反复摩擦，市场上各种声音都有。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202604/2026-04-17-A-bip-361-problem">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-04-17">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜量子恐慌的两副解药，救不了中本聪的币">
+	<meta name="twitter:description" content="隔夜BTC继续75k附近反复摩擦，市场上各种声音都有。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202604/2026-04-17-A-bip-361-problem">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜量子恐慌的两副解药，救不了中本聪的币",
+		"description": "隔夜BTC继续75k附近反复摩擦，市场上各种声音都有。",
+		"url": "https://blockcoach.com/2026/202604/2026-04-17-A-bip-361-problem",
+		"datePublished": "2026-04-17",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202604">2026年04月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜量子恐慌的两副解药，救不了中本聪的币</h1>
+			<div class="meta">
+				发布时间：2026-04-17
+				
+			</div>
+			<div class="content">
+				<p>隔夜BTC继续75k附近反复摩擦，市场上各种声音都有。</p>
+<p>前两天教链刚写了一篇科普，聊的是研究人员拿出的两副量子解药——一副叫QSB，兜底用；一副叫ZK证明，救急用[1]。当时教链的结论是：量子恐慌可以歇歇了，兜底方案已经找到。</p>
+<p>但4月16日，Cardano创始人Charles Hoskinson跳出来泼了一盆冷水[4]。他说：你们那个BIP-361提案，救不了所有人。至少170万枚2013年之前的比特币，包括中本聪的110万枚，会被永久冻结。</p>
+<p>这话说得有点狠。但教链仔细读了他的论证之后发现，他指出的问题恰恰是教链上一篇没来得及展开的盲区——ZK证明这副救急的药，有个致命的前提：你得有BIP-39助记词。</p>
+<p>没有助记词的远古巨鲸，无法证明自己是主人还是小偷。</p>
+<h2>先回顾一下：两副解药分别治什么</h2>
+<p>教链上一篇文章已经说得很清楚了，这里简单复习一下。</p>
+<p>量子威胁有两个死穴：</p>
+<p>死穴一：交易时公钥会暴露。普通地址存的是公钥的哈希，像信封一样密封着。但花钱的时候必须撕开信封，把公钥亮出来。量子计算机可以对着这个暴露的公钥慢慢算，反推出你的私钥。</p>
+<p>死穴二：许多地址的公钥已经在链上暴露。早期巨鲸如中本聪用的P2PK格式公钥地址，公钥从一开始就写在链上，没有任何保护。</p>
+<p>针对死穴一，研究人员给出了QSB方案。利用OP_CAT等操作码，把公钥藏在一套复杂的计算步骤里，验证完就丢弃，不写入区块链。这样量子计算机就拿你没办法。</p>
+<p>针对死穴二，研究人员给出了ZK证明方案。通过社区共识逐步淘汰旧地址，同时提供一个基于零知识证明的迁移通道。早期用户可以证明自己拥有某个地址的所有权，然后把资金抢救出来。</p>
+<p>教链当时说，这两副药一副兜底、一副救急，都不需要硬分叉，量子恐慌可以歇歇了。</p>
+<p>不过有一点要澄清：QSB这副药，本来就不是针对P2PK地址设计的。它解决的是交易时暴露公钥的问题，而不是那些公钥早已在链上裸奔的老地址。所以谈不上QSB救不了中本聪——它本来就不是开给这个病的。</p>
+<p>但教链漏说了一个更关键的问题：ZK证明这副药，也不是谁都能吃的。</p>
+<h2>ZK证明的药，只给有助记词的人吃</h2>
+<p>先解释一下什么是零知识证明。</p>
+<p>简单说，就是你能向网络证明我知道某个秘密，但不必把这个秘密本身说出来。比如你走进一个酒吧，酒保说你要证明你是VIP会员，但不能把会员卡给我看。你就做了一套只有VIP才知道的手势，酒保一看就明白了。</p>
+<p>BIP-361提案里设想的ZK证明方案，用来证明的秘密是BIP-39助记词[4][5]。</p>
+<p>BIP-39是2013年引入的标准。它将私钥的种子编码为12或24个英文单词。你只需要记住这些单词，就可以恢复整个钱包。而且从助记词到私钥，中间经过了PBKDF2函数的2048次哈希迭代——这个过程是不可逆的，量子计算机也拿它没办法。</p>
+<p>所以BIP-361的逻辑是：你有助记词吗？有的话，你可以通过ZK证明向网络证明你知道这个助记词，然后网络就允许你把币迁移到安全地址。</p>
+<p>你没有助记词？那你就只能通过传统签名来证明所有权。但若量子时代来临，签名等于自杀——你一签名就暴露了公钥，量子计算机快速算出你的私钥，抢在你前面把钱转走。</p>
+<p>这就是Hoskinson说的：it&#39;s not possible（这不可能）[4]。</p>
+<h2>2013年的分水岭</h2>
+<p>BIP-39是2013年才有的。在此之前，比特币钱包用的是完全不同的密钥管理方式。</p>
+<p>当时，私钥就是私钥。用户备份的是一个叫 wallet.dat 的文件，里面是一堆随机生成的私钥。没有助记词，没有标准化的恢复机制[4][5]。</p>
+<p>中本聪挖矿的时候是2009到2010年。他用的地址格式是P2PK，公钥直接裸奔；他的私钥是直接生成的随机数，没有对应的BIP-39助记词。</p>
+<p>这就形成了一个无法跨越的分水岭：2013年之前的裸私钥，没有助记词，在BIP-361下无法自救。2013年之后的BIP-39助记词私钥，有助记词，可以通过ZK证明自救。</p>
+<p>Hoskinson估算，2013年之前的比特币大约有170万枚，其中中本聪持有约110万枚。这些币在BIP-361的框架下，无法被拯救[4][8]。</p>
+<p>这不是技术上的疏忽。这是数学上的死结。2013年之前的私钥生成方式与BIP-39不兼容，没有任何办法把那些老私钥转换成一个BIP-39助记词（如果可以，那么破解了私钥的黑客也可以）。</p>
+<h2>裸私钥的困境：无法证明你是主人</h2>
+<p>教链觉得，这里最关键的地方在于：量子计算机的到来，恰好取消了裸私钥持有者证明自己是主人的唯一方式。</p>
+<p>传统上，你怎么证明你拥有一笔比特币？你用私钥签个名。网络验证签名通过，钱就是你的。</p>
+<p>量子计算机来了之后，这个证明过程变成了自杀。因为签名要暴露公钥，而量子计算机可以从公钥反推出私钥。你签名的同时，别人就可以用你的私钥把你的钱转走。</p>
+<p>网络无法区分：这个签名是主人签的，还是量子黑客刚刚破解后签的。两者在数学上完全等价。</p>
+<p>那怎么办？</p>
+<p>BIP-39时代的用户有一条逃生通道：用ZK证明，绕过签名，直接证明我知道助记词。</p>
+<p>但裸私钥的用户没有这条通道。他们只能选择签名（自杀）或者不签名（币被永久冻结）。</p>
+<p>这就是前面说的：你无法证明自己是主人还是小偷。</p>
+<p>中本聪的110万枚比特币，如果他还活着并且想转移，他无法向网络证明自己是中本聪而不是一个量子黑客。他的私钥没有助记词可以用于ZK证明。他的公钥已暴露，私钥会被破解，破解者就可以抢走他的币——除非他能在量子计算机成真前现身，提前转走他的币。</p>
+<p>所以他要么选择让币被永久冻结，要么选择被抢劫，要么就必须选择现身于世。</p>
+<p>这是一个三重困境的牢笼，而中本聪被关在了里面。</p>
+<h2>教链怎么看</h2>
+<p>第一，Hoskinson说的技术问题确实存在。2013年之前的比特币，在BIP-361框架下无法得到保护。这不是Bug，而是BIP-39不同于老系统的数学事实。</p>
+<p>第二，但这不意味着比特币会完蛋。170万枚币被冻结，等于变相销毁了这部分供应量，对市场不一定是利空。而且中本聪的币本来就没动过，没人知道他还活着还是已经去世了。这些币被永久冻结，对市场也许不会产生任何实际影响。</p>
+<p>第三，教链上一篇文章说量子恐慌可以歇歇了，这个结论依然成立。因为普通用户用的都是BIP-39钱包，有助记词，有逃生通道；不是的话，也完全有时间在量子计算机问世前转移资产。QSB方案也给那些需要重用地址的场景提供了兜底方案。</p>
+<p>真正被卡住的是那些2013年之前的远古巨鲸——包括中本聪。但他们大概率已经不在人世，或者早已丢失了私钥。被冻结对他们来说，和被丢失没有区别。</p>
+<p>第四，这件事给普通人的启示也许是：确保你的钱包是基于BIP-39助记词生成的。</p>
+<p>如果你还在用bitaddress.org直接打印私钥，或者用某些老旧的桌面钱包生成裸私钥，也许应该尽快迁移到标准的HD钱包。12个单词或者24个单词，抄在纸上，锁在保险柜里。</p>
+<p>量子威胁降临的那一天，拥有助记词的人将有一条逃生通道。而只有裸私钥的人，将被困在数学的囚笼里，无法自证。</p>
+<hr>
+<p>参考资料：<br>[1] 刘教链, “量子恐慌的两副解药：一副兜底，一副救急”, Apr 13, 2026. <a href="/2026/202604/2026-04-13-A-quatumn-threat-solutions/">链接</a><br>[2] a16z crypto, “Quantum Computing and Blockchain: Separating Signal from Noise”, Jan 25, 2026. <a href="https://x.com/a16zcrypto/status/2015494412009086994">链接</a><br>[3] Adam Back, Twitter post, Jun 4, 2025. <a href="https://x.com/adam3us/status/2001977579428041134">链接</a><br>[4] Logan Hitchcock, “Quantum Proposal Won&#39;t Save Satoshi&#39;s Bitcoin, Says Cardano Founder Hoskinson”, <em>Decrypt</em>, Apr 16, 2026. <a href="https://decrypt.co/364676/cardano-charles-hoskinson-bitcoin-quantum-debate">链接</a><br>[5] “Bitcoin&#39;s BIP-361 Quantum Fix Splits Community Over Address Freezing”, <em>Gate News</em>, Apr 17, 2026. <a href="https://web.gate.it/tr/news/detail/bitcoins-bip-361-quantum-fix-splits-community-over-address-freezing-20370363">链接</a><br>[6] “Cardano founder: BIP-361 is actually a hard fork, or it freezes early BTC”, <em>ChainCatcher</em>, Apr 17, 2026. <a href="https://www.chaincatcher.com/en/article/2259171">链接</a><br>[7] “Hoskinson alerta que Bitcoin enfrenta una crisis por riesgo cuántico y BIP 361”, <em>DiarioBitcoin</em>, Apr 15, 2026. <a href="https://www.diariobitcoin.com/seguridad/hoskinson-alerta-que-bitcoin-enfrenta-una-crisis-por-riesgo-cuantico-y-bip-361/">链接</a><br>[8] 加密货币基础与私钥管理：从椭圆曲线到量子安全的全面防护指南, <em>腾讯云</em>, Nov 18, 2025. <a href="https://cloud.tencent.cn/developer/article/2590422">链接</a></p>
+<hr>
+<p>点击阅读👉<a href="https://member.liujiaolian.com/i/20260410">内参｜AI代理引爆支付革命，摩根士丹利入局BTC ETF</a><br>免责声明：不构成任何投资建议<br>加入会员：发消息 会员 或 VIP</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

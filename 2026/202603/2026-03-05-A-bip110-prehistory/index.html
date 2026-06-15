@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜BIP-110前传：比特币链上数据之争的十年暗线与技术溯源 - BlockCoach - 刘教链</title>
+	<meta name="description" content="BIP-110并非凭空出现的激进提案，它是比特币社区链上数据治理长达十余年博弈的集中爆发，其直接“前传”是2023–2025年Bitcoin Core围绕-datacarriersize、OP_RETURN限制、铭文漏洞的一系列争议操作，根源则可追溯到2014年比特币首次建立链上数据约束规则的设计初衷。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜BIP-110前传：比特币链上数据之争的十年暗线与技术溯源">
+	<meta property="og:description" content="BIP-110并非凭空出现的激进提案，它是比特币社区链上数据治理长达十余年博弈的集中爆发，其直接“前传”是2023–2025年Bitcoin Core围绕-datacarriersize、OP_RETURN限制、铭文漏洞的一系列争议操作，根源则可追溯到2014年比特币首次建立链上数据约束规则的设计初衷。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202603/2026-03-05-A-bip110-prehistory">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-03-05">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜BIP-110前传：比特币链上数据之争的十年暗线与技术溯源">
+	<meta name="twitter:description" content="BIP-110并非凭空出现的激进提案，它是比特币社区链上数据治理长达十余年博弈的集中爆发，其直接“前传”是2023–2025年Bitcoin Core围绕-datacarriersize、OP_RETURN限制、铭文漏洞的一系列争议操作，根源则可追溯到2014年比特币首次建立链上数据约束规则的设计初衷。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202603/2026-03-05-A-bip110-prehistory">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜BIP-110前传：比特币链上数据之争的十年暗线与技术溯源",
+		"description": "BIP-110并非凭空出现的激进提案，它是比特币社区链上数据治理长达十余年博弈的集中爆发，其直接“前传”是2023–2025年Bitcoin Core围绕-datacarriersize、OP_RETURN限制、铭文漏洞的一系列争议操作，根源则可追溯到2014年比特币首次建立链上数据约束规则的设计初衷。",
+		"url": "https://blockcoach.com/2026/202603/2026-03-05-A-bip110-prehistory",
+		"datePublished": "2026-03-05",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202603">2026年03月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜BIP-110前传：比特币链上数据之争的十年暗线与技术溯源</h1>
+			<div class="meta">
+				发布时间：2026-03-05
+				
+			</div>
+			<div class="content">
+				<p>前文：</p>
+<ul>
+<li>2026.2.26 <a href="/2026/202602/2026-02-26-A-bip-110/">刘教链｜BIP-110详细拆解（万字长文）</a></li>
+<li>2026.2.27 <a href="/2026/202602/2026-02-27-A-satoshi-said-no/">刘教链｜中本聪表示反对</a></li>
+<li>2026.2.28 <a href="/2026/202602/2026-02-28-A-bip110-common-questions/">刘教链｜BIP-110常见问题汇编</a></li>
+<li>2026.3.2 <a href="/2026/202603/2026-03-02-A-first-blood/">刘教链｜Lopp反对BIP-110</a></li>
+</ul>
+<h2>引言</h2>
+<p>BIP-110并非凭空出现的激进提案，它是比特币社区链上数据治理长达十余年博弈的集中爆发，其直接“前传”是2023–2025年Bitcoin Core围绕<code>-datacarriersize</code>、OP_RETURN限制、铭文漏洞的一系列争议操作，根源则可追溯到2014年比特币首次建立链上数据约束规则的设计初衷。</p>
+<p>本文接下来将要向各位读者朋友们介绍的，是网友hodlonaut根据整理的历史材料完整还原了这条被刻意掩盖的技术脉络：从2014年的防御性设计，到2023年文档篡改、漏洞保留，再到2025年OP_RETURN无限制放开，最终催生BIP-110以共识层规则兜底。这是一场关于比特币“货币本位”与“数据平台”定位的路线之争。</p>
+<hr>
+<h2>一、起源：2014年，为防御链上垃圾数据而生的原始规则</h2>
+<p>比特币诞生初期，中本聪并未设计严格的链上数据限制，仅通过脚本机制隐性约束非金融数据。随着早期社区出现滥用区块链存储图片、文本等行为，节点负担、去中心化退化风险显现。</p>
+<p>2014年，核心开发者Luke Dashjr推出关键配置项：<br><code>-datacarriersize</code></p>
+<ul>
+<li>定义：节点可中继、挖矿的交易数据载体最大尺寸(&quot;Maximum size of data in data carrier transactions we relay and mine.&quot;)</li>
+<li>设计初衷：覆盖所有交易字段（输入、输出、见证数据），全面限制非金融数据</li>
+<li>性质：非共识层强制规则，而是节点默认中继策略——但默认设置决定全网绝大多数节点行为，进而主导矿工打包与链上内容</li>
+</ul>
+<p>这一规则成为比特币社区“区块链应优先服务货币功能”理念的技术基石，稳定运行近十年。</p>
+<hr>
+<h2>二、转折：2023年，精准篡改定义，打开铭文漏洞入口</h2>
+<p>2022年后，Ordinals铭文协议爆发，大量数据通过SegWit/Taproot见证字段（witness）绕过<code>-datacarriersize</code>限制，成为链上“数据漏洞”。</p>
+<p>Luke Dashjr于2023年9月提交PR #28408，意图很明确：<br>将<code>-datacarriersize</code>覆盖范围扩展至见证字段，直接封堵铭文漏洞。</p>
+<p>但在此之前，Bitcoin Core已完成一次关键的文档篡改：</p>
+<ul>
+<li>2023年底v26.0版本，开发者Marco Falke修改<code>-datacarriersize</code>描述，新增关键词scriptPubKey（仅输出）</li>
+<li>铭文数据存于输入/见证段，这一修改精准将铭文排除在限制范围外</li>
+<li>AJ Towns对该修改明确ACK，为后续否决补丁埋下伏笔</li>
+</ul>
+<p><img src="2026-03-05-A01.avif" alt=""></p>
+<p>这次修改不是笔误，而是技术层面的“范围阉割”：把2014年设计的全字段限制，偷偷缩窄为仅OP_RETURN输出限制。</p>
+<hr>
+<h2>三、博弈：补丁被拒、CVE被否，漏洞被刻意保留</h2>
+<p>基于被篡改后的文档，Bitcoin Core核心团队完成了一套闭环否决：</p>
+<ol>
+<li>PR #28408被拒：Gloria Zhao以“该选项仅限制OP_RETURN输出”为由否决，引用被修改后的历史文档</li>
+<li>补丁被二次否决：AJ Towns（曾ACK文档修改）给出Approach NACK，Peter Todd称补丁是“审查交易”</li>
+<li>漏洞被定性为非漏洞：Luke提交CVE-2023-50428，将铭文漏洞定义为安全风险，被社区以“多数开发者不认可”驳回关闭</li>
+</ol>
+<p>至此，铭文漏洞被官方刻意保留，链上非金融数据失去唯一有效的节点策略约束。</p>
+<hr>
+<h2>四、爆发：2025年，OP_RETURN无限制放开，倒逼BIP-110诞生</h2>
+<p>漏洞保留后，Bitcoin Core走向下一步：彻底放开链上数据限制。</p>
+<ol>
+<li>2025年4月：Peter Todd提交PR #32359，要求完全移除OP_RETURN数据限制，后承认是“受Core开发者委托提交”</li>
+<li>利益关联未披露：提案支持者包含Citrea（ZK-rollup项目，需大量链上数据）投资人Jameson Lopp</li>
+<li>2025年6月：Gloria Zhao合并该修改，OP_RETURN默认无上限</li>
+<li>官方理由：“铭文漏洞不可封堵，放开OP_RETURN可引导数据到可修剪字段，降低危害”</li>
+</ol>
+<p>这一理由的致命前提是：漏洞必须保持开放——而正是同一批人否决了封堵漏洞的补丁。</p>
+<p>社区反对声被压制：423反对 vs 105支持，批评者被GitHub禁言，31名开发者联名将反对者定义为“审查者”。</p>
+<p>最终，约22%节点切换至Bitcoin Knots等替代客户端，BIP-110应运而生：</p>
+<ul>
+<li>前身：2025年10月BIP-444（临时限制非金融数据）</li>
+<li>核心：以临时软分叉在共识层封堵铭文所用的OP_FALSE OP_IF结构，恢复链上数据约束</li>
+<li>本质：对2014年原始防御规则的共识层追认，是对2023–2025年规则篡改的反向修正</li>
+</ul>
+<hr>
+<h2>五、BIP-110的历史定位：回归十年前的设计初心</h2>
+<p>hodlonaut梳理的时间线，清晰揭示BIP-110不是“创新”，而是纠错：</p>
+<ol>
+<li>2014：Luke建立全字段数据限制<code>-datacarriersize</code></li>
+<li>2023：文档被缩窄、补丁被否决、漏洞被保留</li>
+<li>2024：CVE安全漏洞认定被驳回</li>
+<li>2025：以保留的漏洞为理由，放开OP_RETURN限制</li>
+<li>2026：BIP-110试图以共识规则，重新实现2014年的防御目标</li>
+</ol>
+<p>这场争议的核心从未变过：比特币究竟是去中心化货币系统，还是通用数据存储层。BIP-110的“前传”，就是比特币社区用十年时间，走完的一段“规则建立→被篡改→被绕过→被废除→被迫重建”的完整闭环。</p>
+<hr>
+<p><a href="https://member.liujiaolian.com/i/20260305">内参｜BTC深陷泥潭还是黄金坑？K33称极度超卖，Kraken拿下美联储历史性突破</a><br>免责声明：不构成任何投资建议<br>加入会员：发消息 会员 或 VIP</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

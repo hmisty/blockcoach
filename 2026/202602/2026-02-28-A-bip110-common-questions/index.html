@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜BIP-110常见问题汇编 - BlockCoach - 刘教链</title>
+	<meta name="description" content="突然打起来了，黄金上涨，石油上涨，大饼下跌。BTC再次跌落65k。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜BIP-110常见问题汇编">
+	<meta property="og:description" content="突然打起来了，黄金上涨，石油上涨，大饼下跌。BTC再次跌落65k。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202602/2026-02-28-A-bip110-common-questions">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-02-28">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜BIP-110常见问题汇编">
+	<meta name="twitter:description" content="突然打起来了，黄金上涨，石油上涨，大饼下跌。BTC再次跌落65k。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202602/2026-02-28-A-bip110-common-questions">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜BIP-110常见问题汇编",
+		"description": "突然打起来了，黄金上涨，石油上涨，大饼下跌。BTC再次跌落65k。",
+		"url": "https://blockcoach.com/2026/202602/2026-02-28-A-bip110-common-questions",
+		"datePublished": "2026-02-28",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202602">2026年02月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜BIP-110常见问题汇编</h1>
+			<div class="meta">
+				发布时间：2026-02-28
+				
+			</div>
+			<div class="content">
+				<p>突然打起来了，黄金上涨，石油上涨，大饼下跌。BTC再次跌落65k。</p>
+<p>关于BIP-110（还不了解的朋友可以回顾一下2026.2.26<a href="/2026/202602/2026-02-26-A-bip-110/">《刘教链｜BIP-110详细拆解（万字长文）》</a>），教链发现了两个聚焦该问题的网站：<a href="https://bip110.dev">bip110.dev</a> 技术提案全文；<a href="https://bip110.org">bip110.org</a> 关于该提案的知识点和常见问题等。</p>
+<p>本文用中文汇编了bip110.org上的常见问题，以供各位读者朋友参考。</p>
+<h2>为什么这个提案是暂时的？</h2>
+<p>为期一年的部署期让开发者研究长期解决方案的同时，社区可以评估其影响。如果永久实施，某些限制会严重约束未来的升级，但为应对眼前危机，在限定期限内实施是可以接受的。</p>
+<h2>是否有任何权衡？</h2>
+<p>是的。限制Taproot控制块可能会使像BitVM这样的高级智能合约变得复杂。其他软分叉的升级钩子将暂时不可用。一些在Tapleaf中使用OP_IF的钱包软件可能需要进行更新。然而，为了眼前的好处，这些短期的权衡是可以接受的。</p>
+<h2>是否存在资金被冻结或丢失的风险？</h2>
+<p>理论上存在，但本提案竭力避免影响任何已知的用例。如果不使用Taproot、以标准方式使用Taproot、或者可以通过密钥路径或其他预期的Tapleaf方式花费，资金完全不受影响。此外，在激活之前创建的UTXO永久豁免于新规则——它们可以在任何时候无限制地花费。锁定与激活之间为期两周的单独宽限期也提供了通用的准备时间。</p>
+<h2>垃圾信息发送者难道不会把数据分散到多个字段中吗？</h2>
+<p>虽然完全防止隐写术是不可能的，但限制数据大小能确保滥用行为是非连续且模糊的。要求用户将文件分割成256字节的区块，会提高费用和操作成本，从而发出明确信号表明数据存储是不受欢迎的。</p>
+<h2>为什么不让手续费市场来管理数据存储？</h2>
+<p>数据存储的手续费只归矿工所有，但所有节点运营商必须永久存储这些数据却得不到补偿。这就造成了不公平的负担：矿工收取一次性费用，而节点却免费提供永久存储。</p>
+<h2>为什么将scriptPubKey限制在34字节？</h2>
+<p>所有节点必须在快速访问内存中无限期存储scriptPubKey。现代用法都是34字节或更小，因为实际的花费条件存放在见证数据中。大的scriptPubKey会导致数据滥用和需要长时间验证的恶意&quot;毒块&quot;。</p>
+<h2>这会破坏多重签名吗？</h2>
+<p>不会。普通的多重签名（BIP-48, BIP-174, BIP-129）完全不受影响。使用MuSig/Schnorr签名聚合的Taproot多重签名也不受影响。唯一有潜在影响的领域是在tapleaf内部使用OP_IF的高级Taproot Miniscript——解决方法很简单：将OP_IF分支拆分成独立的tapleaf，这已经是Taproot脚本设计的最佳实践。</p>
+<h2>这是否会导致禁止用例的滑坡效应？</h2>
+<p>不会。这些规则遵循了比特币的长期原则。此软分叉不限制货币活动——只限制非货币数据存储。其临时性质强化了这是针对性的干预，而非新的方向。</p>
+<h2>这能完全解决垃圾信息问题吗？</h2>
+<p>不能。对抗垃圾信息的最佳方式是依靠策略/过滤（policy/filters），而非共识（consensus）。此软分叉旨在最小化恶意矿工的影响并消除最坏情况的风险，同时发出明确信号表明数据存储不是受支持的用例。</p>
+<h2>这会影响UTXO集吗？</h2>
+<p>不会。BIP-110只限制未来新输出的尺寸——它不会触及、作废或修剪任何现有的UTXO。你可能在想&quot;The Cat&quot;提案，那是一个单独的提案，旨在将特定的非货币UTXO（如序号和印章）列入黑名单，使其永久不可花费，以便节点可以修剪它们。BIP-110采取了完全不同的方法：它不是追溯性地作废现有输出，而是简单地限制新输出的尺寸，以阻止未来的滥用。</p>
+<h2>这会影响闪电网络吗？</h2>
+<p>不会。标准的闪电通道使用P2WSH（见证版本0），而BIP-110的OP_IF限制仅适用于Tapscript——因此它们完全不受影响。较新的基于Taproot的通道将条件路径拆分为独立的tapleaf，而不是使用OP_IF，因此它们也是兼容的。P2WSH和P2TR输出都恰好是34字节，符合限制。</p>
+<h2>为什么在Tapscript中限制OP_IF？</h2>
+<p>Taproot的设计理念是让每个条件分支存在于自己的tapleaf中。这正是MAST（默克尔化替代脚本树）的全部意义所在。在tapleaf内部使用OP_IF是多余的：它会在链上暴露未使用的分支，破坏了Taproot的隐私优势。在某些情况下，使用OP_IF可以通过避免默克尔路径开销来节省几个字节，但代价是将你的其他花费条件暴露给全世界。设计良好的Taproot钱包已经将条件拆分为独立的tapleaf。此限制仅适用于Tapscript，因此P2WSH脚本（如标准的闪电通道）完全不受影响。</p>
+<h2>这与中继策略过滤器有何不同？</h2>
+<p>中继策略（内存池过滤）只影响交易的传播——矿工仍然可以在区块中包含他们想要的任何内容。BIP-110在共识层面强制执行限制，意味着包含超大数据的区块无论由谁挖出都是无效的。策略是建议；共识是规则。（Policy is a suggestion; consensus is a rule.）</p>
+<h2>这对矿工是可选的吗？</h2>
+<p>在信号阶段，矿工可以选择是否信号支持。如果在难度调整期内有55%的算力信号，软分叉会提前锁定。如果没有，在截止日期前会启动强制信号——没有信号的区块将被拒绝，从而保证锁定。一旦激活，新规则就在共识层面强制执行：任何违反规则的区块都会被所有执行规则的节点拒绝，无论矿工的偏好如何。</p>
+<h2>当部署到期时会发生什么？</h2>
+<p>大约一年后（52,416个区块），所有限制将自动解除，比特币恢复到激活前的规则。用户或节点运营者无需任何操作。如果社区希望继续或完善这些保护措施，将需要一个新的提案再次经历整个激活过程。</p>
+<hr>
+<p><a href="https://member.liujiaolian.com/i/20260223">内参｜市场情绪跌至冰点，链上数据却现拐点信号：加密市场的至暗时刻与结构性机遇</a><br>免责声明：不构成任何投资建议<br>加入会员：发消息 会员 或 VIP</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

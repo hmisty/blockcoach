@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>向比特币核心铭文漏洞提交了意见 - BlockCoach - 刘教链</title>
+	<meta name="description" content="号外：教链内参12.10《铭文已被CVE和NVD漏洞数据库收录》">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="向比特币核心铭文漏洞提交了意见">
+	<meta property="og:description" content="号外：教链内参12.10《铭文已被CVE和NVD漏洞数据库收录》">
+	<meta property="og:url" content="https://blockcoach.com/2023/202312/2023-12-11-A-comment-28408">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2023-12-11">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="向比特币核心铭文漏洞提交了意见">
+	<meta name="twitter:description" content="号外：教链内参12.10《铭文已被CVE和NVD漏洞数据库收录》">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2023/202312/2023-12-11-A-comment-28408">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "向比特币核心铭文漏洞提交了意见",
+		"description": "号外：教链内参12.10《铭文已被CVE和NVD漏洞数据库收录》",
+		"url": "https://blockcoach.com/2023/202312/2023-12-11-A-comment-28408",
+		"datePublished": "2023-12-11",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2023">2023</a> > 
+			<a href="/2023/202312">2023年12月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>向比特币核心铭文漏洞提交了意见</h1>
+			<div class="meta">
+				发布时间：2023-12-11
+				
+			</div>
+			<div class="content">
+				<p>号外：教链内参12.10《铭文已被CVE和NVD漏洞数据库收录》</p>
+<hr>
+<p>有关比特币铭文协议的危机还在继续发酵。10号，该协议所依赖的底层技术漏洞已经被CVE漏洞库分配了正式编号：CVE-2023-50428。这意味着，有关于该技术漏洞，在安全风险方面已经取得了初步共识。</p>
+<p>有关围绕铭文协议的争论，还不了解情况的读者可以温习一下教链12.7文章《他想要杀死铭文》来快速回顾以下此事的来龙去脉。</p>
+<p>在CVE中，对该技术漏洞描述为，通过把数据混淆为代码（例如，通过OP_FALSE OP_IF），绕过了数据载荷的尺寸限制，如2022、2023年铭文对该漏洞的广泛滥用所示。</p>
+<p>所以，铭文只是该漏洞的一个“用例”。这个漏洞，本质上是关乎于是否容忍把大量不会得到执行的数据，塞进脚本代码，然后刻入到区块链上面去的问题。</p>
+<p>因此，Luke Dashjr给这个技术漏洞分类的类型是「不完善的模式匹配」，漏洞影响则是「浪费资源以及拒绝服务攻击」。</p>
+<p><img src="2023-12-11-A01.avif" alt=""></p>
+<p>在Luke Dashjr向Bitcoin Core提交的有关修复该漏洞的PR下面，笔者也给出了如下意见：</p>
+<p><img src="2023-12-11-A02.avif" alt=""></p>
+<p>「由于脚本中的混淆数据既没有经过验证，也没有通过共识来执行，而且这些数据在任何程度上最终都要依赖链外索引器来进行，因此一种更优雅的方法是将所有数据移出链外，让链外索引器来存储和处理，同时只在链上留下一个哈希值，这非常符合设计意图，同时将链上占用的空间降到最低。」</p>
+<p>该意见的意思是，把完整数据放在链上，得到链上共识保证的只有数据的完整性，而这一点只需要用一个小得多的哈希就可以做到，同时，把完整数据嵌入，并不能摆脱对链外索引器以及社会共识的依赖，也就不能带来精简架构的好处，因此，把完整数据外移到链外，更符合架构设计原则。</p>
+<p>我想，这一架构设计原则或许也是比特币的设计理念之一，那就是，比特币的链只应作为共识的载体，而不应作为全尺寸数据的载体。如果能在不破坏链上共识的情况下，最小化链上数据的尺寸，比如能用哈希值就不用全数据，那么就是符合这一设计理念的。</p>
+<p>这一理念，把比特币和BSV、FIL、ICP等致力于把自己变成“云存储系统”的区块链项目泾渭分明地区分开来。</p>
+<p>毕竟，共识的价值要远高于普通数据的价值。</p>
+<p>比特币的链，只保存最浓缩、最精华的部分。</p>
+<p>Ordinal协议和铭文，只需要变更一下技术方案，铭文2.0，就可以很好地和比特币这一理念相兼容。</p>
+<p>其关键组件，就是一个能够存储铭文数据并进行索引的去中心化、分布式标准化索引器（indexer）。</p>
+<p>与其较劲，或者陷入情绪之中，不如抓紧研发铭文2.0。谁先搞出来，也许就抢占了时代变局下的先机。</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

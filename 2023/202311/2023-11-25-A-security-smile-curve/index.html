@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>区块链安全的“微笑曲线” - BlockCoach - 刘教链</title>
+	<meta name="description" content="最近一个叫做blast的协议迅速爆红，短短几天锁仓接连突破数亿美刀大关。业内开展了一轮针对其安全性的讨论。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="区块链安全的“微笑曲线”">
+	<meta property="og:description" content="最近一个叫做blast的协议迅速爆红，短短几天锁仓接连突破数亿美刀大关。业内开展了一轮针对其安全性的讨论。">
+	<meta property="og:url" content="https://blockcoach.com/2023/202311/2023-11-25-A-security-smile-curve">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2023-11-25">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="区块链安全的“微笑曲线”">
+	<meta name="twitter:description" content="最近一个叫做blast的协议迅速爆红，短短几天锁仓接连突破数亿美刀大关。业内开展了一轮针对其安全性的讨论。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2023/202311/2023-11-25-A-security-smile-curve">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "区块链安全的“微笑曲线”",
+		"description": "最近一个叫做blast的协议迅速爆红，短短几天锁仓接连突破数亿美刀大关。业内开展了一轮针对其安全性的讨论。",
+		"url": "https://blockcoach.com/2023/202311/2023-11-25-A-security-smile-curve",
+		"datePublished": "2023-11-25",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2023">2023</a> > 
+			<a href="/2023/202311">2023年11月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>区块链安全的“微笑曲线”</h1>
+			<div class="meta">
+				发布时间：2023-11-25
+				
+			</div>
+			<div class="content">
+				<p>最近一个叫做blast的协议迅速爆红，短短几天锁仓接连突破数亿美刀大关。业内开展了一轮针对其安全性的讨论。</p>
+<p>教链在11.23内参《blast存在中心化风险》以及11.24内参《牛市的黎明静悄悄》中，对于其中被质疑的风险点以及项目方的辩解，正反两方的观点，都作了一些介绍。</p>
+<p>把思维上升一层，到理论层面，我们会发现所谓的区块链安全问题，似乎存在着某些悖论之处。</p>
+<p>举个例子，blast采用的是可升级合约。质疑方认为，项目方只要走一下多签就可以任意升级合约代码，从而任意支配用户锁仓的资产。最坏的情况，就是业内所谓的rug pull，即卷款跑路。其中多签的几个匿名地址，blast也承认就是几个工程师，而不是身份公开的权威人物，所以可以认为是很容易合谋的。</p>
+<p>但是项目方回应称，可升级合约恰恰是为了安全。在过去的无数惨痛案例中，甚至可以追溯到早年导致以太坊分裂的The DAO事件，就是因为不可升级的合约代码被发现有bug，所有人只能眼看着黑客偷走合约中锁定的资产而束手无策。</p>
+<p>无中心控制的智能合约，在链上自主运行，忠实地执行着业务逻辑，不受任何人的干预。这是一种完美的状态。比如像Uniswap的交易合约，就是这样的无控制状态（注：除了fee switch —— 不过，关于治理控制和治理攻击，又是另外一个很大的话题，我不打算在本文再展开详述了）。</p>
+<p>所以，对于blast而言，其控制模型是：（用右箭头 -&gt; 表示控制）</p>
+<p>项目方 -&gt; 多签人 -&gt; 合约 -&gt; 用户资产</p>
+<p>这种模型，说实话，在今天的web3世界里，是极其常见的。本质上，这就是中心化控制，虽然用的是去中心化的区块链技术。</p>
+<p>从USDT、USDC这样的稳定币，到Arbitrum、Optimism等各种L2的跨链桥，乃至于大多数公链的节点，追本溯源，其实都是由项目方中心化控制的。</p>
+<p>而有趣的是，如果你问他们为什么要实施中心化控制，他们大概无一例外会回答你说，为了一旦出现意外情况，能够快速处理，也就是说，为了安全。</p>
+<p>潜台词就是，保持对系统的控制，关键时刻能够人为干预，是安全的；“失控”的系统，万一发生状况无法人为干预，是不安全的。</p>
+<p>一旦掌握权力，就难以自愿放弃权力，骨子里其实就是这种对于安全的恐惧。</p>
+<p>而悖论偏偏在于，权力本身就是不安全的。独掌权力的人，对其他所有人都是一种不安全。这反过来就会使得独掌权力的人也身陷不安全之中。</p>
+<p>项目方固然可以使用手中掌握的控制权对抗可能的bug和黑客，但是，这种超级权力也意味着项目方可以卷款跑路（比如rug pull的无数土狗），或者出于自信或追逐利益而挪用用户资产（比如FTX），或者隐形盗窃（比如偷偷增发，稀释用户资产价值），等等。</p>
+<p>去中心化所希望消除的，恰恰就是这种滥用中心化控制权的技术可能性。</p>
+<p>回到中本聪所说的，使用对密码学（cryptography）来代替对人的信任（trust）。</p>
+<p>比特币系统所追求的目标之一，正是信任的最小化。即，不需要相信任何人，你就可以知道系统的正确性 —— 通过验证密码学证据的正确性。</p>
+<p>于是我们就会发现，对于一个系统，在保持较高程度的中心化程度时，如果控制者越可靠，安全性越高；在实现了较高程度的去中心化后，如果没有缺陷，那么可以获得更高的安全性 —— 因为，去中心化把中心化控制者腐败、失误或死亡的风险也给消除了。但是，从中心化开始，向前走一步，安全性不会上升，反而会下降，因为系统失去了人的控制，而其自身又可能出现各种莫测的问题。</p>
+<p>这就有了下面教链画的这个区块链安全的“微笑曲线”：</p>
+<p><img src="20231125-A01.avif" alt=""></p>
+<p>在微笑曲线的左右两端，都可能获得较高程度的安全。在左边，需要确保掌握权力的控制者可靠。在右边，需要确保自动运行的代码可靠。</p>
+<p>几乎所有的项目都会从左边起步。而它们在迈向右边的过程中，却极难可以克服中间的“死亡之谷”。这就导致，绝大多数项目，要么实际上是中心化的，但是宣传上号称去中心化，挂羊头卖狗肉，能骗一个是一个；要么就是终其生命周期，也没有完成去中心化；要么就是在尝试去中心化的过程中，遇到了灾难性的安全问题，中道崩殂。真正能够取得真经的项目，不能说完全没有，只能说是几乎为零。</p>
+<p>这就是为什么站在最右边的、高度去中心化的比特币如此独特、如此遥遥领先的一个原因。</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

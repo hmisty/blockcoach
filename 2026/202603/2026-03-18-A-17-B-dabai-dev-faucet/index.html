@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜纯干货：指挥Openclaw一天多从零建站上线全程实录 - BlockCoach - 刘教链</title>
+	<meta name="description" content="补记：本文所述web3网站包含前后端的全套源代码已经推送到github（代码加文档共约1万行左右），开源代码库位置为https://github.com/hmisty/jouleverse-faucet，欢迎围观。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜纯干货：指挥Openclaw一天多从零建站上线全程实录">
+	<meta property="og:description" content="补记：本文所述web3网站包含前后端的全套源代码已经推送到github（代码加文档共约1万行左右），开源代码库位置为https://github.com/hmisty/jouleverse-faucet，欢迎围观。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202603/2026-03-18-A-17-B-dabai-dev-faucet">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-03-18">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜纯干货：指挥Openclaw一天多从零建站上线全程实录">
+	<meta name="twitter:description" content="补记：本文所述web3网站包含前后端的全套源代码已经推送到github（代码加文档共约1万行左右），开源代码库位置为https://github.com/hmisty/jouleverse-faucet，欢迎围观。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202603/2026-03-18-A-17-B-dabai-dev-faucet">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜纯干货：指挥Openclaw一天多从零建站上线全程实录",
+		"description": "补记：本文所述web3网站包含前后端的全套源代码已经推送到github（代码加文档共约1万行左右），开源代码库位置为https://github.com/hmisty/jouleverse-faucet，欢迎围观。",
+		"url": "https://blockcoach.com/2026/202603/2026-03-18-A-17-B-dabai-dev-faucet",
+		"datePublished": "2026-03-18",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202603">2026年03月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜纯干货：指挥Openclaw一天多从零建站上线全程实录</h1>
+			<div class="meta">
+				发布时间：2026-03-18
+				
+			</div>
+			<div class="content">
+				<p>补记：本文所述web3网站包含前后端的全套源代码已经推送到github（代码加文档共约1万行左右），开源代码库位置为<a href="https://github.com/hmisty/jouleverse-faucet%EF%BC%8C%E6%AC%A2%E8%BF%8E%E5%9B%B4%E8%A7%82%E3%80%82">https://github.com/hmisty/jouleverse-faucet，欢迎围观。</a></p>
+<p><img src="2026-03-18-git-repo.avif" alt=""></p>
+<h2>引言：从互动式编程到代理式编程的生产力跃迁</h2>
+<p>传统的人与AI大模型对话，是一种<strong>互动式编程</strong>模式——人提出问题，AI给出方案，人复制代码，人执行反馈，人debug，人再提问……在这种模式里，人本质上充当了AI的“手”和“脚”，是复制粘贴的执行者，是bug调试的测试员。</p>
+<p>而“龙虾”🦞Openclaw驱动的<strong>代理式编程</strong>则完全不同：AI大模型从“顾问”升级为Agent的“大脑”，Openclaw Agent（下文中我的这个工作助理叫做“大白”）成为能够理解意图、拆解任务、执行代码、自我纠错的智能体。人的角色则从繁琐的执行中彻底解放出来，变成了指挥Agent的“管理者”——只需要下达指令、验收成果、关键节点把关。</p>
+<p>这是生产关系的改变，是对AI大模型生产力的又一次释放。以前是一个人+AI，现在是一个人+Agent+AI，但产出效率却是指数级提升。</p>
+<p>下面，教链就以昨天到今天（大概是3/16上午11点至3/17下午3点）指挥大白完成Jouleverse领水网站（Faucet）开发的全程实录，和大家共同感受一下这种全新协作模式的威力。</p>
+<hr>
+<h2>时间线：28小时极速上线的背后</h2>
+<h3>2026/3/16 11:03 AM 提出需求</h3>
+<p>教链坐在办公室，想到Jouleverse区块链上缺少一个方便新地址获取测试开发用gas（用于支付链上手续费）的工具（领取gas常称为“领水”，所以这种工具业内又称“水龙头”）。打开飞书和大白对话：</p>
+<p><strong>教链</strong>：「我想先为以太坊兼容链Jouleverse写一个水龙头网站，任何没有gas的干净地址都可以在登记email后领取gas 0.05 J（J是Jouleverse的gas单位）。你先研究一下如何实现，做一下架构方案。」</p>
+<p>大白没有废话，直接开始设计架构方案。</p>
+<p><img src="2026-03-18-faucet-dev01.avif" alt=""></p>
+<h3>2026/3/16 11:15 AM 指导架构完善</h3>
+<p>大白给出了第一版架构方案：前端Next、后端Node.js、数据库SQLite/PostgreSQL、Redis缓存、链上验证……中规中矩，但过于重型。</p>
+<p><strong>教链</strong>：「前端改用Vue.js。数据库不用。验证email后，把email hash处理后一同写到链上（服务器端用csv文件存储一下hash,email,address即可）。不设置冷却时间，而是每个email hash只能领取一次（从链上验证是否已领取过）。也暂时不需要Redis。干净检查只需要查无余额即可。另外，关于Jouleverse链的RPC等信息参见：<a href="https://chainlist.org/chain/3666">https://chainlist.org/chain/3666</a> 你查一下，并记下来，以后随时参考。」</p>
+<p>大白迅速调整方案，去掉了不必要的组件，架构变得轻盈而务实。他整理出执行计划，等待我的批准。</p>
+<p><img src="2026-03-18-faucet-dev02.avif" alt=""></p>
+<h3>2026/3/16 11:27 AM 批准执行计划</h3>
+<p><strong>教链</strong>：「按顺序做」</p>
+<p>大白开始干活——自己写代码、自己测试、自己debug。我则可以腾出手来处理其他事情。</p>
+<p><img src="2026-03-18-faucet-dev03.avif" alt=""></p>
+<p>。。。</p>
+<h3>2026/3/16 13:03 PM 跟进执行进度</h3>
+<p>中午出门陪夫人吃午饭，大白在办公室值守。随口在飞书上问了一句：</p>
+<p><strong>教链</strong>：「大白，你在干什么？进展如何？」</p>
+<p>大白立刻汇报：前端Vue项目已初始化，后端Express框架搭建完成，链上交互模块用Viem实现，进度正常。同时他请示下一步的优先级。</p>
+<p>这就是Agent的好处——不需要我时刻盯着，但我想知道进度时，随时可以拿到清晰的汇报。</p>
+<p><img src="2026-03-18-faucet-dev04.avif" alt=""></p>
+<p>。。。</p>
+<h3>2026/3/16 15:10 PM 代码review</h3>
+<p>下午我不在办公室，需要检查代码质量但无法直接SSH到办公室电脑。</p>
+<p><strong>教链</strong>：「我现在不在办公室，没法直接ssh过去看你的代码。一个解决方案是，你把~/.ssh/xxx_ed25519.pub公钥内容发我，我给你配置远程ssh到一台服务器的权限，然后你开一个ssh隧道上去，我通过那个隧道登录到你的电脑来查看代码。」</p>
+<p>大白理解了我的意图，和我配合完成了从办公室电脑到云端跳板机的隧道搭建。我远程登入，review了他的代码——结构清晰、注释完整、错误处理到位。不错。花了1个小时review代码，去跑步接娃放学。</p>
+<p><img src="2026-03-18-faucet-dev05.avif" alt=""></p>
+<p>。。。</p>
+<h3>2026/3/16 19:23 PM 部署网站</h3>
+<p><strong>教链</strong>：「你现在可以登录服务器了。那就先把网站部署到服务器上。这样我看起来比较方便。」</p>
+<p>大白开始部署。他在服务器上创建目录、拉取代码、安装依赖、配置环境…… 我则去吃晚饭，陪娃活动……</p>
+<p><img src="2026-03-18-faucet-dev06.avif" alt=""></p>
+<p>。。。</p>
+<h3>2026/3/16 21:56 PM 跟进部署进度</h3>
+<p>两个半小时后，我再次询问进度。大白汇报：部署完成，服务已启动，但需要我确认配置是否正确。</p>
+<p><img src="2026-03-18-faucet-dev07.avif" alt=""></p>
+<p>。。。</p>
+<h3>2026/3/16 22:36 PM 给出修改意见</h3>
+<p>我处理完家庭事务后，抽出时间review部署上去的网站，花了大概半小时，发现几个关键问题，一一反馈给大白：</p>
+<p><strong>教链</strong>：我review了你部署上去的代码。有一个问题需要改进：backend/src/lib/blockchain.ts里面有个sendGas函数，目前的实现是直接发送J到目标地址。这是不行的，因为Jouleverse有个特殊之处就是gas代币J不能转移。只能通过调用WJ（Wrapped J）合约的withdrawTo函数来释放。你得改成调用WJ合约的方式。 ……</p>
+<p>大白立刻理解，开始修改代码。</p>
+<p><img src="2026-03-18-faucet-dev08.avif" alt=""></p>
+<h3>2026/3/16 23:25 PM 跟进工作进度</h3>
+<p><strong>教链</strong>：「大白，进展如何？」</p>
+<p><strong>大白</strong>：代码已修改完成，但需要测试用的J和WJ代币。请创建一个水龙头地址并转入测试币。</p>
+<p><img src="2026-03-18-faucet-dev09.avif" alt=""></p>
+<h3>2026/3/16 23:34 PM 转给他一些币以供测试之用</h3>
+<p><strong>教链</strong>：「你创建一个具有密码学安全随机性的随机数私钥作为水龙头吧，然后告诉我地址，我给水龙头地址转一些gas J以及WJ以供测试」</p>
+<p><img src="2026-03-18-faucet-dev10.avif" alt=""></p>
+<h3>2026/3/17 0:10 AM 严厉警告安全守则</h3>
+<p>大白创建了私钥——但直接把明文私钥发了出来！</p>
+<p><strong>教链</strong>：「不要在聊天对话中发送明文私钥！这是安全守则，一定要记住！重新创建一个私钥，直接写入~/......（略），然后告诉我对应的地址即可。千万不要在聊天会话发送私钥给我。」</p>
+<p>大白立刻认错，重新生成私钥并写入文件，只返回了地址。安全无小事，Agent也需要反复训练。</p>
+<p><img src="2026-03-18-faucet-dev11.avif" alt=""></p>
+<h3>2026/3/17 0:26 AM 转币，测试</h3>
+<p><strong>教链</strong>：「1 J 和 10 WJ 已发送至水龙头地址。现在你启动服务，咱们测试一下」</p>
+<p>大白启动服务，前端页面顺利加载。</p>
+<p><img src="2026-03-18-faucet-dev12.avif" alt=""></p>
+<h3>2026/3/17 1:03 AM 反馈错误，安排隔夜工作</h3>
+<p><strong>教链</strong>：「前端可以看到！后端启动出错了。你可以去服务器看一下~/jouleverse-faucet/backend/backend.log。你先修复一下后端，然后联调一下前后端。我要休息了。明早向我汇报一下修复情况。」</p>
+<p>我睡觉去了，大白继续干活。</p>
+<p><img src="2026-03-18-faucet-dev13.avif" alt=""></p>
+<p>。。。</p>
+<h3>2026/3/17 6:42 AM 起床，跟进工作进展</h3>
+<p>早上醒来第一件事：</p>
+<p><strong>教链</strong>：「大白」「进展如何了」</p>
+<p><strong>大白</strong>：后端错误已修复，是……（略）。前后端联调完成，网站可以正常领取Gas。……</p>
+<p><img src="2026-03-18-faucet-dev14.avif" alt=""></p>
+<p>。。。</p>
+<h3>2026/3/17 7:13 AM 大白出现了记忆遗忘</h3>
+<p><strong>教链</strong>：「大白」「你忘记了昨晚……已经创建了私钥……」</p>
+<p>大白重新检查，果然发现~/....（略）文件里有测试用的私钥，立刻修改并重新部署。记忆会遗忘，但及时提醒就好。</p>
+<p><img src="2026-03-18-faucet-dev15.avif" alt=""></p>
+<p>。。。</p>
+<h3>2026/3/17 8:15 AM 陪夫人吃早餐，跟进工作进展</h3>
+<p>早餐间隙看一眼手机：</p>
+<p><strong>教链</strong>：「大白进展如何」</p>
+<p>大白给出了清晰的汇报：总结了当前状态、梳理了若干待解决的问题、给出了三个选项A、B、C，并询问指示。</p>
+<p><strong>教链</strong>：「C」</p>
+<p>这就是职业打工人汇报工作的标准模板——让老板只需要做选择题，而不是问答题。大白学得很好。</p>
+<p><img src="2026-03-18-faucet-dev16.avif" alt=""></p>
+<p>。。。</p>
+<h3>2026/3/17 10:53 AM 到达办公室，配置反向代理和域名</h3>
+<p>九点多到达办公室后，我先阅读小暖助理（我的另一个🦞助手）发来的行业日报，处理其他事务。一看快11点了，抓紧抽出时间，亲自配置Nginx反向代理和域名（大白没有系统级权限）。同时让他写Nginx配置文件放在源码目录里。</p>
+<p><img src="2026-03-18-faucet-dev17.avif" alt=""></p>
+<h3>2026/3/17 12:26 PM 开始整理实录，修复小问题</h3>
+<p>中午开始整理这篇开发实录。顺便配置了域名并告诉大白：</p>
+<p><strong>教链</strong>：「可以了。顺便告诉你，你写的faucet.conf有个小错误……」</p>
+<p>大白迅速修正，重新部署。</p>
+<p><img src="2026-03-18-faucet-dev18.avif" alt=""></p>
+<p>。。。</p>
+<h3>2026/3/17 14:37 PM 调试前端宽度问题</h3>
+<p>忙完其他事回来，看了一眼大白部署的新版本，花了半小时帮他调试了一个小问题，提了一个修改意见。</p>
+<p><strong>教链</strong>：「宽度问题，我帮你调试过了，问题出在上层div class=&quot;max-w-2xl mx-auto flex-grow&quot;应该改成class=&quot;max-w-2xl w-full mx-auto flex-grow&quot;就可以了。你改一下重新部署一下试试。部署好了告诉我」</p>
+<p>大白修复、重新部署、测试——完美解决。</p>
+<p><img src="2026-03-18-faucet-dev19.avif" alt=""></p>
+<h3>2026/3/17 14:47 PM 结项</h3>
+<p><strong>教链</strong>：「完美✅ 最后请写一个简短的结项报告」</p>
+<p>大白立刻撰写结项简报：</p>
+<p><img src="2026-03-18-faucet-dev20.avif" alt=""></p>
+<p><strong>Jouleverse 水龙头项目 - 结项报告 ✅</strong></p>
+<ul>
+<li><strong>域名</strong>：<a href="http://faucet.f7t.cn">http://faucet.f7t.cn</a></li>
+<li><strong>状态</strong>：已上线并正常运行</li>
+<li><strong>完成时间</strong>：2026-03-17</li>
+</ul>
+<p><strong>核心成果</strong></p>
+<ol>
+<li>前端：Vue 3 + Tailwind CSS（响应式布局）</li>
+<li>后端：Express + Viem（通过 WJ 合约分发 gas）</li>
+<li>部署：Nginx 反向代理 + 服务器部署</li>
+<li>安全：Email hash 验证 + 数学验证码 + 防刷机制</li>
+</ol>
+<p><strong>关键技术点</strong><br>Jouleverse 特殊机制：</p>
+<ul>
+<li>不允许直接转账原生 J 代币</li>
+<li>通过 WJ 合约的 withdrawTo 函数释放 gas</li>
+<li>WJ 合约：0x7fba...（略）</li>
+</ul>
+<p><strong>运维信息</strong></p>
+<ul>
+<li>前端：5173 端口</li>
+<li>后端：3002 端口</li>
+<li>Nginx：80 端口</li>
+<li>服务器：...（略）</li>
+</ul>
+<p><strong>开发者</strong>：大白 (🦞) 🎉</p>
+<p>同时他还写了一份详细的结项报告，太长也比较技术，就不在这里贴了。</p>
+<hr>
+<h2>总结：为什么Agent提升了人机并行效率？</h2>
+<p>回顾这28小时，我的实际投入时间不到6小时——提出需求、关键节点把关、最终验收。其余时间，大白在自动执行、自动纠错、自动汇报。</p>
+<p>当然，有一些需要系统级或更高级别权限的事，还是要我配合他来完成，这是出于安全可控的考虑必要的折衷。</p>
+<p>另外就是仍然存在极少几个他花费很多时间也解决不了的问题，为了加快项目进度，我就直接介入告诉他该怎么做了。</p>
+<p>绝大多数时候，我都是和他在并行工作。在大白干活的同时，我这一天还做了很多其他事情：和小暖助理讨论行业动态和选题，写文章和发表文章，跑步健身，接娃放学，陪伴家人，指导娃fix他vibe coding网站的bug，开发了一个macbook合屏休眠不休眠的切换器，重启小新助理（是的，又一个🦞助手）并定位于业务助理，安排小暖助理进行市场调研等。</p>
+<p>可见，这种<strong>代理式编程</strong>的核心特点在于：</p>
+<ol>
+<li><strong>并行化</strong>：人睡觉时Agent在工作，人处理其他事务时Agent在工作。24小时不间断。</li>
+<li><strong>结构化汇报</strong>：Agent学会用“让老板做选择题”的方式汇报，决策效率极大提升。</li>
+<li><strong>安全边界</strong>：关键时刻人的介入（如私钥处理、系统级配置）确保了安全底线。</li>
+<li><strong>记忆辅助</strong>：Agent会有遗忘，但人的提醒可以快速纠正，形成人机互补。</li>
+</ol>
+<p>从互动式到代理式，这不是技术的渐进改进，而是生产关系的根本变革。AI大模型的生产力，正在通过Agent这个“中层管理者”，被真正释放出来。</p>
+<p>下一个问题：我能指挥多少个Agent同时工作？我的管理带宽，或将成为唯一的上限。</p>
+<hr>
+<p><strong>后记</strong>：昨晚我还在和小暖助理聊呢，当我把Openclaw Agent开发Jouleverse DApp应用的这个流程跑通，就意味着这可以成为一个可以复制的模式，任何有兴趣在Jouleverse上进行Agent编程的开发者、建设者都可以尝试来实现自己的无限创意，何妨组织一个Openclaw hackathon大赛？这或许是一个很有趣的主意呢！</p>
+<p><img src="2026-03-18-openclaw-jouleverse-hackathon.avif" alt=""></p>
+<hr>
+<p><a href="https://member.liujiaolian.com/i/20260315">内参｜大饼惊现熊市数值、牛市心态奇观：链上数据揭示市场正经历深刻重构</a><br>免责声明：不构成任何投资建议<br>加入会员：发消息 会员 或 VIP</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

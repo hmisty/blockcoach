@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>促使中本聪隐退的Paypal推出了链上稳定币PYUSD - BlockCoach - 刘教链</title>
+	<meta name="description" content="今天在「刘教链内参」发表了《内参：DAI DSR存款利率上调至8%，超过美联邦利率》，欢迎关注公众号「刘教链内参」并阅读。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="促使中本聪隐退的Paypal推出了链上稳定币PYUSD">
+	<meta property="og:description" content="今天在「刘教链内参」发表了《内参：DAI DSR存款利率上调至8%，超过美联邦利率》，欢迎关注公众号「刘教链内参」并阅读。">
+	<meta property="og:url" content="https://blockcoach.com/2023/202308/2023-08-08-A-paypal-pyusd">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2023-08-08">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="促使中本聪隐退的Paypal推出了链上稳定币PYUSD">
+	<meta name="twitter:description" content="今天在「刘教链内参」发表了《内参：DAI DSR存款利率上调至8%，超过美联邦利率》，欢迎关注公众号「刘教链内参」并阅读。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2023/202308/2023-08-08-A-paypal-pyusd">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "促使中本聪隐退的Paypal推出了链上稳定币PYUSD",
+		"description": "今天在「刘教链内参」发表了《内参：DAI DSR存款利率上调至8%，超过美联邦利率》，欢迎关注公众号「刘教链内参」并阅读。",
+		"url": "https://blockcoach.com/2023/202308/2023-08-08-A-paypal-pyusd",
+		"datePublished": "2023-08-08",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2023">2023</a> > 
+			<a href="/2023/202308">2023年08月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>促使中本聪隐退的Paypal推出了链上稳定币PYUSD</h1>
+			<div class="meta">
+				发布时间：2023-08-08
+				
+			</div>
+			<div class="content">
+				<p>号外：</p>
+<ol>
+<li>今天在「刘教链内参」发表了《内参：DAI DSR存款利率上调至8%，超过美联邦利率》，欢迎关注公众号「刘教链内参」并阅读。</li>
+<li>在公众号「刘教链Pro」发表了文章《8%高息揽储，馅饼还是陷阱？》，欢迎关注公众号「刘教链Pro」并阅读。</li>
+</ol>
+<hr>
+<p>美国加州时间8月7号，知名第三方支付平台Paypal在官网宣布正式推出美元稳定币PYUSD (Paypal USD)。按照官方新闻稿[1]的说法，PYUSD由足额的美元存款、短期美债以及现金等价物支撑发行，可以1:1兑换为美元。</p>
+<p>PYUSD的链上发行委托Paxos信托公司代为进行[2]，选址是在以太坊1层主链。其合约代码已开源[3]，且代币地址已公开[4]。从链上数据看，目前链上已铸造PYUSD数量为2690多万美元。</p>
+<p>官方给出的代币合约地址 0x6c3ea9036406852006290770bedfcaba0e23a0e8 (PYUSD) 是一个可升级合约，其实现代码则是在另外一个合约 0xe17b8adf8e46b15f3f9ab4bb9e3b6e31db09126e (PYUSDImplementation)。而实现合约的owner则是多签钱包 0x0644Bd0248d5F89e4F6E845a91D15c23591e5D33 (多方共同控制) 。Owner有铸造（增发）、销毁、冻结合约等超级权限，所以是中心化控制无疑。</p>
+<p>新闻稿说了，将在未来几周内推出。这意思是，我们话先放出来，现在产品还看不见。按照官方的说法，需要是美国人、有美国银行卡才能在Paypal里使用这个PYUSD。</p>
+<p>以Paypal在全球商业支付方面的支付普及度，如果能够破除国界壁垒，允许全球用户自由使用，那肯定会好得很。比如，我们也许可以打通这样的链路：通过以太坊链上的uniswap协议把ETH或其他加密资产换成PYUSD，转入Paypal，然后在亚马逊全球进行购物消费。只不过，目前看起来这可能只是一个美好的愿望罢了。在打通虚拟世界和现实世界的路上，依然任重而道远。</p>
+<p>设想一下，如果Paypal要这么干，最大的阻力会来自于目前的全球信用卡巨头VISA和MasterCard吗？</p>
+<hr>
+<p>Paypal在这个时候推出美元稳定币，虽非一时兴起，却也是赶了个时机。刘教链2023.5.20写过一篇文章《稳定币是个好生意》，揭示了USDT惊人的利润。</p>
+<p>过往的美元稳定币，主要还是在加密世界当作对价资产用于空仓持有，而在现实世界合法商业中鲜有落地。而Paypal的自身优势，绝不在于加密世界中的地位，而在于现实世界中的市场份额。</p>
+<p>摆在美国面前的难题，是如何让这些新兴力量助力美元在加密时代依旧雄霸全球的同时，妥善安置好旧时代的美元金融势力。毕竟，他们也是当年鞍前马后帮美元打天下的功臣。</p>
+<p>而Paypal此次为PYUSD选择安家以太坊，又会为咱们的DCEP数字人民币向链上发展提供什么启发呢？DCEP又在什么时候可以上链呢？</p>
+<hr>
+<p>上链的美元稳定币，依然是中心化的货币。这是对密码朋克精神的扬弃。</p>
+<p>我们永远不应该忘记，十几年前的那段往事……</p>
+<p>20230808-A01.png<br>20230808-A02.png<br>20230808-A03.png<br>20230808-A04.png<br>图：中本聪的隐退[5]。来源：刘教链著《比特币史话》（<a href="https://leanpub.com/history-of-bitcoin">https://leanpub.com/history-of-bitcoin</a> ）第二章第7话</p>
+<p>参考资料：</p>
+<ul>
+<li>[1] <a href="https://newsroom.paypal-corp.com/2023-08-07-PayPal-Launches-U-S-Dollar-Stablecoin">https://newsroom.paypal-corp.com/2023-08-07-PayPal-Launches-U-S-Dollar-Stablecoin</a></li>
+<li>[2] <a href="https://paxos.com/pyusd/">https://paxos.com/pyusd/</a></li>
+<li>[3] <a href="https://github.com/paxosglobal/pyusd-contract">https://github.com/paxosglobal/pyusd-contract</a></li>
+<li>[4] <a href="https://etherscan.io/token/0x6c3ea9036406852006290770bedfcaba0e23a0e8">https://etherscan.io/token/0x6c3ea9036406852006290770bedfcaba0e23a0e8</a></li>
+<li>[5] 刘教链著《比特币史话》（<a href="https://leanpub.com/history-of-bitcoin">https://leanpub.com/history-of-bitcoin</a> ）第二章第7话</li>
+</ul>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

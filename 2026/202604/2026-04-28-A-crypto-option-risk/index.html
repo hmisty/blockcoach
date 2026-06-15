@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜币圈期权的黑箱风险：你以为放足了保证金就不会爆仓？ - BlockCoach - 刘教链</title>
+	<meta name="description" content="你看了一下行情，觉得短期内不太可能跌破 70,000。于是你卖出一份一周后到期的、行权价 70,000 的看跌期权（PUT），收入一笔权利金。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜币圈期权的黑箱风险：你以为放足了保证金就不会爆仓？">
+	<meta property="og:description" content="你看了一下行情，觉得短期内不太可能跌破 70,000。于是你卖出一份一周后到期的、行权价 70,000 的看跌期权（PUT），收入一笔权利金。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202604/2026-04-28-A-crypto-option-risk">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-04-28">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜币圈期权的黑箱风险：你以为放足了保证金就不会爆仓？">
+	<meta name="twitter:description" content="你看了一下行情，觉得短期内不太可能跌破 70,000。于是你卖出一份一周后到期的、行权价 70,000 的看跌期权（PUT），收入一笔权利金。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202604/2026-04-28-A-crypto-option-risk">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜币圈期权的黑箱风险：你以为放足了保证金就不会爆仓？",
+		"description": "你看了一下行情，觉得短期内不太可能跌破 70,000。于是你卖出一份一周后到期的、行权价 70,000 的看跌期权（PUT），收入一笔权利金。",
+		"url": "https://blockcoach.com/2026/202604/2026-04-28-A-crypto-option-risk",
+		"datePublished": "2026-04-28",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202604">2026年04月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜币圈期权的黑箱风险：你以为放足了保证金就不会爆仓？</h1>
+			<div class="meta">
+				发布时间：2026-04-28
+				
+			</div>
+			<div class="content">
+				<blockquote>
+<p>一个被99%的人忽视的衍生品陷阱</p>
+</blockquote>
+<h2>一、一个简单的想法</h2>
+<p>假设比特币当前价格 75,000 美刀。</p>
+<p>你看了一下行情，觉得短期内不太可能跌破 70,000。于是你卖出一份一周后到期的、行权价 70,000 的看跌期权（PUT），收入一笔权利金。</p>
+<p>卖出期权需要交保证金。你算了一笔账：</p>
+<ul>
+<li>如果到期时 BTC 跌到 70,000，买方行权，你需要按 70,000 买入 BTC，需准备 70,000 美刀</li>
+<li>如果跌到 60,000，你亏 10,000，但交割仍然只需要 70,000 美刀（你买下 BTC，对方拿走 70,000）</li>
+<li>如果跌到 50,000，你亏 20,000，但交割还是只需要 70,000 美刀</li>
+</ul>
+<p>只要你的账户里有 7 万美刀，你就能完成交割，无论价格跌到多少。</p>
+<p>这是常识，对吧？</p>
+<p><strong>错。</strong></p>
+<p>这个看似常识的判断只适用于传统金融。在币圈，它不成立。</p>
+<h2>二、传统金融的保证金逻辑</h2>
+<p>先说清楚，传统金融（以上交所股票ETF期权为例）的保证金规则是怎样的。</p>
+<p>你卖出一份 PUT（看跌期权），交易所要求你缴纳保证金。这个保证金的核心逻辑只有一条：<strong>确保你有能力完成交割。</strong></p>
+<p>你把行权价对应的全额资金放在账户里，交易所就认为你没有违约风险。无论中间价格怎么波动，只要你不主动平仓，交易所不会动你。</p>
+<p>这是公平的——你承诺了到期按 70,000 美刀买入，你账户里也确实有 70,000 美刀，你没有违约的可能，凭什么强制平你的仓？</p>
+<p>传统金融的回答是：不凭什么，你的仓是安全的。</p>
+<p>当然，传统金融的保证金计算并不是简单粗暴地收满额行权价。上交所的规则里有一套精细的公式，我们来看一下。</p>
+<p><em>认沽期权义务仓维持保证金 = Min{ 合约结算价 + Max( 12% × 标的收盘价 - 认沽虚值， 7% × 行权价 )， 行权价 } × 合约单位</em></p>
+<p>其中：认沽虚值 = Max(标的收盘价 - 行权价, 0)</p>
+<p>这个公式的关键在于 <strong>Min(..., 行权价)</strong> 这一结构。无论括号里算出来多大，最终都要和行权价比一比，取较小的那个。行权价就是天花板。</p>
+<p>这意味着什么？你的最大亏损被锁死了。你知道最坏的情况就是到期交割，拿出行权价对应的钱，拿走 BTC。仅此而已。</p>
+<h2>三、币圈期权的黑箱</h2>
+<p>币圈的玩法完全不同。</p>
+<p>同样是你，在币圈交易所卖出一份 BTC 的 PUT，账户里放了 7 万美刀保证金。你觉得万无一失。</p>
+<p>然后 BTC 价格急跌，从 75,000 美刀跌到 50,000 美刀。</p>
+<p>按传统金融的逻辑，你的账户亏损了 2 万美刀（期权浮亏），剩余 5 万美刀。但交割只需要 7 万美刀，你还有 5 万美刀，加上到期时还能收回权利金，理论上没有问题。</p>
+<p><strong>但在币圈，事情已经开始失控了。</strong></p>
+<p>币圈交易所的保证金系统是完全不同的逻辑。以某平台的统一账户为例，风险指标叫 uniMMR：</p>
+<p><em>uniMMR = 统一账户调整后权益 / 统一维持保证金金额</em></p>
+<p>其中：</p>
+<ul>
+<li>调整后权益 = 总权益 - 开仓亏损（会扣除浮亏）</li>
+<li>维持保证金 = ∑(贷款 × MMR) + ∑(期货维持保证金)</li>
+</ul>
+<p>期权卖方的维持保证金由动态风险模型决定，会随标的价格变化而实时调整。</p>
+<p>当 BTC 急跌时，你的期权仓位浮亏增加，调整后权益缩水。同时，维持保证金因为标的价格下跌而自动上调。两头一挤，uniMMR 直线下降。</p>
+<p>而平台规定的强平阈值是这样的：</p>
+<table>
+<thead>
+<tr>
+<th>uniMMR 范围</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&gt; 150%</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>120% - 150%</td>
+<td>提醒</td>
+</tr>
+<tr>
+<td>105% - 120%</td>
+<td>只减仓</td>
+</tr>
+<tr>
+<td>100% - 105%</td>
+<td>触发强平</td>
+</tr>
+<tr>
+<td>≤ 100%</td>
+<td>已强平，可能追偿</td>
+</tr>
+</tbody></table>
+<p>你的 uniMMR 一旦跌破 105%，系统就会触发强制平仓。</p>
+<p><strong>你账户里有足够交割的钱，但你被爆仓了。</strong></p>
+<p>这就是币圈期权的黑箱。没有 Min(..., 行权价) 这样的天花板，公式里也没有行权价这个硬性上限。维持保证金可以随着标的价格下跌不断上升，直到把你挤爆。</p>
+<h2>四、为什么会这样？</h2>
+<p>你可能会问：交易所为什么要设计这种看起来不讲道理的规则？</p>
+<p>答案藏在另一个问题里：<strong>币圈最大的风险是什么？</strong></p>
+<p>不是价格波动，而是<strong>穿仓</strong>。</p>
+<p>传统金融里，杠杆是受到严格限制的。你卖期权，杠杆不会太高。但在币圈，有人用 100 倍杠杆做期货，有人用 50 倍杠杆做期权组合。当极端行情来临时，这些高杠杆仓位瞬间归零，但亏损并不会归零——穿仓产生的亏空需要有人来填补。</p>
+<p>2020 年 3 月 12 日，比特币一天暴跌 50%，多家交易所的保险基金被击穿。交易所被逼到什么程度？不得不引入<strong>自动减仓（ADL）</strong> 和<strong>社会化损失</strong>机制——让盈利的用户也分担一部分亏损。</p>
+<p>但你有没有想过，那些被分担亏损的幸运儿里，可能就包括了你这样的老实人？</p>
+<p>你用的是低杠杆，你账户里放了足额保证金，你自认为风险可控。但当市场崩溃、高杠杆用户集体穿仓时，交易所的动态保证金机制就会启动——把所有人的保证金要求上调，让老实人也承担系统性风险。</p>
+<p>这就是币圈风控的真相：<strong>它本质上是一个连坐机制。</strong></p>
+<h2>五、对比看更清楚</h2>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>传统金融期权</th>
+<th>币圈期权</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>保证金公式</td>
+<td>有 Min(..., 行权价) 天花板</td>
+<td>无上限结构</td>
+</tr>
+<tr>
+<td>保证金要求</td>
+<td>固定：开仓时锁定</td>
+<td>动态：随标的价格变化实时调整</td>
+</tr>
+<tr>
+<td>爆仓触发条件</td>
+<td>不会爆仓（资金足够交割）</td>
+<td>uniMMR ≤ 105% 即触发强平</td>
+</tr>
+<tr>
+<td>规则透明度</td>
+<td>高（监管明确，公式公开）</td>
+<td>低（黑箱，参数可随时调整）</td>
+</tr>
+</tbody></table>
+<p>你可能会说：那我不用杠杆，也不做期权，跟我有什么关系？</p>
+<p>关系大了。<strong>因为这种黑箱逻辑不只存在于期权市场。</strong></p>
+<p>币圈的永续合约、杠杆代币、结构化产品……绝大多数衍生品都采用了类似的动态风控模型。这意味着，即使你自认为风险可控，市场的极端波动仍然可能让你被迫出局——<strong>不是因为你错了，而是因为规则本身就不透明。</strong></p>
+<h2>六、一点思考</h2>
+<p>传统金融发展了几百年，风控逻辑是经过无数次危机打磨出来的。它不完美，但它有一个基本原则：规则要透明，预期要稳定。</p>
+<p>传统金融的保证金公式里那个 Min(..., 行权价)，看起来只是一个数学符号，但它实际上是一道<strong>法律锁</strong>。它锁死了你的最大风险。你知道最坏的情况是什么，你也知道交易所不会在中途改变规则。</p>
+<p>币圈衍生品从诞生到现在不过十年。它的风控模型在很大程度上是在补窟窿——每出现一次极端行情，就加一层保护。动态保证金、ADL、社会化损失……这些机制的初衷是保护交易所自身不亏空，而不是保护用户不被误伤。</p>
+<p>币圈的 uniMMR 公式里没有那个 Min。没有天花板。没有法律锁。交易所可以在你亏损的时候继续上调保证金要求，直到把你挤爆。</p>
+<p><strong>在规则不透明的市场里，你以为的安全，可能只是一种幻觉。</strong></p>
+<p>当然，这篇文章不是要劝退。币圈的机会依然存在，但前提是你得知道自己在面对什么。</p>
+<p>下次当你打开交易所的期权页面，准备卖出一份 PUT 的时候，不妨多想一想：你的那笔保证金，真的安全吗？</p>
+<hr>
+<p>参考资料：</p>
+<p>[1] 东兴证券，《股票期权经纪业务保证金收取标准》，2015年4月 <a href="https://www.dxzq.net/main/a/20150413/6547.shtml">链接</a><br>[2] 金瑞期货，《股票期权保证金收取方式》，2025年4月 <a href="https://www.jrqh.com.cn/detail/6895">链接</a><br>[3] Binance Support，What Is the Unified Account Maintenance Margin Ratio (uniMMR) and How Is It Calculated?，2023年5月 <a href="https://www.binance.me/en/support/faq/detail/4868b2f1aa6c4d08af973328462bb0bd">链接</a></p>
+<hr>
+<p>点击阅读👉<a href="https://member.liujiaolian.com/i/20260425">内参｜量子威胁、Kelp余波与机构暗流：加密世界正在经历的复杂重构</a><br>免责声明：不构成任何投资建议<br>加入会员：发消息 会员 或 VIP</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

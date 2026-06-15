@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>【刘教链比特币原理】7-3 交易手续费 - BlockCoach - 刘教链</title>
+	<meta name="description" content="本节课我们开始学习第七章“减半发行有上限 交易费用付工资”的第三小节“交易手续费”。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="【刘教链比特币原理】7-3 交易手续费">
+	<meta property="og:description" content="本节课我们开始学习第七章“减半发行有上限 交易费用付工资”的第三小节“交易手续费”。">
+	<meta property="og:url" content="https://blockcoach.com/2023/202301/2023-01-26-course-principle-07-03">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2023-01-26">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="【刘教链比特币原理】7-3 交易手续费">
+	<meta name="twitter:description" content="本节课我们开始学习第七章“减半发行有上限 交易费用付工资”的第三小节“交易手续费”。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2023/202301/2023-01-26-course-principle-07-03">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "【刘教链比特币原理】7-3 交易手续费",
+		"description": "本节课我们开始学习第七章“减半发行有上限 交易费用付工资”的第三小节“交易手续费”。",
+		"url": "https://blockcoach.com/2023/202301/2023-01-26-course-principle-07-03",
+		"datePublished": "2023-01-26",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2023">2023</a> > 
+			<a href="/2023/202301">2023年01月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>【刘教链比特币原理】7-3 交易手续费</h1>
+			<div class="meta">
+				发布时间：2023-01-26
+				
+			</div>
+			<div class="content">
+				<p>付费合集文章前言：无</p>
+<hr>
+<p>本节课我们开始学习第七章“减半发行有上限 交易费用付工资”的第三小节“交易手续费”。</p>
+<h2>本章目录：</h2>
+<h3>第七章 减半发行有上限 交易费用付工资</h3>
+<p>第1节 设计货币发行参数<br>第2节 调节挖矿难度</p>
+<h4>第3节 交易手续费</h4>
+<h2>本节音频：</h2>
+<p>【音频】</p>
+<h2>学习笔记：</h2>
+<p>前面学过比特币每个区块都会允许矿工增发一些比特币来奖励自己，这份奖励的数量每4年会减半一次，这样从2009年比特币启动到2140年差不多就减少到零了。当没有了新币奖励之后，比特币系统又靠什么激励矿工继续出块、记账、维护比特币网络安全呢？中本聪设计的是通过交易手续费激励矿工。</p>
+<p>交易手续费不再是来自于系统增发，而是来自于实打实的业务，也就是使用比特币网络转账的每一个用户。在当下，每个区块的新币奖励是6.25个BTC，手续费收入则大概能够占到6%左右，约0.4 BTC（注：2021.3.29数据；深熊期间能跌落至该数据的1/10，比如2023.1.16手续费收入大概跌落至0.8%）。</p>
+<p>按照中本聪的设想，随着比特币的普及，交易量越来越大，手续费收入就会越来越多，随着新币奖励的慢慢减少，矿工将逐渐过渡到仅靠交易手续费收入就可以支撑其可持续运行。</p>
+<p>不过，目前比特币区块已经基本用满。这意味着，要么出现更多交易竞争区块空间，被迫加价，这将会导致很糟糕的用户体验（现在以太坊就有这个问题）。另一个则是价格的提高。因为矿工的挖矿工具是现实世界的物品，通常需要用法币支付成本。矿工激励等于挖出的币量乘以币的价格。假设消费者还没有被倒逼着提高手续费去抢区块打包，那么矿工收入等于新币奖励加上其他收入，然后乘以比特币价格。有人认为现在比特币手续费太少，恐怕会降低矿工积极性。但是我们可以很容易从目前的费用结构中看出，比特币的 “价格 x 交易活跃度” 只需要再涨15倍（相对2021.3.29约57k）或150倍（相对2023.1.16约21k），单靠手续费激励就几乎可以媲美现在的区块奖励了。</p>
+<h2>课外资料：</h2>
+<p>以下是第七章“减半发行有上限 交易费用付工资”的补充学习材料，请在本章3节课学习过程中使用。</p>
+<ol>
+<li>比特币发行和流通量曲线：<a href="https://www.blockchain.com/charts/total-bitcoins?timespan=all">https://www.blockchain.com/charts/total-bitcoins?timespan=all</a> （英文）</li>
+<li>比特币挖矿难度变化曲线：<a href="https://bitinfocharts.com/comparison/bitcoin-difficulty.html#alltime">https://bitinfocharts.com/comparison/bitcoin-difficulty.html#alltime</a> （英文）</li>
+<li>比特币区块链在线查看工具：<a href="https://blockstream.info/">https://blockstream.info/</a> （英文）<a href="https://mempool.space/">https://mempool.space/</a> （中文、英文） </li>
+<li>【扩展阅读】《精通比特币》第10章“挖矿和共识”：<a href="https://www.8btc.com/books/834/masterbitcoin2cn/_book/ch10.html">https://www.8btc.com/books/834/masterbitcoin2cn/_book/ch10.html</a> （中文）</li>
+</ol>
+<h2>课后作业：</h2>
+<p>以下是第七章“减半发行有上限 交易费用付工资”的作业。请学完本章之后尝试一下，并把你的答案发到学习群进行分享，和其他学友一起进步。</p>
+<ol>
+<li>看一看发行曲线，回答一下，截至2018/12/30 08:00，比特币总发行量是多少？比特币最终的发行量上限是多少比特币？比特币是一下子都发行出来的吗？比特币全部发行完毕之后，可以肯定的是，全世界拥有1个比特币以上的总人数一定不会超过多少人？</li>
+<li>看一看难度曲线，请问2019年3月10日（Mar 10 2019）比特币挖矿难度是多少？随着比特币的发展，挖矿难度是逐步提高还是逐步下降？</li>
+<li>看看比特币区块链，请问块高度为30万的区块（区块哈希是000000000000000082ccf8f1557c5d40b21edabb18d2d691cfbf87118bac7254）中包含的所有交易的手续费总和是多少比特币？</li>
+</ol>
+<p>(公众号/同名推特：刘教链。知识星球：公众号回复“星球”)<br>(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

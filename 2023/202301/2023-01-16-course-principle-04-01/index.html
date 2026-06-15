@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>【刘教链比特币原理】4-1 哈希链条 - BlockCoach - 刘教链</title>
+	<meta name="description" content="本节课我们开始学习第四章“交易打包进区块 前后链接区块链”的第一小节“哈希链条”。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="【刘教链比特币原理】4-1 哈希链条">
+	<meta property="og:description" content="本节课我们开始学习第四章“交易打包进区块 前后链接区块链”的第一小节“哈希链条”。">
+	<meta property="og:url" content="https://blockcoach.com/2023/202301/2023-01-16-course-principle-04-01">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2023-01-16">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="【刘教链比特币原理】4-1 哈希链条">
+	<meta name="twitter:description" content="本节课我们开始学习第四章“交易打包进区块 前后链接区块链”的第一小节“哈希链条”。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2023/202301/2023-01-16-course-principle-04-01">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "【刘教链比特币原理】4-1 哈希链条",
+		"description": "本节课我们开始学习第四章“交易打包进区块 前后链接区块链”的第一小节“哈希链条”。",
+		"url": "https://blockcoach.com/2023/202301/2023-01-16-course-principle-04-01",
+		"datePublished": "2023-01-16",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2023">2023</a> > 
+			<a href="/2023/202301">2023年01月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>【刘教链比特币原理】4-1 哈希链条</h1>
+			<div class="meta">
+				发布时间：2023-01-16
+				
+			</div>
+			<div class="content">
+				<p>付费合集文章前言：无</p>
+<hr>
+<p>本节课我们开始学习第四章“交易打包进区块 前后链接区块链”的第一小节“哈希链条”。</p>
+<h2>本章目录：</h2>
+<h3>第四章 交易打包进区块 前后链接区块链</h3>
+<h4>第1节 哈希链条</h4>
+<p>第2节 时间戳服务<br>第3节 一道猜数字的数学题</p>
+<h2>本节音频：</h2>
+<p>【音频】</p>
+<h2>学习笔记：</h2>
+<p>区块链的结构是一连串的区块，每个区块是一个账本。每个账本加了一把锁，就是这个区块数据的SHA-256哈希值。</p>
+<p>把上一个区块的锁，也就是哈希值，写入下一个区块里。把下一个区块的锁（哈希值），写入再下一个区块里。这样把它们串接起来，形成区块的链条，区块链。这个哈希值，这把锁，表明了下一个区块所指向的上一个区块是哪一个区块，所以被叫做“哈希指针”。</p>
+<p>谁篡改了区块的内容，哈希值就会变化，就和下一个区块里面保存的锁（哈希值）不匹配了，就很容易被大家发现从而拒绝接受被篡改的区块。</p>
+<p>所以要篡改区块，就要把下一个区块里保存的该区块的锁换掉。但是这样一来，下一个区块的哈希值也就变了。于是又需要换掉再下一个区块里保存的锁。不断递归，直到最新的一个区块。</p>
+<p>当然，以当今计算机的速度，如果这把锁只是普通的SHA-256哈希的话，把整条区块链里的锁换个遍也花不了多少时间。所以必须加固这把锁，中本聪又想出了什么样的法子呢？且听下回分解。</p>
+<h2>课外资料：</h2>
+<p>以下是第四章“交易打包进区块 前后链接区块链”的补充学习材料，请在本章3节课学习过程中使用。</p>
+<ol>
+<li>中本聪《比特币白皮书》第3小节“时间戳服务器”<br><a href="https://mp.weixin.qq.com/s/7R-THHIoTZfmAFSsQwdcZg">https://mp.weixin.qq.com/s/7R-THHIoTZfmAFSsQwdcZg</a> （比特币白皮书中文版（刘教链译本））<br><a href="https://mp.weixin.qq.com/s/U_qkDkAud0Hg4wyWeKAdZw">https://mp.weixin.qq.com/s/U_qkDkAud0Hg4wyWeKAdZw</a> （比特币白皮书英文原版）</li>
+<li>比特币区块链在线查看工具：<a href="https://blockstream.info/">https://blockstream.info/</a> （英文）<a href="https://mempool.space/">https://mempool.space/</a> （中文、英文） </li>
+<li>【扩展阅读】《精通比特币》第9章“区块链”：<a href="https://www.8btc.com/books/834/masterbitcoin2cn/_book/ch09.html">https://www.8btc.com/books/834/masterbitcoin2cn/_book/ch09.html</a> （中文）</li>
+</ol>
+<p>(公众号：刘教链。推特：@liujiaolian。知识星球：公众号回复“星球”)<br>(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

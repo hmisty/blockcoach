@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜AI攻破DeFi？先看懂攻防的技术边界 - BlockCoach - 刘教链</title>
+	<meta name="description" content="隔夜BTC拉回73k上方。市场情绪死水微澜。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜AI攻破DeFi？先看懂攻防的技术边界">
+	<meta property="og:description" content="隔夜BTC拉回73k上方。市场情绪死水微澜。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202605/2026-05-29-A-ai-defi-security">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-05-29">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜AI攻破DeFi？先看懂攻防的技术边界">
+	<meta name="twitter:description" content="隔夜BTC拉回73k上方。市场情绪死水微澜。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202605/2026-05-29-A-ai-defi-security">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜AI攻破DeFi？先看懂攻防的技术边界",
+		"description": "隔夜BTC拉回73k上方。市场情绪死水微澜。",
+		"url": "https://blockcoach.com/2026/202605/2026-05-29-A-ai-defi-security",
+		"datePublished": "2026-05-29",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202605">2026年05月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜AI攻破DeFi？先看懂攻防的技术边界</h1>
+			<div class="meta">
+				发布时间：2026-05-29
+				
+			</div>
+			<div class="content">
+				<p>隔夜BTC拉回73k上方。市场情绪死水微澜。</p>
+<p>一则来自DeFi安全领域重量级人物的警告，在加密圈激起了涟漪。</p>
+<p>前几天，OpenZeppelin联合创始人Manuel Aráoz公开建议投资者退出DeFi仓位，包括Aave、MakerDAO、Compound这样的成熟协议。[1]</p>
+<p>他做智能合约安全做了十年。他的话，至少值得认真对待。</p>
+<p>但教链觉得，恐慌之前，先把技术边界看清楚。</p>
+<hr>
+<h2>一、为什么是现在</h2>
+<p>Aráoz的警告，并非凭空而来。它踩在两条时间线上。</p>
+<p>第一条线是a16z的研究。a16z发现，AI agent能够持续识别历史DeFi漏洞中的核心弱点[1]。即便agent无法独立完成一整套攻击流程，它也能高效发现攻击的起始点。换句话说，一个新手拿着AI工具，也许还写不出完整的攻击代码，但他至少知道该往哪个方向努力了。</p>
+<p>这已足够令人不安。</p>
+<p>第二条线把不安推向了焦虑。</p>
+<p>2026年4月7日，Anthropic发布了Claude Mythos Preview [2]。这不是一次普通的模型迭代。Mythos没有像以往那样先以公众可访问的预览形式上线，而是直接被放进了Project Glasswing——一个联合AWS、Apple、Google、Microsoft、CrowdStrike等12家机构的防御性网络安全计划，仅限邀请制访问。[2]</p>
+<p>为什么这么谨慎？</p>
+<p>因为据说Mythos的能力已经跨过了一个门槛。在SWE-Bench Pro上，Mythos达到77.8%，而Anthropic上一代最强模型Opus 4.6是53.4%，OpenAI的GPT-5.4是57.7%，Google的Gemini 3.1 Pro是54.2%。[3]</p>
+<p>但真正的差距不体现在benchmark数字上。Anthropic红队在内部评估中发现，Opus 4.6的自主完成攻击代码成功率接近0%。而Mythos在Firefox 147的JavaScript引擎漏洞上，做出了181次可工作的攻击代码，另有29次达到寄存器控制。[3] 在针对约一千个开源仓库、约7000个入口点的内部测试中，Mythos在已完全修补的目标上实现了10次第5级完整控制流劫持（指攻击者完全控制程序执行流程的最高级别）。[3]</p>
+<p>Anthropic自称，这些能力不是通过把模型训练成黑客模型得到的。它们来自代码、推理和自治能力提升后的下游涌现。[3]</p>
+<p>截至目前，Mythos据称已经发现了数千个高危漏洞，覆盖每一个主流操作系统和主流浏览器。其中包括一个存在了27年的OpenBSD漏洞、一个存在了16年的FFmpeg漏洞。[2]</p>
+<p>5月26日，欧洲央行为此紧急召集银行会议。欧洲央行银行监管委员会副主席弗兰克·埃尔德森说：这是足以改变游戏规则的事情。时间正在流逝。[4]</p>
+<p>当最前沿的AI模型已被证明能自主发现并利用安全漏洞时，Aráoz在这样的时间节点发出警告，就不难理解了。</p>
+<hr>
+<h2>二、Aráoz的警告是何意味</h2>
+<p>Aráoz的原话是这么说的：</p>
+<p>Coding agents are superhuman at finding vulnerabilities, and smart contract security is too asymmetric. Defenders need to fix every bug while attackers need just one exploit to steal funds.[1]</p>
+<p>AI编程代理在发现漏洞方面已超人类水平。智能合约安全太不对称——防守方要修复每个漏洞，攻击方只需一个就能得手。</p>
+<p>教链觉得Aráoz这个表述，需要拆开来看。</p>
+<p>前半句关于AI能力，Claude Mythos的出现已经提供了实证（如果不是为了今年上市吹泡沫而夸大其词的话）。AI在漏洞发现上确实达到了超人水平。</p>
+<p>后半句关于不对称性，这其实不是一个新问题。信息安全领域自古就是不对称的。防守方要守住所有点，攻击方只需找到一个点。这不是AI时代才有的困境。</p>
+<p>但AI改变了这个不对称性的尺度。</p>
+<p>过去，攻击者需要经过长期训练、积累大量知识，才能发现并利用一个漏洞。这意味着攻击人才的培养是稀缺的、昂贵的、耗时的。防守方可以依靠审计、赏金计划、代码开源和社区审查来维持相对平衡。</p>
+<p>现在，AI降低了攻击者的门槛。一个意图不良的参与者，即使没有深厚的安全技术背景，也可能借助AI工具找到可利用的弱点。AI使漏洞发现从稀缺技能变成可购买的服务。</p>
+<p>这就是Aráoz真正想说的。不是AI创造了不对称性，而是AI让不对称性的天平加速倾斜。</p>
+<hr>
+<h2>三、反对的声音</h2>
+<p>Aráoz的建议发布后，DeFi生态的核心人物迅速做出了回应。</p>
+<p>Aave创始人Stani Kulechov说，DeFi基础设施已经有了更好的风控引擎、形式化验证、审计、漏洞赏金、预言机改进、自动化监控和断路器[1]。剩余的攻击面主要集中在Web2级别的运营疏漏——私钥被盗、社会工程、访问控制不严。这不是AI带来的新问题。</p>
+<p>Uniswap创始人Hayden Adams也表达了不同看法。好代码依然是好代码。AI只会加速暴露弱代码和粗心的开发实践。[1]</p>
+<p>OpenZeppelin自己也在回应中指出，近期大多数重大损失源于运营故障，而非审计过的合约代码缺陷[1]。4月DeFi因漏洞损失超6亿美刀，其中最大的一笔——Drift Protocol损失近3亿美刀——是朝鲜Lazarus集团长达六个月的社会工程攻击。这跟AI没有关系。</p>
+<p>这些反驳有一个共同点：他们不是在否认AI的能力，而是在强调AI的攻击面与人们想象中的攻击面不同。AI擅长的是代码层面的漏洞发现。而DeFi历史上最大的几笔损失，恰恰不是纯代码漏洞，而是Web2安全问题的延续。</p>
+<p>这个区分很重要。</p>
+<hr>
+<h2>四、否定之否定</h2>
+<p>不妨把两边的论据放在一起看。</p>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>支持恐慌</th>
+<th>反对恐慌</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>漏洞发现效率</td>
+<td>Mythos已发现数千个所谓零日漏洞，远超人类</td>
+<td>漏洞发现不等于资金被盗，中间仍有距离</td>
+</tr>
+<tr>
+<td>攻击门槛</td>
+<td>AI大幅降低门槛，非专家也可定位弱点</td>
+<td>从定位弱点到完成攻击，仍有工程门槛</td>
+</tr>
+<tr>
+<td>历史损失结构</td>
+<td>AI可扩大攻击面</td>
+<td>重大损失多源于运营安全而非代码漏洞</td>
+</tr>
+<tr>
+<td>防御能力</td>
+<td>静态审计不够用</td>
+<td>实时监控、断路器、AI防御也在快速跟进</td>
+</tr>
+<tr>
+<td>长期趋势</td>
+<td>攻防不对称在加速</td>
+<td>这是量变不是质变，行业会适应</td>
+</tr>
+</tbody></table>
+<p>两边都有一定道理。</p>
+<p>恐慌派看到了正确的方向：AI确实在加速攻防不对称。Mythos展示的能力说明，AI已经能够在代码层面发现人类专家几十年都发现不了的漏洞。这不是未来的可能，而是已经发生的事实。</p>
+<p>冷静派看到了正确的尺度：AI的能力被框定在一个范围内。代码级漏洞的发现不等于资金级损失的必然发生。DeFi的历史损失结构显示，大量资金损失来自运营层面而非纯代码层面。而且防守方也在用同样的AI工具升级防御。</p>
+<p>真正的风险可能不在两派的争论中，而在一个容易被忽略的隐秘角落：当AI让代码级漏洞的发现变得极其廉价和自动时，攻击者的主战场可能会从代码漏洞转向运营攻击和社会工程的自动化。如果代码漏洞被AI封堵得越来越快，攻击者反而可能更倾向于回到运营层面：AI会让钓鱼邮件、语音克隆、深度伪造等等也变得规模化。</p>
+<p>毕竟，当AI变得比人类更强大之后，木桶上最短的那块短板，不就成了人类自身了吗？</p>
+<hr>
+<h2>五、退出DeFi，退到哪里</h2>
+<p>退一万步讲，假设Aráoz的建议是对的，投资者真应该退出DeFi。那么请问，该退到哪里去，又能退到哪里去呢？</p>
+<p>退到稳定币吗？但稳定币本身也是智能合约。USDT和USDC的合约代码一样有攻击面。更不用说它们的中心化托管风险和审查风险。</p>
+<p>退到公链上的代币资产吗？代币合约也可能有漏洞，承载代币的底层公链如ETH也同样可能被攻击甚至攻破。</p>
+<p>退到PoW保护的原生BTC吗？Mythos连27年的OpenBSD漏洞和16年的FFmpeg漏洞都能翻出来。比特币核心代码也没人敢说绝对毫无漏洞。</p>
+<p>退出加密，全部换成法币存银行吗？银行系统每年因网络欺诈造成的损失在百亿美刀级别。仅2023年，美国银行因支票欺诈就损失了约260亿美刀。欧洲央行因为Mythos紧急召集会议的新闻刚出来不到一周——银行系统自身也在焦虑。</p>
+<p>退到纸质钞票，退到刀耕火种，还是……？</p>
+<p>说到底，绝对安全是不存在的。所有金融系统都在一个风险光谱上，位置不同，但没有人站在零风险的那一端。</p>
+<p>DeFi确实在光谱上更靠近高风险的那一侧。但它同时提供了传统金融无法提供的东西：无需许可、可组合、全球可访问、可审计。</p>
+<p>这个取舍，每个参与者需要自己判断。</p>
+<hr>
+<h2>六、教链的几点思考</h2>
+<p>第一，AI确实在加速攻防不对称，但不必恐慌。AI擅长的是已知漏洞模式的大规模扫描和代码层面的问题发现。设计严谨、经过多轮审计、经过市场长时间检验的协议，AI能发现的额外攻击面是有限的。Mythos很强，但Anthropic的策略是把它先用在防御上，而不是放出来攻击。</p>
+<p>第二，当前DeFi最大的安全风险可能不是AI带来的代码级攻击，而是传统的运营安全问题。私钥管理、访问控制、社会工程——这些在AI时代之前就存在，之后的迫切性也不会降低。甚至可以说，加强运营安全是一个成本更低、回报更明确的防御升级方向。</p>
+<p>第三，AI对DeFi安全的长期影响可能是正向的。它迫使行业从点状审计转向持续监控、从被动修复转向主动防御、从单点安全转向系统性安全。这轮冲击的受益者将是那些安全标准过硬的协议。淘汰的将是那些安全意识薄弱的项目。</p>
+<p>第四，对于普通参与者，不需要因为一则警告就清空所有DeFi仓位。但需要变得更加审慎。一个简单的判断标准：你参与的协议能不能回答清楚几个问题——代码是否经过专业审计？有没有实时监控和断路器机制？团队是否有应对安全事件的能力？协议设计是否限制了单点失效的破坏半径？</p>
+<p>第五，技术从来不是单向的威胁。每一次技术飞跃，都会淘汰一批旧系统，催生一批新系统。九十年代的互联网没有因为黑客而消亡。信用卡没有因为欺诈而消失。DeFi也不会因为AI而崩塌。</p>
+<p>关键不是消除所有的风险——那是做不到的。关键是在理解风险的前提下，做出适合自己的选择。</p>
+<hr>
+<p>参考资料：<br>[1] Oluwapelumi Adejumo, &quot;Have AI agents made the entire $148 billion DeFi sector unsafe?&quot;, CryptoSlate, May 28, 2026. <a href="https://cryptoslate.com/have-ai-agents-made-the-entire-148-billion-defi-sector-unsafe/">链接</a><br>[2] Anthropic, &quot;Project Glasswing: Securing critical software for the AI era&quot;, April 7, 2026. <a href="https://www.anthropic.com/glasswing">链接</a><br>[3] Anthropic Frontier Red Team, &quot;Assessing Claude Mythos Preview&#39;s cybersecurity capabilities&quot;, April 7, 2026. <a href="https://red.anthropic.com/2026/mythos-preview/">链接</a><br>[4] 问舟, &quot;Anthropic 新模型 Claude Mythos 震动金融圈，欧洲央行紧急开会要求升级网络防御&quot;, IT之家, May 26, 2026. <a href="https://www.ithome.com/0/955/090.htm">链接</a></p>
+<hr>
+<p><strong>免责声明</strong>：本文纯属教链个人主观认知分享，不构成任何投资建议。加密市场波动巨大，风险极高，请自行判断、谨慎决策、承担风险和后果。<br><strong>加入刘教链的会员</strong>：欢迎关注公众号并发消息「会员」或「VIP」了解详情。<br><strong>点击延伸阅读</strong>👉<a href="https://member.liujiaolian.com/i/20260526">教链内参｜交易量濒临枯竭，BTC等待破局信号</a></p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

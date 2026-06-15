@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>一夜卷走220万美元 - BlockCoach - 刘教链</title>
+	<meta name="description" content="号外：今天在「刘教链内参」发表了《内参：对传国内某DAO组织被刑事立案一事的分析》，欢迎关注公众号「刘教链内参」并阅读。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="一夜卷走220万美元">
+	<meta property="og:description" content="号外：今天在「刘教链内参」发表了《内参：对传国内某DAO组织被刑事立案一事的分析》，欢迎关注公众号「刘教链内参」并阅读。">
+	<meta property="og:url" content="https://blockcoach.com/2023/202307/2023-07-30-A-pond0x">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2023-07-30">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="一夜卷走220万美元">
+	<meta name="twitter:description" content="号外：今天在「刘教链内参」发表了《内参：对传国内某DAO组织被刑事立案一事的分析》，欢迎关注公众号「刘教链内参」并阅读。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2023/202307/2023-07-30-A-pond0x">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "一夜卷走220万美元",
+		"description": "号外：今天在「刘教链内参」发表了《内参：对传国内某DAO组织被刑事立案一事的分析》，欢迎关注公众号「刘教链内参」并阅读。",
+		"url": "https://blockcoach.com/2023/202307/2023-07-30-A-pond0x",
+		"datePublished": "2023-07-30",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2023">2023</a> > 
+			<a href="/2023/202307">2023年07月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>一夜卷走220万美元</h1>
+			<div class="meta">
+				发布时间：2023-07-30
+				
+			</div>
+			<div class="content">
+				<p>号外：今天在「刘教链内参」发表了《内参：对传国内某DAO组织被刑事立案一事的分析》，欢迎关注公众号「刘教链内参」并阅读。</p>
+<hr>
+<p>隔夜比特币继续在29k上方盘旋。</p>
+<p>表面的百无聊赖之下，各种土狗在暗流涌动。</p>
+<p>一个推特大V换作@Pauly0x的，推特粉丝有15万之巨，前数日搞了一个土狗叫做Pond0x，上线喊单言曰“下一个PEPE”，众粉丝举以太狂冲，未料合约代码中有一bug，致全体冲土狗的资金被席卷一空，落了个瞠目结舌，一地鸡毛。[1]</p>
+<p>合约代码的bug在于下面的合约代码中的转账函数让任何人可以转走任何地址上的钱：[2]</p>
+<p>20230730-A01.png<br>图：转账代码</p>
+<p>在这里项目方卖弄了一下，整了个地址变换函数_brutalized，看起来好像是要从原地址得到一个伪随机的地址，但是很可惜，他显然是把以太坊的工作原理搞错了：</p>
+<p>20230730-A02.png<br>图：“伪随机”代码</p>
+<p>gas操作符在EVM的功能并不是给出一个非确定性的gas cost，而是给出运行至此的gas remaining。这个函数让攻击者可以通过控制给出的gas来随意控制计算结果，从而轻松薅光任何一个持币地址中的余额。</p>
+<p>要说这个大V真名据说叫做Jeremy Cahen，也算是在土狗圈小有名气。当年的CryptoPhunks以及NotLarvaLabs这些仿作就出自他手。</p>
+<p>另外，在今年（2023年）上半年，大概是5月份的时候，他做了一个类似于“我是秦始皇，打钱”的“社会实验”：直接在推特上放出以太坊地址（yougetnothing.eth），声称随便打钱（以太坊），并且丑话明说，不会承诺任何回报。实验结果是，一天之内这条推被浏览了120多万次，收钱地址上收到了近600枚ETH、超过1百万美元的打款！[3]</p>
+<p>这次Pond0x一地鸡毛之后，这个Jeremy Cahen还在推特上嘲笑冲钱亏光的粉丝们，说这不是bug（缺陷），这就是一个feature（特性），这个实验就是要验证你们诸位的贪婪，给你们长个教训。</p>
+<p>见过嚣张的项目方，没见过这么嚣张的项目方。220万美元的一场实验不得不说代价不菲，但放在动辄几千万上亿美元灰飞烟灭的币圈，似乎又算不上什么大钱。不管大钱小钱，落到亏损的人头上那都是轻则心头滴血、重则泰山压顶。</p>
+<p>有些学费实在太贵。囤住大饼，土狗的学费能少交就尽量少交吧。</p>
+<p>参考资料：</p>
+<ul>
+<li>[1] <a href="https://web3isgoinggreat.com/single/pond0x-bug">https://web3isgoinggreat.com/single/pond0x-bug</a></li>
+<li>[2] <a href="https://etherscan.io/token/0x1d4214081985ad20aa3ca93a2206ae792635cbec#code">https://etherscan.io/token/0x1d4214081985ad20aa3ca93a2206ae792635cbec#code</a></li>
+<li>[3] <a href="https://beincrypto.com/crypto-influencer-1m-ethereum-social-experiment/">https://beincrypto.com/crypto-influencer-1m-ethereum-social-experiment/</a></li>
+</ul>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

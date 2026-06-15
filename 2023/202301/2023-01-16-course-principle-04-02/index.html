@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>【刘教链比特币原理】4-2 时间戳服务 - BlockCoach - 刘教链</title>
+	<meta name="description" content="本节课我们开始学习第四章“交易打包进区块 前后链接区块链”的第二小节“时间戳服务”。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="【刘教链比特币原理】4-2 时间戳服务">
+	<meta property="og:description" content="本节课我们开始学习第四章“交易打包进区块 前后链接区块链”的第二小节“时间戳服务”。">
+	<meta property="og:url" content="https://blockcoach.com/2023/202301/2023-01-16-course-principle-04-02">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2023-01-16">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="【刘教链比特币原理】4-2 时间戳服务">
+	<meta name="twitter:description" content="本节课我们开始学习第四章“交易打包进区块 前后链接区块链”的第二小节“时间戳服务”。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2023/202301/2023-01-16-course-principle-04-02">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "【刘教链比特币原理】4-2 时间戳服务",
+		"description": "本节课我们开始学习第四章“交易打包进区块 前后链接区块链”的第二小节“时间戳服务”。",
+		"url": "https://blockcoach.com/2023/202301/2023-01-16-course-principle-04-02",
+		"datePublished": "2023-01-16",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2023">2023</a> > 
+			<a href="/2023/202301">2023年01月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>【刘教链比特币原理】4-2 时间戳服务</h1>
+			<div class="meta">
+				发布时间：2023-01-16
+				
+			</div>
+			<div class="content">
+				<p>付费合集文章前言：无</p>
+<hr>
+<p>本节课我们开始学习第四章“交易打包进区块 前后链接区块链”的第二小节“时间戳服务”。</p>
+<h2>本章目录：</h2>
+<h3>第四章 交易打包进区块 前后链接区块链</h3>
+<p>第1节 哈希链条</p>
+<h4>第2节 时间戳服务</h4>
+<p>第3节 一道猜数字的数学题</p>
+<h2>本节音频：</h2>
+<p>【音频】</p>
+<h2>学习笔记：</h2>
+<p>之前学到，哈希指针把区块账本串联起来，形成区块链，一箭三雕。第一，后一个区块加固前一个区块，让整个区块链越来越牢不可破。第二，确定区块链的单向性。第三，确定区块的时间顺序，也就是确定其中记录的交易的时间顺序。</p>
+<p>不过，请格外注意上面第二点和第三点的微妙区别。计算机的数据结构里，指针可以确定单向性，但是这个单向性却是对时间反演对称的。也就是说，只是空间顺序，而不是时间顺序。因此，要让这一单向性同时代表时间的单向性，普通的哈希是不行的。什么行？这个后面章节就会学到。</p>
+<p>中本聪找到了方法，把时间反演对称的数据结构变成了时间反演不对称，把区块链从一个单纯的空间意义上的结构改造成了一个时间意义上的结构，从而使得它具备了确定交易发生时间先后顺序的能力，也就是成为了中本聪在比特币白皮书中所写的时间戳服务器。</p>
+<p>这样，最新的区块由前一个区块界定其起始时间，前一个区块则由更前一个区块界定，以此类推，不断递归，一直可以回溯到比特币的区块链的最早一个区块，也就是创世区块（Genesis block）。那么创世区块的起始时间又该如何界定呢？中本聪采用了一个巧妙的法子，使用现实世界的时间锚，某一天发行的报纸。</p>
+<p>这一天终于到了，也许中本聪就是在等待这么一天。2009年1月3号，泰晤士报头版报道，英国财政首相正在再次为银行提供紧急财政援助的危急时刻。中本聪要等的就是这样一个标题，具有历史性意义的标题，显示了比特币发明的背景，席卷全球的金融危机，法币体系的崩坏，和大放水时代的开启。中本聪把这个标题写到了比特币的创世区块里，Chancellor on brink of second bail-out for banks. 同时，一石二鸟，此标题证明了比特币创世区块的构造时间，不会早于这张泰晤士报，也因此不会早于2009年1月3号。</p>
+<h2>课外资料：</h2>
+<p>以下是第四章“交易打包进区块 前后链接区块链”的补充学习材料，请在本章3节课学习过程中使用。</p>
+<ol>
+<li>中本聪《比特币白皮书》第3小节“时间戳服务器”<br><a href="https://mp.weixin.qq.com/s/7R-THHIoTZfmAFSsQwdcZg">https://mp.weixin.qq.com/s/7R-THHIoTZfmAFSsQwdcZg</a> （比特币白皮书中文版（刘教链译本））<br><a href="https://mp.weixin.qq.com/s/U_qkDkAud0Hg4wyWeKAdZw">https://mp.weixin.qq.com/s/U_qkDkAud0Hg4wyWeKAdZw</a> （比特币白皮书英文原版）</li>
+<li>比特币区块链在线查看工具：<a href="https://blockstream.info/">https://blockstream.info/</a> （英文）<a href="https://mempool.space/">https://mempool.space/</a> （中文、英文） </li>
+<li>【扩展阅读】《精通比特币》第9章“区块链”：<a href="https://www.8btc.com/books/834/masterbitcoin2cn/_book/ch09.html">https://www.8btc.com/books/834/masterbitcoin2cn/_book/ch09.html</a> （中文）</li>
+</ol>
+<p>(公众号：刘教链。推特：@liujiaolian。知识星球：公众号回复“星球”)<br>(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

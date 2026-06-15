@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>比特币MEV和BTC破解悬赏 - BlockCoach - 刘教链</title>
+	<meta name="description" content="隔夜比特币继续在26.5-27k区间盘整。链上活跃度数据继续降低，大量BTC被囤积起来不动，降低了日交易量。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="比特币MEV和BTC破解悬赏">
+	<meta property="og:description" content="隔夜比特币继续在26.5-27k区间盘整。链上活跃度数据继续降低，大量BTC被囤积起来不动，降低了日交易量。">
+	<meta property="og:url" content="https://blockcoach.com/2023/202305/2023-05-23-mev">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2023-05-23">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="比特币MEV和BTC破解悬赏">
+	<meta name="twitter:description" content="隔夜比特币继续在26.5-27k区间盘整。链上活跃度数据继续降低，大量BTC被囤积起来不动，降低了日交易量。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2023/202305/2023-05-23-mev">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "比特币MEV和BTC破解悬赏",
+		"description": "隔夜比特币继续在26.5-27k区间盘整。链上活跃度数据继续降低，大量BTC被囤积起来不动，降低了日交易量。",
+		"url": "https://blockcoach.com/2023/202305/2023-05-23-mev",
+		"datePublished": "2023-05-23",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2023">2023</a> > 
+			<a href="/2023/202305">2023年05月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>比特币MEV和BTC破解悬赏</h1>
+			<div class="meta">
+				发布时间：2023-05-23
+				
+			</div>
+			<div class="content">
+				<p>隔夜比特币继续在26.5-27k区间盘整。链上活跃度数据继续降低，大量BTC被囤积起来不动，降低了日交易量。</p>
+<p>间或有讨论所谓MEV问题，便查询了一下比特币MEV的案例。所谓MEV一词，实源于以太坊，原本是“矿工可提取价值”（Miner Extractable Value）的缩写。自以太坊弃PoW而转PoS之后，随改名为“最大可提取价值”（Maximal Extractable Value）。[1]</p>
+<p>什么是MEV？定义如下：[2]</p>
+<p>「最大（在工作量证明上下文中以前称为“矿工”）可提取价值（MEV）是指通过审查和/或更改区块中交易的顺序，可以从区块生产中提取的超过标准区块奖励和燃料费的最大值。</p>
+<p>「当有人在区块链中发送交易时，交易被广播到网络与实际被挖掘成区块之间存在延迟。在此期间，交易位于一个称为内存池的待处理交易池中，每个人都可以看到其中的内容。套利者和矿工可以监控内存池并找到最大化自己利润的机会，例如通过抢先交易。如果领跑者是矿工，他们也可以重新排序甚至审查交易。」</p>
+<p>可见，当且仅当区块链上待处理的交易除了矿工费之外，还存在额外的套利可能性时，才会出现MEV。由于以太坊主打上层应用，这导致MEV在以太坊上非常常见。比如当你在Uniswap中要花费10 USDT购买100 AAA代币，MEV机器人看到你发出购买交易后，就会发出一笔购买AAA的交易，并“贿赂”矿工把它的买单放到你的前面执行。由于AMM的算法特性决定了，MEV机器人买入价最便宜，你贵一点儿（由于允许滑点误差，你的交易依然会成功），你俩买完后，AAA代币的价格就升高了，比如到了100 AAA可以兑换12 USDT了。这时候MEV机器人就把刚才0.1刀买入的AAA以0.12刀抛售，赚取其中的差价。</p>
+<p>那么，比特币链上有MEV的可能性吗？理论上可能。但实际上极少。</p>
+<p>事实上，早在MEV这个术语被发明之前，10年前的2013年，核心开发者Peter Todd在bitcointalk论坛上发起了一个赏金破解哈希算法的小活动[3]。这个活动也是为了展示一下P2SH能做些什么有趣的事情。</p>
+<p>他创建了若干个P2SH地址，每一个都对应一个脚本，脚本的内容就是验证你是否提交了两个哈希冲突的数。若是，则你就可以取走地址里全部的BTC。他构造的几个脚本分别对应以下几个哈希函数的破解：SHA1，SHA256，RIPEMD160，RIPEMD-160(SHA-256())，SHA256(SHA256())。</p>
+<p>对应的P2SH地址及其余额（截止到今天）如下：</p>
+<p>37k7toV1Nv4DfmQbmZ8KuZDQCYK9x5KpzP 0 （历史交易量约2.5 BTC）<br>35Snmmy3uhaer2gTboc81ayCip4m9DT4ko 0.27634251 BTC<br>3KyiQEGqqdb4nqfhUzGKN6KPhXmQsLNpay 0.11476888 BTC<br>39VXyuoc6SXYKp9TcAhoiN1mb4ns6z3Yu6 0.10026873 BTC<br>3DUQQvz4t57Jy7jxE86kyFcNpKtURNf1VW 0.10026873 BTC</p>
+<p>总计：0.59164885 BTC 约合10万RMB</p>
+<p>据《上帝掷骰子：比特币史话》[4]第五章“哈希”第15话“破解”，SHA-1哈希算法其实早在2005年就被我国密码学家王小云教授团队攻破了。</p>
+<p>20230523-01.png<br>图：《史话》第15话 王小云教授攻破SHA-1</p>
+<p>Peter Todd在悬赏帖子里说，欢迎向上述地址捐赠赏金——把BTC打进相应地址即可。尤其是第一个地址，检验对SHA-1的破解——据信破解成本大概是277万美元。</p>
+<p>2014年12月20日，SHA1悬赏地址收到第一笔0.001 BTC的捐赠。到2016年10月8日，悬赏地址已经累积了2.48 BTC。2017年2月23日，终于有人提供了正确的破解结果，一举提取了2.48 BTC的赏金[5]。现价折合约6.6万美元。</p>
+<p>其他几组悬赏地址仍然坚如磐石，迄今无人提供破解结果。正如《史话》第五章“哈希”第16话“矛与盾”的记述[4]，中本聪早在2010年6月14日针对哈希破解问题所作的评价那样：</p>
+<p>20230523-02.png<br>图：《史话》第16话 中本聪评价哈希破解问题</p>
+<p>由于区块链完全透明公开的特性，我们任何人点开提供破解结果这笔交易，都能一目了然地看到，挑战者所提供的两个SHA-1冲突的原像[5]。</p>
+<p>此处就存在矿工进行MEV的可能性：如果一个比特币出块节点看到了这样一笔交易，并且判断出来这是从悬赏地址提取2.48 BTC的正确答案，那么矿工就可以抄袭他的正确答案，构建一笔新交易把BTC提取给自己，然后优先打包自己构建的新交易。</p>
+<p>从区块链的记录来看，我们无法判断这究竟是一笔正常的提交答案领取赏金的交易，还是矿工抢先的交易。由于这个悬赏不像知名协议那样众所周知，所以矿工可能也不太会注意到这里有MEV的机会。何况2.48 BTC相比于矿工的正常产量，实在是太微不足道了。</p>
+<p>不仅仅是MEV，一旦答案披露，它就可以被重复利用，即所谓“重放”（replay）。在此之后，如果任何人再向这个悬赏地址里捐赠BTC，必然会被立刻提取领走。</p>
+<p>比特币矿工所日以继夜计算的，就是SHA-256哈希。时至今日，比特币全网的巨大算力，据称每秒哈希数（362Ehash/s = 362 * 10^18 = 3.6 * 10^20）已经和宇宙中的星星数量（2 * 10^22 ～ 3 * 10^23）差不多了。如果一个哈希是一颗恒星，那么每100-1000秒，比特币矿工们就遍历一次宇宙。</p>
+<p>即便如此，仍然无人攻破SHA-256哈希。</p>
+<p>在比特币链上，还有比Peter Todd的哈希破解悬赏金额高得多的多的赏金地址呢。据信高达100万枚BTC以上。成天忽悠比特币不安全、叫嚣破解比特币的嘴炮很多，可是十几年了也没看到哪个真把赏金拿走。今日篇幅有限，以后有时间我们再慢慢谈吧。</p>
+<p>参考资料：</p>
+<ul>
+<li>[1] <a href="https://ethereum.org/en/developers/docs/mev/">https://ethereum.org/en/developers/docs/mev/</a></li>
+<li>[2] <a href="https://www.mev.wiki/">https://www.mev.wiki/</a></li>
+<li>[3] <a href="https://bitcointalk.org/index.php?topic=293382.0">https://bitcointalk.org/index.php?topic=293382.0</a></li>
+<li>[4] <a href="https://leanpub.com/history-of-bitcoin">https://leanpub.com/history-of-bitcoin</a></li>
+<li>[5] <a href="https://mempool.space/tx/8d31992805518fd62daa3bdd2a5c4fd2cd3054c9b3dca1d78055e9528cff6adc">https://mempool.space/tx/8d31992805518fd62daa3bdd2a5c4fd2cd3054c9b3dca1d78055e9528cff6adc</a></li>
+</ul>
+<hr>
+<p>(公众号：刘教链。知识星球：公众号回复“星球”)<br>(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

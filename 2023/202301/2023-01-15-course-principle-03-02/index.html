@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>【刘教链比特币原理】3-2 币是一串电子签名 - BlockCoach - 刘教链</title>
+	<meta name="description" content="本节课我们开始学习第三章“量入为出是现金 未花输出是资产”的第二小节“币是一串电子签名”。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="【刘教链比特币原理】3-2 币是一串电子签名">
+	<meta property="og:description" content="本节课我们开始学习第三章“量入为出是现金 未花输出是资产”的第二小节“币是一串电子签名”。">
+	<meta property="og:url" content="https://blockcoach.com/2023/202301/2023-01-15-course-principle-03-02">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2023-01-15">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="【刘教链比特币原理】3-2 币是一串电子签名">
+	<meta name="twitter:description" content="本节课我们开始学习第三章“量入为出是现金 未花输出是资产”的第二小节“币是一串电子签名”。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2023/202301/2023-01-15-course-principle-03-02">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "【刘教链比特币原理】3-2 币是一串电子签名",
+		"description": "本节课我们开始学习第三章“量入为出是现金 未花输出是资产”的第二小节“币是一串电子签名”。",
+		"url": "https://blockcoach.com/2023/202301/2023-01-15-course-principle-03-02",
+		"datePublished": "2023-01-15",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2023">2023</a> > 
+			<a href="/2023/202301">2023年01月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>【刘教链比特币原理】3-2 币是一串电子签名</h1>
+			<div class="meta">
+				发布时间：2023-01-15
+				
+			</div>
+			<div class="content">
+				<p>付费合集文章前言：无</p>
+<hr>
+<p>本节课我们开始学习第三章“量入为出是现金 未花输出是资产”的第二小节“币是一串电子签名”。</p>
+<h2>本章目录：</h2>
+<h3>第三章 量入为出是现金 未花输出是资产</h3>
+<p>第1节 消灭信用 只用现金</p>
+<h4>第2节 币是一串电子签名</h4>
+<p>第3节 最难的问题是双重花费问题</p>
+<h2>本节音频：</h2>
+<p>【音频】</p>
+<h2>学习笔记：</h2>
+<p>本节继续上一小节讲了收款人如何做到防止付款人欺诈的问题。这个问题最棘手。因为付款人掌握着私钥，他可以随意签署付款凭据，并通过重发付款凭据来“篡改”。收款人也就无法通过数字签名来防止付款人欺诈了。</p>
+<p>那么这样一来，收款人又该如何确信付款人没有付给他假钱，尚未收到的钱，或者已经花掉了的钱呢？或者说，如何确信付款人付的是未花过的“现金”——也就是现在就拥有的金钱——的呢？说到这儿，我们发现“现金”这个词虽然英文是cash，但是其实和currency更神似。现金现金，现在就有的金钱。currency，货币，current money，当下就有的钱。确实很神似。</p>
+<p>收款人的方法就是要求付款人X指出他支付的是哪一笔钱（比特币）。然后收款人可以到区块链账本上去检查X之前曾经收到过这笔钱的证明。这个证明是，之前的所有者签署了付款凭据，把这笔比特币转给了X。那么之前的所有者支付给X的这笔比特币，是否也是真实有效的呢？那就又可以继续向后追溯。这样不断回溯，最终会回溯到这笔比特币被创造的起始时刻，也就是这笔比特币的源头，比特币是如何发行出来的。自然，它不可能是由中本聪或者任何一个中心化机构发行出来的。这一点本节不展开，以后再说。</p>
+<p>这一连串的数字签名证明的所有权转移的链条，就是硬币（coin）的定义，也正是中本聪在白皮书里所写的定义。想象一下，比特币的区块链上，其实存在着1亿多个大大小小的数字硬币（比特硬币），每一枚硬币都和一枚金币一样具有某种物理实在性。与金币靠重量不同来区分价值不同，比特硬币具有不同的数字面值：这个是0.1，那个是1.2，如此等等。其实面值也不是0.1，而是10000000，单位是聪（一亿分之一比特币）。</p>
+<p>从2020年底到2022年初，贯穿整个牛市的进程，有一个赛道也火热异常，这就是NFT加密艺术品，或者叫数字收藏品。NFT是Non-Fungible Token不可互换代币的缩写，强调其唯一性。通过区块链的存在性和唯一性证明功能，为具有无限可复制性的电子艺术作品赋予可拥有价值。但是深刻了解了比特币之后，我们才会发现，中本聪才是NFT的鼻祖，比特币是第一个NFT，而且是迄今为止市值最大的NFT。很多人误以为比特币是记账货币，是存在于账本上的数字，但是学习了比特币原理之后，我们明白了，比特币不是一个虚幻的数字，而是和金币一样实在的东西。至于比特币究竟是货币，是收藏品，还是一种朋克艺术品，也许各种性质兼而有之吧。</p>
+<p>一枚枚面值各异的数字硬币、比特硬币，不可伪造，不可篡改，不可互换（non-fungible），这，才是比特币的真身。你从这里，看到真相。当你能够看到真相时，你也正在开悟之中。加油吧！比特币的奥秘还有很多，值得我们继续去一探究竟。</p>
+<h2>课外资料：</h2>
+<p>以下是第三章“量入为出是现金 未花输出是资产”的补充学习材料，请在本章3节课学习过程中使用。</p>
+<ol>
+<li>桥水基金创始人Ray Dalio的科普视频《经济机器是如何运转的》：<a href="https://www.economicprinciples.org/">https://www.economicprinciples.org/</a> （英文原版）<a href="https://www.bilibili.com/video/av13353799">https://www.bilibili.com/video/av13353799</a> （中文字幕版）<a href="https://www.bilibili.com/video/av4610796">https://www.bilibili.com/video/av4610796</a> （中文配音版）</li>
+<li>中本聪《比特币白皮书》第2小节“交易”<br><a href="https://mp.weixin.qq.com/s/7R-THHIoTZfmAFSsQwdcZg">https://mp.weixin.qq.com/s/7R-THHIoTZfmAFSsQwdcZg</a> （比特币白皮书中文版（刘教链译本））<br><a href="https://mp.weixin.qq.com/s/U_qkDkAud0Hg4wyWeKAdZw">https://mp.weixin.qq.com/s/U_qkDkAud0Hg4wyWeKAdZw</a> （比特币白皮书英文原版）</li>
+<li>比特币区块链在线查看工具：<a href="https://blockstream.info/">https://blockstream.info/</a> （英文）<a href="https://mempool.space/">https://mempool.space/</a> （中文、英文） </li>
+<li>【扩展阅读】《精通比特币》第6章“交易”：<a href="https://www.8btc.com/books/834/masterbitcoin2cn/_book/ch06.html">https://www.8btc.com/books/834/masterbitcoin2cn/_book/ch06.html</a> （中文）</li>
+</ol>
+<p>(公众号：刘教链。知识星球：公众号回复“星球”)<br>(免责声明：本文内容均不构成任何投资建议。加密货币为极高风险品种，有随时归零的风险，请谨慎参与，自我负责。)</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

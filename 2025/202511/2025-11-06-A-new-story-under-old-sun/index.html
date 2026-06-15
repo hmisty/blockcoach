@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>太阳底下终究是没有新鲜事 - BlockCoach - 刘教链</title>
+	<meta name="description" content="前几天，11月3号，教链文章说到，《重大突发：Balancer被盗超1亿美刀！》">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="太阳底下终究是没有新鲜事">
+	<meta property="og:description" content="前几天，11月3号，教链文章说到，《重大突发：Balancer被盗超1亿美刀！》">
+	<meta property="og:url" content="https://blockcoach.com/2025/202511/2025-11-06-A-new-story-under-old-sun">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2025-11-06">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="太阳底下终究是没有新鲜事">
+	<meta name="twitter:description" content="前几天，11月3号，教链文章说到，《重大突发：Balancer被盗超1亿美刀！》">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2025/202511/2025-11-06-A-new-story-under-old-sun">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "太阳底下终究是没有新鲜事",
+		"description": "前几天，11月3号，教链文章说到，《重大突发：Balancer被盗超1亿美刀！》",
+		"url": "https://blockcoach.com/2025/202511/2025-11-06-A-new-story-under-old-sun",
+		"datePublished": "2025-11-06",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2025">2025</a> > 
+			<a href="/2025/202511">2025年11月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>太阳底下终究是没有新鲜事</h1>
+			<div class="meta">
+				发布时间：2025-11-06
+				
+			</div>
+			<div class="content">
+				<p>前几天，11月3号，教链文章说到，<a href="/2025/202511/2025-11-03-A-balancer-hacked/">《重大突发：Balancer被盗超1亿美刀！》</a></p>
+<p>今天，关于攻击者手法的研究陆续披露出来了。</p>
+<p>虽然披着各种区块链术语的外皮，但是教链还是一眼看出来这和历史上曾经发生过的著名金融欺诈案（盗窃案）不仅神似，而且简直就是一模一样。</p>
+<p>教链不禁感慨，太阳底下果然还是没有新鲜事。</p>
+<p>EBSCO[1]的文章提到，「首例有记录的计算机犯罪发生在1958年，该案件涉及“萨拉米香肠”式作案手法——明尼苏达州明尼阿波利斯市的一名银行员工利用计算机将金融交易中的舍入误差转移并存入特定账户。」</p>
+<p>他的工作是维护银行的一个核心记账系统。这个系统在处理客户账户的利息计算时，会产生非常微小的舍入误差。比如，利息计算到小数点后4位，但实际记账只记录到分（小数点后2位）。系统会自动将第三位小数“四舍五入”后进行截断。</p>
+<p>他发现，系统并非真正意义上的“四舍五入”，而是简单地将小数点后第三位及以后的数字直接截断。这被称为向下取整（Round-Down）。例如：</p>
+<ul>
+<li>应计利息：$0.12567</li>
+<li>系统入账：$0.12（截断了后面的0.00567）</li>
+<li>被截断的金额：$0.00567</li>
+</ul>
+<p>他意识到，每天数百万笔交易产生的这些被“舍弃”的微小金额（通常不到一美分），并没有被丢弃或返还给银行，而是被系统暂时存放在一个临时的、无人监管的“悬置账户”或“系统账户”中。</p>
+<p>于是，他编写了一个程序，将这些被截断的零头，在每天结束时自动转入他预先设置好的个人账户。这个过程是自动化的，而且因为每笔金额极小，在常规审计中极难被发现。</p>
+<p>通过这种“积沙成塔”的方式，在很长一段时间内，他积累了巨额资金。具体的金额在不同报道中有所出入，有的说是数万美元，有的甚至高达数十万美元。</p>
+<p>这个骗局后来被发现的原因有好几个说法，但最常见的有两个：一种说法是，银行在进行一次非常规的、深入的内部审计时，发现了这个悬置账户的资金流向异常。另一种说法是，他本人生活突然奢侈起来的行为引起了怀疑。</p>
+<p>最终他被起诉并定罪。</p>
+<p>尽管这个案例的具体细节在公开文档中记载不详，但它被广泛认为是计算机犯罪史上一个标志性的“原型案例”。</p>
+<p>几十年后，令人们猝不及防的，这个经典的舍入误差手法竟被利用来攻击区块链金融系统，并成功得手盗走过亿美刀的天量资产。</p>
+<p>根据有关研究[2]，「Balancer v2 的 Composable Stable Pool 实现中（基于 Curve StableSwap 的 Stable Math），对缩放因子(scalingFactors) 的整数定点运算存在精度丢失问题，导致在代币兑换中产生微小、但可复利式积累的价差/误差。攻击者利用低流动性下小额兑换来放大此误差以显著的累计利润。」</p>
+<p>在Balancer V2的ComposableStablePool.sol源代码中，当用户使用份额代币BPT交换流动性代币时，调用了_upscaleArray方法。</p>
+<p><img src="2025-11-06-A01.avif" alt=""></p>
+<p>而这个位于BasePool.sol中的_upscaleArray方法好巧不巧恰恰正是使用了FixedPoint.mulDown进行计算并向下取整！</p>
+<p><img src="2025-11-06-A02.avif" alt=""></p>
+<p>历史的精彩一幕即将经典重现！</p>
+<p>在代码被部署到区块链上的那一刻起，因果的种子便早已埋下。</p>
+<p>只待那个识马的“伯乐”出现，循环利用这个舍入误差，掏空V2池中的流动性。然后，华丽隐身，扬长而去。</p>
+<p>教链甚至不由思考，当初写这代码的Balancer开发者，以及所有审计该代码的专业机构，难道竟无一人想起来计算机犯罪史上开山鼻祖式的经典案例吗？</p>
+<p>还是说，有人看到了、想到了，但是他选择了默默不说，只为埋下伏笔，待机而动，一举暴富？ —— 当然，这只是瞎猜了，很难证实。</p>
+<p>人的心，海底针。人性之幽微，深不可测啊。</p>
+<p>参考资料：</p>
+<ul>
+<li>[1] <a href="https://www.ebsco.com/research-starters/computer-science/computer-crime">Computer crime</a></li>
+<li>[2] <a href="https://mp.weixin.qq.com/s/zywPIK08hpy-Ug6rc9Qysw">《积羽沉舟 —— Balancer 超 1 亿美元被黑分析》</a></li>
+</ul>
+<p>...</p>
+<p>2025.11.6周四，加密市场继续承压，BTC昨日回补10·11下影线最低探至98.9k后，自然反弹回到103k区间。教链心想这是有多少多头的杠杆埋伏在99k这里哟，让“杠杆清洗者”费大劲也要击穿这个点位。其实10·11崩溃插针就是一次试探，试探一下10万刀下方这个地方到底埋伏了多少可以收割的“土豆”。</p>
+<p>...... 本期内参共约6000字，主要内容包括：市场动态，宏观经济，教链观察——balancer余震；aave创始人评借贷模式；BTC处于转折点；IPO时刻；微策略暴雷风险评估；等。</p>
+<p>点击标题继续阅读11.6教链内参<a href="https://member.liujiaolian.com/i/20251106">《内参：借贷协议的模式问题》</a>...</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>
