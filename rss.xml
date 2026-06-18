@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜美联储新主席首秀：行胜于言</title>
+		<link>https://blockcoach.com/2026/202606/2026-06-18-A-warsh-debut</link>
+		<guid>https://blockcoach.com/2026/202606/2026-06-18-A-warsh-debut</guid>
+		<pubDate>Thu, 18 Jun 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[美联储议息会议结束，BTC继续回落跌破64k。昨日还在猜测沃什会说什么，今天已经有了答案。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜现在也许是开始积累的最好阶段</title>
 		<link>https://blockcoach.com/2026/202606/2026-06-17-A-accumulate</link>
 		<guid>https://blockcoach.com/2026/202606/2026-06-17-A-accumulate</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202605/2026-05-30-A-strategy-btc-move</guid>
 		<pubDate>Sat, 30 May 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[5月28日，BTC最低触及72,584美刀。最知名的杠杆囤币多头Strategy（微策略）的84万枚比特币持仓（持仓成本约73,500美刀），在这一刻由盈转亏。浮亏约3%，差不多19亿美刀。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜AI攻破DeFi？先看懂攻防的技术边界</title>
-		<link>https://blockcoach.com/2026/202605/2026-05-29-A-ai-defi-security</link>
-		<guid>https://blockcoach.com/2026/202605/2026-05-29-A-ai-defi-security</guid>
-		<pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[隔夜BTC拉回73k上方。市场情绪死水微澜。]]></description>
 	</item>
   
 	</channel>
