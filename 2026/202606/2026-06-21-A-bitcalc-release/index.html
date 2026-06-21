@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>A bitcalc release - BlockCoach - 刘教链</title>
+	<meta name="description" content="刘教链｜手搓了一个冷钱包 BTC 地址计算器">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="A bitcalc release">
+	<meta property="og:description" content="刘教链｜手搓了一个冷钱包 BTC 地址计算器">
+	<meta property="og:url" content="https://blockcoach.com/2026/202606/2026-06-21-A-bitcalc-release">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-06-21">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="A bitcalc release">
+	<meta name="twitter:description" content="刘教链｜手搓了一个冷钱包 BTC 地址计算器">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202606/2026-06-21-A-bitcalc-release">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "A bitcalc release",
+		"description": "刘教链｜手搓了一个冷钱包 BTC 地址计算器",
+		"url": "https://blockcoach.com/2026/202606/2026-06-21-A-bitcalc-release",
+		"datePublished": "2026-06-21",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202606">2026年06月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>A bitcalc release</h1>
+			<div class="meta">
+				发布时间：2026-06-21
+				
+			</div>
+			<div class="content">
+				<h2>刘教链｜手搓了一个冷钱包 BTC 地址计算器</h2>
+<p>过去几年小白课授课一直在用的离线 BTC 冷钱包生成工具 bitaddress.org 是经典，但只支持 P2PKH（1 开头的老地址），不支持现在钱包普遍用的 Native SegWit（bc1q）。而且它只导出裸私钥 WIF，不生成助记词。</p>
+<p>读了 BIP-361 的量子迁移方案后更确信了：Phase C 计划用零知识证明 BIP-39 助记词所有权来恢复冻结资金——将来助记词才是证明地址所有权的关键凭证，光有私钥不够。所以决定自己写一个生成器，支持安全随机数和脑钱包两种方式。</p>
+<p>用 opencode 从零开搞，大概断断续续花了一周多的时间，成品如下：</p>
+<p><img src="2026-06-21-A/bitcalc.avif" alt=""></p>
+<p><strong>bitcalc — 离线比特币地址计算器</strong></p>
+<ul>
+<li>✅ <strong>两种熵源</strong>：脑钱包（SHA256ⁿ/密码，可选 PBKDF2 迭代） 或 安全随机数（鼠标 + 键盘收集熵，ArcFour PRNG）</li>
+<li>✅ <strong>Legacy 路径</strong>：P2PKH（非压缩公钥）+ Native SegWit（压缩公钥），带 QR 码</li>
+<li>✅ <strong>助记词路径</strong>：BIP39 12/24 词 → PBKDF2 → BIP32 HD → m/84&#39;/0&#39;/0&#39;/0/{0..9}</li>
+<li>✅ <strong>助记词恢复</strong>：输入助记词还原种子和 HD 地址列表（10 个）</li>
+<li>✅ <strong>验证</strong>：校验助记词、私钥 WIF、地址格式</li>
+<li>✅ <strong>中英双语</strong>：一键切换 UI</li>
+<li>✅ <strong>完全离线</strong>：grunt 合并为单 HTML，浏览器直接打开，不联网</li>
+</ul>
+<p><strong>技术栈</strong>：复用 bitaddress.org 的 CryptoJS / secp256k1 / BigInteger 等核心库，手写了 SHA-512、Bech32 编码、BIP39 助记词引擎和 BIP32 HD 钱包派生。无运行时依赖，纯前端。</p>
+<p>核心测试向量全部通过（复用 brainwallet.js 的已知数据），密码 &quot;test&quot; 生成的 24 词助记词和 BIP84 地址与标准实现完全一致。</p>
+<blockquote>
+<p>开源在 GitHub：<a href="https://github.com/hmisty/bitcalc">github.com/hmisty/bitcalc</a><br>在线使用（GitHub Pages）：<a href="https://hmisty.github.io/bitcalc">hmisty.github.io/bitcalc</a></p>
+<p>⚠️ 免责声明：本工具按“现状”提供，无任何担保。算法和数据实现均可能存在错误，使用前请务必交叉验证。使用风险自负。</p>
+</blockquote>
+<p>欢迎试用反馈。</p>
+<p><strong>Donation:</strong> bc1q4yt2sa60sx38u40msye936hst6fadqxw70vhzv</p>
+<p>#Bitcoin #冷钱包 #BTC #开源</p>
+<hr>
+<p><strong>免责声明</strong>：本文纯属教链个人主观认知分享，不构成任何投资建议。加密市场波动巨大，风险极高，请自行判断、谨慎决策、承担风险和后果。<br><strong>加入教链会员</strong>：欢迎关注公众号并发消息「会员」或「VIP」了解详情。<br><strong>点击延伸阅读</strong>👉<a href="https://member.liujiaolian.com/i/20260619">教链内参｜多头信心崩塌，熊市尾声还是黎明前的黑暗？</a></p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>
