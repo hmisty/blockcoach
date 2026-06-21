@@ -101,7 +101,7 @@
 <p><img src="2026-06-21-A/bitcalc.avif" alt=""></p>
 <p><strong>bitcalc — 离线比特币地址计算器</strong></p>
 <ul>
-<li>✅ <strong>两种熵源</strong>：脑钱包（SHA256ⁿ/密码，可选 PBKDF2 迭代） 或 安全随机数（鼠标 + 键盘收集熵，ArcFour PRNG）</li>
+<li>✅ <strong>两种熵源</strong>：脑钱包（SHA256ⁿ/密码，可选迭代次数） 或 安全随机数（鼠标 + 键盘收集熵，ArcFour PRNG）</li>
 <li>✅ <strong>Legacy 路径</strong>：P2PKH（非压缩公钥）+ Native SegWit（压缩公钥），带 QR 码</li>
 <li>✅ <strong>助记词路径</strong>：BIP39 12/24 词 → PBKDF2 → BIP32 HD → m/84&#39;/0&#39;/0&#39;/0/{0..9}</li>
 <li>✅ <strong>助记词恢复</strong>：输入助记词还原种子和 HD 地址列表（10 个）</li>
@@ -112,7 +112,7 @@
 <p><strong>技术栈</strong>：复用 bitaddress.org 的 CryptoJS / secp256k1 / BigInteger 等核心库，手写了 SHA-512、Bech32 编码、BIP39 助记词引擎和 BIP32 HD 钱包派生。无运行时依赖，纯前端。</p>
 <p>核心测试向量全部通过（复用 brainwallet.js 的已知数据），密码 &quot;test&quot; 生成的 24 词助记词和 BIP84 地址与标准实现完全一致。</p>
 <blockquote>
-<p>开源在 GitHub：<a href="https://github.com/hmisty/bitcalc">github.com/hmisty/bitcalc</a><br>在线使用（GitHub Pages）：<a href="https://hmisty.github.io/bitcalc">hmisty.github.io/bitcalc</a></p>
+<p>开源在 GitHub：<a href="https://github.com/hmisty/bitcalc">github.com/hmisty/bitcalc</a><br>在线演示（GitHub Pages）：<a href="https://hmisty.github.io/bitcalc">hmisty.github.io/bitcalc</a><br>BitcoinTalk 讨论帖子：<a href="https://bitcointalk.org/index.php?topic=5586349.0">5586349.0</a></p>
 <p>⚠️ 免责声明：本工具按“现状”提供，无任何担保。算法和数据实现均可能存在错误，使用前请务必交叉验证。使用风险自负。</p>
 </blockquote>
 <p>欢迎试用反馈。</p>
