@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜历史的回声：从GBTC看STRC</title>
+		<link>https://blockcoach.com/2026/202606/2026-06-22-A-strc-gbtc-echo</link>
+		<guid>https://blockcoach.com/2026/202606/2026-06-22-A-strc-gbtc-echo</guid>
+		<pubDate>Mon, 22 Jun 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[BTC从五天前回踩62k附近，本周一终于站回了64k上方。同期STRC的市场折价也从此前的20%以上收窄至12%-18%区间，股、币市场同步出现修复迹象。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜手搓了一个冷钱包 BTC 地址计算器</title>
 		<link>https://blockcoach.com/2026/202606/2026-06-21-A-bitcalc-release</link>
 		<guid>https://blockcoach.com/2026/202606/2026-06-21-A-bitcalc-release</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202606/2026-06-03-A-btc-65k</guid>
 		<pubDate>Wed, 03 Jun 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[周末BTC还在71k附近挣扎。周一，下跌加速。BTC接连击穿70k和68k，最低触及65.7k。48小时内跌幅超过9%，全市场蒸发了约1,760亿美刀。[1]]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜果然卖了</title>
-		<link>https://blockcoach.com/2026/202606/2026-06-02-A-sold-indeed</link>
-		<guid>https://blockcoach.com/2026/202606/2026-06-02-A-sold-indeed</guid>
-		<pubDate>Tue, 02 Jun 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC继续下行，一度击穿71k。隔夜传来的消息，让本就脆弱的市场又多了一层寒意。]]></description>
 	</item>
   
 	</channel>
