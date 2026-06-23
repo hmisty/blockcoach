@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜中本聪的币，该被冻结吗？</title>
+		<link>https://blockcoach.com/2026/202606/2026-06-23-A-quantum-bitcoin-alignment</link>
+		<guid>https://blockcoach.com/2026/202606/2026-06-23-A-quantum-bitcoin-alignment</guid>
+		<pubDate>Tue, 23 Jun 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[如果有一天，有人能破解中本聪的比特币钱包，那110万枚沉睡多年的BTC该归谁？]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜历史的回声：从GBTC看STRC</title>
 		<link>https://blockcoach.com/2026/202606/2026-06-22-A-strc-gbtc-echo</link>
 		<guid>https://blockcoach.com/2026/202606/2026-06-22-A-strc-gbtc-echo</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202606/2026-06-04-A-retrospect-from-0511-to-0604</guid>
 		<pubDate>Thu, 04 Jun 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[上午坐在办公室喝咖啡，眼睁睁看着BTC不受控制地坠落，一度逼近61k，6万刀整数关口再次告急。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜BTC再下65k</title>
-		<link>https://blockcoach.com/2026/202606/2026-06-03-A-btc-65k</link>
-		<guid>https://blockcoach.com/2026/202606/2026-06-03-A-btc-65k</guid>
-		<pubDate>Wed, 03 Jun 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[周末BTC还在71k附近挣扎。周一，下跌加速。BTC接连击穿70k和68k，最低触及65.7k。48小时内跌幅超过9%，全市场蒸发了约1,760亿美刀。[1]]]></description>
 	</item>
   
 	</channel>
