@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜BitCalc 2026.6.24 更新说明</title>
+		<link>https://blockcoach.com/2026/202606/2026-06-24-A-bitcalc-20260624-release-notes</link>
+		<guid>https://blockcoach.com/2026/202606/2026-06-24-A-bitcalc-20260624-release-notes</guid>
+		<pubDate>Wed, 24 Jun 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[前不久，教链手搓了一个冷钱包 BTC 地址计算器/生成器 BitCalc，今天2026.6.24这次更新集中在**安全性和易用性**两个方向。以下是按重要程度排列的关键改动。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜中本聪的币，该被冻结吗？</title>
 		<link>https://blockcoach.com/2026/202606/2026-06-23-A-quantum-bitcoin-alignment</link>
 		<guid>https://blockcoach.com/2026/202606/2026-06-23-A-quantum-bitcoin-alignment</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202606/2026-06-05-A-etf-outflow-btc-down-200wma</guid>
 		<pubDate>Fri, 05 Jun 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC继续跌跌不休，再度冲击61k的城门。这个位置极其微妙！因为200周均线这个重要支撑位，已经运行到了61.8k的位置。而BTC已经在开月短短数日大幅下跌，已经来到61.5k，跌破了这一重要均线。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜比特币空头兵临城下，6万刀关口再度告急</title>
-		<link>https://blockcoach.com/2026/202606/2026-06-04-A-retrospect-from-0511-to-0604</link>
-		<guid>https://blockcoach.com/2026/202606/2026-06-04-A-retrospect-from-0511-to-0604</guid>
-		<pubDate>Thu, 04 Jun 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[上午坐在办公室喝咖啡，眼睁睁看着BTC不受控制地坠落，一度逼近61k，6万刀整数关口再次告急。]]></description>
 	</item>
   
 	</channel>

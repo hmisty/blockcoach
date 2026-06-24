@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜BitCalc 2026.6.24 更新说明 - BlockCoach - 刘教链</title>
+	<meta name="description" content="前不久，教链手搓了一个冷钱包 BTC 地址计算器/生成器 BitCalc，今天2026.6.24这次更新集中在安全性和易用性两个方向。以下是按重要程度排列的关键改动。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜BitCalc 2026.6.24 更新说明">
+	<meta property="og:description" content="前不久，教链手搓了一个冷钱包 BTC 地址计算器/生成器 BitCalc，今天2026.6.24这次更新集中在安全性和易用性两个方向。以下是按重要程度排列的关键改动。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202606/2026-06-24-A-bitcalc-20260624-release-notes">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-06-24">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜BitCalc 2026.6.24 更新说明">
+	<meta name="twitter:description" content="前不久，教链手搓了一个冷钱包 BTC 地址计算器/生成器 BitCalc，今天2026.6.24这次更新集中在安全性和易用性两个方向。以下是按重要程度排列的关键改动。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202606/2026-06-24-A-bitcalc-20260624-release-notes">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜BitCalc 2026.6.24 更新说明",
+		"description": "前不久，教链手搓了一个冷钱包 BTC 地址计算器/生成器 BitCalc，今天2026.6.24这次更新集中在安全性和易用性两个方向。以下是按重要程度排列的关键改动。",
+		"url": "https://blockcoach.com/2026/202606/2026-06-24-A-bitcalc-20260624-release-notes",
+		"datePublished": "2026-06-24",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202606">2026年06月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜BitCalc 2026.6.24 更新说明</h1>
+			<div class="meta">
+				发布时间：2026-06-24
+				
+			</div>
+			<div class="content">
+				<p>前不久，教链<a href="/2026/202606/2026-06-21-A-bitcalc-release/">手搓了一个冷钱包 BTC 地址计算器/生成器 BitCalc</a>，今天2026.6.24这次更新集中在<strong>安全性和易用性</strong>两个方向。以下是按重要程度排列的关键改动。</p>
+<hr>
+<h2>1. 密码复杂度强制检查</h2>
+<p><strong>改动</strong>：脑钱包 Tab 现在区分&quot;创建模式&quot;和&quot;恢复模式&quot;。当确认密码框为空时是恢复模式（不做检查、可输入任意密码直接推导地址）；当确认密码框有内容时切换到创建模式，要求密码同时满足以下条件：</p>
+<ul>
+<li>长度 ≥ 30 字符</li>
+<li>包含大写字母、小写字母、数字、特殊符号</li>
+</ul>
+<p><strong>考虑</strong>：脑钱包的安全完全取决于密码强度。常见的弱密码（如 8 位字母+数字）在 SHA256 脑钱包场景下可以被人暴力枚举。如今 GPU 每秒可做数十亿次 SHA256，比特币矿机的算力更是在 exahash 级别。30 字符 + 全字符集要求是为了让熵值足够大到暴力搜索不可行。同时保留恢复模式，允许用户输入已有的高熵密码，不强求每次都满足复杂度。</p>
+<h2>2. 危险开关保护高级选项</h2>
+<p><strong>改动</strong>：脑钱包的「迭代次数」和「助记词口令」、随机钱包的「助记词口令」均默认禁用，旁边有一个红色 checkbox 标注「危险（我确信我知道我在干什么）」，勾选后方可编辑。</p>
+<p><strong>考虑</strong>：这两个参数都是&quot;知道在做什么才去动&quot;的选项：</p>
+<ul>
+<li><p><strong>迭代次数</strong>：非 1 的迭代次数产生的熵与标准脑钱包（SHA256 一次）不兼容。改了这个参数生成的钱包，几个月后可能自己都不记得当时设了多少次。设计成保护开关，倒逼用户确认后再修改。</p>
+</li>
+<li><p><strong>助记词口令</strong>：给了助记词再设口令，种子完全不同，HD 地址也会变。如果忘了口令或者抄漏了，助记词本身无法恢复资金。这个警告就是为了减少这种&quot;半丢失&quot;风险。</p>
+</li>
+</ul>
+<h2>3. 压缩 P2PKH 地址新增 + 非压缩卡片折叠</h2>
+<p><strong>改动</strong>：经典路径现在同时展示三种格式——</p>
+<ul>
+<li>原生 SegWit 地址（bc1q...，压缩公钥）</li>
+<li><strong>P2PKH 地址（压缩公钥）</strong> ★ 新增</li>
+<li>P2PKH 地址（非压缩公钥，默认折叠）</li>
+</ul>
+<p>非压缩格式卡片默认折叠，点击展开。压缩格式的两项（SegWit + P2PKH 压缩）始终可见。</p>
+<p><strong>考虑</strong>：这是两方面的考量：</p>
+<ol>
+<li><p><strong>与 bitaddress.org 保持兼容</strong>：bitaddress.org 的&quot;Wallet Details&quot;功能中，从同一私钥可以查看两种公钥编码下的不同地址。BitCalc 将这一对照能力保留在经典路径中，方便用户交叉验证。</p>
+</li>
+<li><p><strong>面向未来</strong>：非压缩公钥格式如今几乎不再使用，但为了兼容老旧钱包的历史地址，需要保留而非移除。折叠起来既不干扰主流程，需要时又能展开使用。</p>
+</li>
+</ol>
+<h2>4. 加载动画与自动填充</h2>
+<p><strong>改动</strong>：所有操作按钮添加了半透明遮罩 + 旋转动画。脑钱包/随机钱包生成助记词后自动填入助记词恢复页，同时清除恢复页的旧输出结果。</p>
+<p><strong>考虑</strong>：SHA256ⁿ（9999 次迭代时可达 1-2 秒）和 BIP32 派生（恢复页 10 个地址）的计算会短暂阻塞 UI，加载动画让用户知道工具正在工作而非卡死。自动填充则是出于安全考虑——避免用户复制粘贴助记词到剪切板，减少暴露面。</p>
+<h2>5. 默认改为 12 词助记词</h2>
+<p><strong>改动</strong>：新建钱包时助记词默认生成 12 词而非 24 词。</p>
+<p><strong>考虑</strong>：12 词和 24 词的安全边界都是 128 比特熵（256 比特的熵最后也只截取前 128 比特用于 12 词），对个人冷钱包而言 12 词已足够安全。</p>
+<p>128 比特的暴力搜索有多难？几个直观的比较：</p>
+<ul>
+<li><strong>比特币算力</strong>：全网算力约 600 EH/s（每秒 6×10²⁰ 次 SHA256），穷举一个 128 比特密钥需要 <strong>180 亿年</strong>——超过宇宙年龄（138 亿年）。</li>
+<li><strong>宇宙原子数</strong>：可观测宇宙大约有 <strong>10⁸⁰ 个原子</strong>，而 2¹²⁸ ≈ 3.4×10³⁸。如果每个原子是一台计算机、每秒检查一把密钥，需要 3.4×10³⁸ / 10⁸⁰ = <strong>3.4×10⁴² 个宇宙的原子合起来</strong>才可能在 1 秒内穷举一个 128 比特密钥——这显然不可能。</li>
+<li><strong>太阳能</strong>：太阳每年辐射约 1.2×10³⁴ 焦耳能量。假设每次猜测消耗 1 毫微微焦耳（约 1 个电子伏特），2¹²⁸ 次猜测需要 3.4×10²³ 焦耳——<strong>太阳需要持续照射地球 2 万年</strong> 才能提供这么多能量。</li>
+</ul>
+<p>12 词更短，抄写和核对更容易，降低&quot;抄错&quot;这种最常见的人为失误。当然用户可以在高级选项中手动切回 24 词。</p>
+<h2>6. 测试向量覆盖到 25 项</h2>
+<p><strong>改动</strong>：自检 Tab 从 6 项扩展到 25 项，新增了 12 词助记词、9999 次 SHA256 迭代、BIP84 双路径等测试。</p>
+<p><strong>考虑</strong>：迭代 SHA256 和 12 词路径是上次发版未覆盖的代码路径。现在 9999 次迭代、12 词派生、24 词派生、边界校验四个维度都铺了测试，脑钱包助记词路径的完整链路被测试覆盖。</p>
+<hr>
+<p><strong>完整代码</strong>：<a href="https://github.com/hmisty/bitcalc">https://github.com/hmisty/bitcalc</a></p>
+<p><strong>在线演示</strong>：<a href="https://hmisty.github.io/bitcalc">https://hmisty.github.io/bitcalc</a></p>
+<p>请下载后离线使用。</p>
+<p><strong>Donation</strong>：<code>bc1q4yt2sa60sx38u40msye936hst6fadqxw70vhzv</code></p>
+<hr>
+<p><strong>免责声明</strong>：本文纯属教链个人主观认知分享，不构成任何投资建议。加密市场波动巨大，风险极高，请自行判断、谨慎决策、承担风险和后果。<br><strong>加入教链会员</strong>：欢迎关注公众号并发消息「会员」或「VIP」了解详情。<br><strong>点击延伸阅读</strong>👉<a href="https://member.liujiaolian.com/i/20260624">教链内参｜BTC底部信号密集出现，监管与机构共舞，以太坊进入新阶段</a></p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>
