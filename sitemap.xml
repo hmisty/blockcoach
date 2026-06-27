@@ -2,11 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://blockcoach.com</loc>
-		<lastmod>2026-06-26</lastmod>
+		<lastmod>2026-06-27</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 	
+	<url>
+		<loc>https://blockcoach.com/2026/202606/2026-06-27-A-stablecoin-tbill</loc>
+		<lastmod>2026-06-27T00:00:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+  
 	<url>
 		<loc>https://blockcoach.com/2026/202606/2026-06-26-A-dare-to-add</loc>
 		<lastmod>2026-06-26T00:00:00+00:00</lastmod>
