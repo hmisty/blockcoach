@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜赛博朋克vs.密码朋克：BTC对AI Agent时代的启示</title>
+		<link>https://blockcoach.com/2026/202606/2026-06-29-A-cyberpunk-cypherpunk-end-side-agent</link>
+		<guid>https://blockcoach.com/2026/202606/2026-06-29-A-cyberpunk-cypherpunk-end-side-agent</guid>
+		<pubDate>Mon, 29 Jun 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周末BTC又在60k附近晃悠了一圈，上上下下，高低起伏。Coinbase溢价指数连续40天负溢价，Jeremy Grantham又出来大谈BTC将要消亡。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜恐慌割肉时的安全报告</title>
 		<link>https://blockcoach.com/2026/202606/2026-06-28-A-panic-then-fidelity</link>
 		<guid>https://blockcoach.com/2026/202606/2026-06-28-A-panic-then-fidelity</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202606/2026-06-10-A-btc-canary-in-coal-mine</guid>
 		<pubDate>Wed, 10 Jun 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC再次滑落62K。周二抛压回归，两次冲击64.2k被拒后掉头向下，50月EMA失守，三角结构破位——Rekt Capital说，这画面和2018、2022年如出一辙。[1]]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜BTC命悬一线：6万刀的生死博弈</title>
-		<link>https://blockcoach.com/2026/202606/2026-06-09-A-etf-outflows-btc-constraint-hedging</link>
-		<guid>https://blockcoach.com/2026/202606/2026-06-09-A-etf-outflows-btc-constraint-hedging</guid>
-		<pubDate>Tue, 09 Jun 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC自进入6月份以来，从71k接连下跌，一直滑落至60k附近，终于开始局部触底反弹。]]></description>
 	</item>
   
 	</channel>
