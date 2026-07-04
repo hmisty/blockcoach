@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜两只温度计，两种温度</title>
+		<link>https://blockcoach.com/2026/202607/2026-07-04-A-two-thermometers</link>
+		<guid>https://blockcoach.com/2026/202607/2026-07-04-A-two-thermometers</guid>
+		<pubDate>Sat, 04 Jul 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[BTC连日反弹，已升至30日均线62.3k上方。能否站住，尚未可知。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜七月反弹，幂律六万</title>
 		<link>https://blockcoach.com/2026/202607/2026-07-03-power-law-60k</link>
 		<guid>https://blockcoach.com/2026/202607/2026-07-03-power-law-60k</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202606/2026-06-15-A-dual-events</guid>
 		<pubDate>Mon, 15 Jun 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[隔夜BTC稳稳站上65k，连续第六天回升。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜赛勒辩解：永远别卖的是你们，不是我的公司</title>
-		<link>https://blockcoach.com/2026/202606/2026-06-14-A-saylor-sells-bitcoin</link>
-		<guid>https://blockcoach.com/2026/202606/2026-06-14-A-saylor-sells-bitcoin</guid>
-		<pubDate>Sun, 14 Jun 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[自从6月10号突然大幅放量以来，这几天BTC就一路小步快跑，连日拉升，目前已回升至64k上方。对于10号的放量反弹，教链也不知道背后是发生了什么大事，知道内幕的朋友可以说说。]]></description>
 	</item>
   
 	</channel>
