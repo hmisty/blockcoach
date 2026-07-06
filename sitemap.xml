@@ -2,11 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://blockcoach.com</loc>
-		<lastmod>2026-07-05</lastmod>
+		<lastmod>2026-07-06</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 	
+	<url>
+		<loc>https://blockcoach.com/2026/202607/2026-07-06-A-fair-weather-or-foul-weather</loc>
+		<lastmod>2026-07-06T00:00:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+  
 	<url>
 		<loc>https://blockcoach.com/2026/202607/2026-07-05-W-shaped-reversal-or-three-strikes</loc>
 		<lastmod>2026-07-05T00:00:00+00:00</lastmod>

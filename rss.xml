@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>72/十年之约｜Strategy突然又卖了3588枚BTC</title>
+		<link>https://blockcoach.com/2026/202607/2026-07-06-A-fair-weather-or-foul-weather</link>
+		<guid>https://blockcoach.com/2026/202607/2026-07-06-A-fair-weather-or-foul-weather</guid>
+		<pubDate>Mon, 06 Jul 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[本系列上一篇：《刘教链｜BTC逼近Realized Price，熊市终极考验来了》]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜W底反转还是三振出局</title>
 		<link>https://blockcoach.com/2026/202607/2026-07-05-W-shaped-reversal-or-three-strikes</link>
 		<guid>https://blockcoach.com/2026/202607/2026-07-05-W-shaped-reversal-or-three-strikes</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202606/2026-06-17-A-accumulate</guid>
 		<pubDate>Wed, 17 Jun 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC从前些日最低59k反弹，周一（6月15日）更是一举从64k冲至67k上方，目前已回撤至65k附近。[1]]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜反弹</title>
-		<link>https://blockcoach.com/2026/202606/2026-06-16-A-rebound</link>
-		<guid>https://blockcoach.com/2026/202606/2026-06-16-A-rebound</guid>
-		<pubDate>Tue, 16 Jun 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[隔夜BTC延续回升态势，一度冲高到66k上方。从最低59k反弹上来，不知不觉已经有十余天了。6万6这个位置，说高不高，说低不低——距离历史高点126k腰斩有余，但也比六月初那个令人胆战心惊的5字头高出了一截。]]></description>
 	</item>
   
 	</channel>
