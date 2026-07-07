@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜稳定币逐鹿：USDC超越USDT了吗？</title>
+		<link>https://blockcoach.com/2026/202607/2026-07-07-A-stablecoin-power-game-usdc-vs-usdt</link>
+		<guid>https://blockcoach.com/2026/202607/2026-07-07-A-stablecoin-power-game-usdc-vs-usdt</guid>
+		<pubDate>Tue, 07 Jul 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[大饼7月7号延续近几日的反弹，日间冲高至65k附近旋即滑落，收在63k一线。有趣的是，昨天曝出Strategy（微策略）再次大额抛售（割肉）（参考7.6教链文章《Strategy突然又卖了3588枚BTC》），市场短暂恐慌回调后，竟然止跌回升。果真是应了那句话：一买就跌，一卖就涨。]]></description>
+	</item>
+  
+	<item>
 		<title>72/十年之约｜Strategy突然又卖了3588枚BTC</title>
 		<link>https://blockcoach.com/2026/202607/2026-07-06-A-fair-weather-or-foul-weather</link>
 		<guid>https://blockcoach.com/2026/202607/2026-07-06-A-fair-weather-or-foul-weather</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202606/2026-06-18-A-warsh-debut</guid>
 		<pubDate>Thu, 18 Jun 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[美联储议息会议结束，BTC继续回落跌破64k。昨日还在猜测沃什会说什么，今天已经有了答案。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜现在也许是开始积累的最好阶段</title>
-		<link>https://blockcoach.com/2026/202606/2026-06-17-A-accumulate</link>
-		<guid>https://blockcoach.com/2026/202606/2026-06-17-A-accumulate</guid>
-		<pubDate>Wed, 17 Jun 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC从前些日最低59k反弹，周一（6月15日）更是一举从64k冲至67k上方，目前已回撤至65k附近。[1]]]></description>
 	</item>
   
 	</channel>
