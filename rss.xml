@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜大饼跑赢那头熊了吗？</title>
+		<link>https://blockcoach.com/2026/202607/2026-07-11-A-btc-july-bear</link>
+		<guid>https://blockcoach.com/2026/202607/2026-07-11-A-btc-july-bear</guid>
+		<pubDate>Sat, 11 Jul 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[七月的第一个完整交易周，大饼走了个漂亮的反弹。从六月底的低点58k附近，一路拉回到64k上方。幂律的6万刀守住了。200周均线的62.8k也被拉回水上。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜欧洲监管无心插柳，去中心化渔翁得利</title>
 		<link>https://blockcoach.com/2026/202607/2026-07-10-A-mica-backfire</link>
 		<guid>https://blockcoach.com/2026/202607/2026-07-10-A-mica-backfire</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202606/2026-06-21-A-bitcalc-release</guid>
 		<pubDate>Sun, 21 Jun 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[过去几年小白课授课一直在用的离线 BTC 冷钱包生成工具 bitaddress.org 是经典，但只支持 P2PKH（1 开头的老地址），不支持现在钱包普遍用的 Native SegWit（bc1q）。而且它只导出裸私钥 WIF，不生成助记词。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜当STRC陷入死亡螺旋，自杀还是装死？</title>
-		<link>https://blockcoach.com/2026/202606/2026-06-20-A-strc-death-spiral-suicide-play-dead</link>
-		<guid>https://blockcoach.com/2026/202606/2026-06-20-A-strc-death-spiral-suicide-play-dead</guid>
-		<pubDate>Sat, 20 Jun 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[周六傍晚，BTC在63k附近徘徊。在200周均线上方不远，人们心里不禁有些没底。]]></description>
 	</item>
   
 	</channel>
