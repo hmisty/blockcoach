@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜1400万成本19亿票房，这匹电影黑马和比特币共用一个底层密码</title>
+		<link>https://blockcoach.com/2026/202607/2026-07-12-A-circle-vs-market</link>
+		<guid>https://blockcoach.com/2026/202607/2026-07-12-A-circle-vs-market</guid>
+		<pubDate>Sun, 12 Jul 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[昨天陪媳妇去看了电影《给阿嬷的情书》。看完后她久久意难平。看网上说好像票房已经冲破19亿了。对于一部成本只有1400多万的影片这是什么概念？]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜大饼跑赢那头熊了吗？</title>
 		<link>https://blockcoach.com/2026/202607/2026-07-11-A-btc-july-bear</link>
 		<guid>https://blockcoach.com/2026/202607/2026-07-11-A-btc-july-bear</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202606/2026-06-22-A-strc-gbtc-echo</guid>
 		<pubDate>Mon, 22 Jun 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC从五天前回踩62k附近，本周一终于站回了64k上方。同期STRC的市场折价也从此前的20%以上收窄至12%-18%区间，股、币市场同步出现修复迹象。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜手搓了一个冷钱包 BTC 地址计算器</title>
-		<link>https://blockcoach.com/2026/202606/2026-06-21-A-bitcalc-release</link>
-		<guid>https://blockcoach.com/2026/202606/2026-06-21-A-bitcalc-release</guid>
-		<pubDate>Sun, 21 Jun 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[过去几年小白课授课一直在用的离线 BTC 冷钱包生成工具 bitaddress.org 是经典，但只支持 P2PKH（1 开头的老地址），不支持现在钱包普遍用的 Native SegWit（bc1q）。而且它只导出裸私钥 WIF，不生成助记词。]]></description>
 	</item>
   
 	</channel>
