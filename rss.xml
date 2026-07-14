@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜Fidelity眼中的幂律支撑线</title>
+		<link>https://blockcoach.com/2026/202607/2026-07-14-A-fidelity-power-law</link>
+		<guid>https://blockcoach.com/2026/202607/2026-07-14-A-fidelity-power-law</guid>
+		<pubDate>Tue, 14 Jul 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[距离1号创下的57.8k低点，已经过去了近半个月。反弹了，但冲劲儿不足。横在这里，如鲠在喉。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜分裂不分裂，BTC升降两茫茫</title>
 		<link>https://blockcoach.com/2026/202607/2026-07-13-A-bip110-saylor-back-draft</link>
 		<guid>https://blockcoach.com/2026/202607/2026-07-13-A-bip110-saylor-back-draft</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202606/2026-06-24-A-bitcalc-20260624-release-notes</guid>
 		<pubDate>Wed, 24 Jun 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[前不久，教链手搓了一个冷钱包 BTC 地址计算器/生成器 BitCalc，今天2026.6.24这次更新集中在**安全性和易用性**两个方向。以下是按重要程度排列的关键改动。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜中本聪的币，该被冻结吗？</title>
-		<link>https://blockcoach.com/2026/202606/2026-06-23-A-quantum-bitcoin-alignment</link>
-		<guid>https://blockcoach.com/2026/202606/2026-06-23-A-quantum-bitcoin-alignment</guid>
-		<pubDate>Tue, 23 Jun 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[如果有一天，有人能破解中本聪的比特币钱包，那110万枚沉睡多年的BTC该归谁？]]></description>
 	</item>
   
 	</channel>
