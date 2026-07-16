@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜永恒熊市</title>
+		<link>https://blockcoach.com/2026/202607/2026-07-16-A-eternal-bear-market</link>
+		<guid>https://blockcoach.com/2026/202607/2026-07-16-A-eternal-bear-market</guid>
+		<pubDate>Thu, 16 Jul 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[教链晚上在网上闲逛，看到Fred Krueger说了个有趣的数字。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜橙点的破产</title>
 		<link>https://blockcoach.com/2026/202607/2026-07-15-A-orange-dot-bankruptcy</link>
 		<guid>https://blockcoach.com/2026/202607/2026-07-15-A-orange-dot-bankruptcy</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202606/2026-06-26-A-dare-to-add</guid>
 		<pubDate>Fri, 26 Jun 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC在58k到60k之间反复震荡徘徊。从61k一小时跌到58k的那个夜晚，市场情绪像被当头泼了一盆冰水，网上到处都是吵吵微策略暴雷的声音。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜大饼急跌破位，小暖一语成谶</title>
-		<link>https://blockcoach.com/2026/202606/2026-06-25-A-btc-58k-powerlaw-test</link>
-		<guid>https://blockcoach.com/2026/202606/2026-06-25-A-btc-58k-powerlaw-test</guid>
-		<pubDate>Thu, 25 Jun 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC在6月25日晚上21:00这一小时，从61,246美刀跌到了58,110美刀，收在58,298。跌幅近5%，跌破了6万刀整数关口。]]></description>
 	</item>
   
 	</channel>
