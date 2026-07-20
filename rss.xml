@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜DOG Mode还是SHIT Mode？</title>
+		<link>https://blockcoach.com/2026/202607/2026-07-19-A-dog-mode</link>
+		<guid>https://blockcoach.com/2026/202607/2026-07-19-A-dog-mode</guid>
+		<pubDate>Sun, 19 Jul 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[BTC还在64k上下。市场仿佛在等待什么。但社区却并不平静。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜上善若水而无常形</title>
 		<link>https://blockcoach.com/2026/202607/2026-07-18-A-btc-middle-state</link>
 		<guid>https://blockcoach.com/2026/202607/2026-07-18-A-btc-middle-state</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202606/2026-06-29-A-cyberpunk-cypherpunk-end-side-agent</guid>
 		<pubDate>Mon, 29 Jun 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[周末BTC又在60k附近晃悠了一圈，上上下下，高低起伏。Coinbase溢价指数连续40天负溢价，Jeremy Grantham又出来大谈BTC将要消亡。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜恐慌割肉时的安全报告</title>
-		<link>https://blockcoach.com/2026/202606/2026-06-28-A-panic-then-fidelity</link>
-		<guid>https://blockcoach.com/2026/202606/2026-06-28-A-panic-then-fidelity</guid>
-		<pubDate>Sun, 28 Jun 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[周末BTC多空力量继续在6万刀一线僵持不下。]]></description>
 	</item>
   
 	</channel>

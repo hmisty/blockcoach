@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜DOG Mode还是SHIT Mode？ - BlockCoach - 刘教链</title>
+	<meta name="description" content="BTC还在64k上下。市场仿佛在等待什么。但社区却并不平静。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜DOG Mode还是SHIT Mode？">
+	<meta property="og:description" content="BTC还在64k上下。市场仿佛在等待什么。但社区却并不平静。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202607/2026-07-19-A-dog-mode">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-07-19">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜DOG Mode还是SHIT Mode？">
+	<meta name="twitter:description" content="BTC还在64k上下。市场仿佛在等待什么。但社区却并不平静。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202607/2026-07-19-A-dog-mode">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜DOG Mode还是SHIT Mode？",
+		"description": "BTC还在64k上下。市场仿佛在等待什么。但社区却并不平静。",
+		"url": "https://blockcoach.com/2026/202607/2026-07-19-A-dog-mode",
+		"datePublished": "2026-07-19",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202607">2026年07月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜DOG Mode还是SHIT Mode？</h1>
+			<div class="meta">
+				发布时间：2026-07-19
+				
+			</div>
+			<div class="content">
+				<p>BTC还在64k上下。市场仿佛在等待什么。但社区却并不平静。</p>
+<p>7月17日，Ordinals生态的核心人物、Runestone项目联合创始人Leonidas在X上发了一条帖子，说要做一个新的比特币客户端，叫Bitcoin $DOG Mode。[1]</p>
+<p>这条帖子没有代码、没有仓库、没有版本号。但它像一个石子扔进了湖面，荡开的涟漪一直扩散到今天。</p>
+<p>要理解DOG Mode在说什么，先得理解比特币客户端的两层规则。</p>
+<p>一层叫共识规则（consensus rule），管的是链上的事——交易能否被写进区块、持久存储。改了它，链就会分叉。</p>
+<p>另一层叫中继策略，也叫relay policy，管的是内存里的事——节点是否接收和转发一笔交易，是否把它放进自己的挖矿模板。临时性的，名义上是每个节点自己说了算，因为自己的内存池不像区块那样需要接受全网的共识检查。</p>
+<p>但几乎所有节点都跑默认配置。</p>
+<p>默认值变成了事实规则。Leonidas因此说了一句很有挑战意味的话：Core和Knots花了多年时间，执行了比特币自己从来没有规定的规则。</p>
+<p>他说的乍一听上去好像有点儿道理。共识规则没有交易体积限制，没有粉尘限额。这些全都是客户端维护者自己设定的默认值。</p>
+<p>DOG Mode要改两条。</p>
+<p>第一条，把最大中继交易体积从Core客户端默认的40万重量单位（WU）提升到390万。比特币一个区块满打满算400万重量单位，Core目前只转发不到十分之一块大小的交易，DOG Mode想接近整块。</p>
+<p>第二条，把粉尘限额从294～546聪降到1聪。粉尘是指交易输出小到不值得转发和储存的那些零头。降到1聪，意味着几乎不再有任何输出因为太小而被拒绝转发。</p>
+<p>这两条都不碰共识规则。DOG Mode完全兼容Core客户端的区块验证逻辑。它只是把Core客户端自己设的默认值改了。</p>
+<p>但是他其实是在偷梁换柱。</p>
+<p>关键问题在于，何谓所谓比特币规定的规则。</p>
+<p>他钻了一个漏洞。这个漏洞就是，没有进入共识层的规则就不算规则。</p>
+<p>教链的老读者应该从前段时间教链写过的多篇文章中已经了解过BIP-110。它正是一次试图把策略层的潜规则升级为共识层的硬规则的尝试之举。</p>
+<p>过去大半年，BIP-110一直在试图推动所谓垃圾交易过滤规则进入共识层——用软分叉的方式，限制链上任意数据的大小，从而封堵Ordinals和Runes塞进比特币主链的数据。</p>
+<p>BIP-110采用修改版的BIP-9信号机制，设置了55%的矿工支持阈值。到7月中旬，信号支持率大约刚刚超过1%，距离55%的门槛还有很大距离。它还能不能继续上升，谁也不知道。[2]</p>
+<p>历史奇妙的地方在于，一切历史都是当代史。</p>
+<p>2010年12月中本聪刚刚发布了Bitcoin Core 0.3.18，版本里包含了Gavin Andresen提交的IsStandard检查——一个对交易是否符合标准的函数。社区炸了锅。</p>
+<p>有网友说，矿工已经明确反对，不会用它，非标准交易仍然可能。</p>
+<p>有网友甚至说：等我有时间，我会为比特币做一个补丁，移除所有非网络强制执行的交易限制。</p>
+<p>最后这句话今天看起来像预言。2010年有人在论坛上说要移除限制。2026年真有人出来说要做。</p>
+<p>中本聪顶着社区压力把IsStandard合入了。这函数从未被删除，16年来一直是Core的核心代码。但它不是共识规则，矿工可以不执行。</p>
+<p>这个历史案例教链觉得值得回味。</p>
+<p>中本聪从来没有主张完全自由放任。他删过操作码，加过IsStandard，反对把非货币数据嵌入主链。他在2010年讨论BitDNS时说过，数据应用应该有自己的链，矿工一份算力得两份报酬，这是最优结构。</p>
+<p>完全自由放任，各行其是，其实并不是共识，很有可能是乌合之众。</p>
+<p>共识涣散的乌合之众，撑不起比特币的价值，更撑不起比特币的使命。</p>
+<p>鲁迅说过，要开窗大家不同意，于是先喊拆房顶，大家反而对开窗没有那么反对了。</p>
+<p>BIP-110拉出掀屋顶的架势：用共识规则强制原本由relay policy建议做的事。</p>
+<p>社区争论不休。信号迫在眉睫。前途依旧不明。</p>
+<p>正当这个万众瞩目的关口，DOG Mode跑出来大喊，我也要掀屋顶：进一步放宽relay policy，放宽到无以复加的地步。</p>
+<p>很难讲不是蹭热点，博出位。</p>
+<p>他用自己的逻辑说：Core的默认值是Core自己选的，不是比特币要求的。所以我可以做一个Core的fork，在另一套默认值下跑。跑的人多了，Core自然要考虑改自己的默认值。</p>
+<p>教链查了一下最新的节点版本统计数据，排在第一位的是Knots 29.3，占比19.5%。排在第二的是Core 31.0，17.9%。[3]</p>
+<p>Knots是多年来被视作边缘的收紧派客户端，支持者沉默了太久，以致于很多人忽略了它的存在。它竟然悄悄成了全网第一。</p>
+<p>这个事实打破了一个流行的叙事。Core已然不足以全权代表全网共识。Knots已经跑在近五分之一的节点上，它比Core最新版本还要多。节点运营者在用脚投票。</p>
+<p>DOG Mode的代码还不知所踪。但它声称要做的，和Knots十分相似：做一个替代客户端，用不同的默认值去吸引分布式网络的节点。只不过Knots从收紧的方向，DOG Mode从放宽的方向。</p>
+<p>客户端多元化竞争已经发生了，它的结果是Knots登顶。如果DOG Mode真能写出来跑起来，那就是另一个故事。</p>
+<p>但没有代码也有没有代码的意义，就像模因币也有模因币的意义（巧了，这个DOG其实就是Runes模因币）。一条帖子搅动了整个社区的神经，这件事本身说明了比特币治理的真实状态：它的默认值战场早已不再是单纯的技术问题，而是话语权和社区舆论的较量。</p>
+<p>你想开窗，就得先作势要掀屋顶。</p>
+<p>想收紧，喊BIP-110掀一次；想放宽，喊DOG Mode掀一次。一作势掀屋顶，躺着的人就怕了。</p>
+<p>这不是比特币的失控，这恰好是它形成秩序的方式。一个永远在争议中寻找边界的去中心化网络，以它自己的方式，前进。</p>
+<hr>
+<p><strong>免责声明</strong>：本文纯属教链个人主观认知分享，不构成任何投资建议。加密市场波动巨大，风险极高，请自行判断、谨慎决策、承担风险和后果。<br><strong>加入教链会员</strong>：欢迎关注公众号并发消息「会员」或「VIP」了解详情。<br><strong>点击延伸阅读</strong>👉<a href="https://member.liujiaolian.com/i/20260717">教链内参｜沃什听证掀波澜，BTC筑底信号与机构加速进场</a></p>
+<hr>
+<p>参考文献：<br>[1] &quot;DOG Mode explains Bitcoin&#39;s next governance fight&quot;, CoinDesk, 2026-07-18. <a href="https://www.coindesk.com/tech/2026/07/18/dog-mode-explains-bitcoin-s-next-governance-fight">链接</a><br>[2] BIP-110 矿工支持率监控. <a href="https://bip110.org/">链接</a><br>[3] Bitcoin node version distribution (2026-07数据), 来源: dashboards 或 bitnodes</p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>
