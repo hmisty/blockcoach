@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜BitCalc 2026.08.02版本发布：全面加固和优化 - BlockCoach - 刘教链</title>
+	<meta name="description" content="前文：《刘教链｜BitCalc 2026.6.24 更新说明》 《刘教链｜手搓了一个冷钱包 BTC 地址计算器》">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜BitCalc 2026.08.02版本发布：全面加固和优化">
+	<meta property="og:description" content="前文：《刘教链｜BitCalc 2026.6.24 更新说明》 《刘教链｜手搓了一个冷钱包 BTC 地址计算器》">
+	<meta property="og:url" content="https://blockcoach.com/2026/202608/2026-08-02-A-bitcalc-20260802">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-08-02">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜BitCalc 2026.08.02版本发布：全面加固和优化">
+	<meta name="twitter:description" content="前文：《刘教链｜BitCalc 2026.6.24 更新说明》 《刘教链｜手搓了一个冷钱包 BTC 地址计算器》">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202608/2026-08-02-A-bitcalc-20260802">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜BitCalc 2026.08.02版本发布：全面加固和优化",
+		"description": "前文：《刘教链｜BitCalc 2026.6.24 更新说明》 《刘教链｜手搓了一个冷钱包 BTC 地址计算器》",
+		"url": "https://blockcoach.com/2026/202608/2026-08-02-A-bitcalc-20260802",
+		"datePublished": "2026-08-02",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202608">2026年08月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜BitCalc 2026.08.02版本发布：全面加固和优化</h1>
+			<div class="meta">
+				发布时间：2026-08-02
+				
+			</div>
+			<div class="content">
+				<p><em>前文：<a href="/2026/202606/2026-06-24-A-bitcalc-20260624-release-notes/">《刘教链｜BitCalc 2026.6.24 更新说明》</a> <a href="/2026/202606/2026-06-21-A-bitcalc-release/">《刘教链｜手搓了一个冷钱包 BTC 地址计算器》</a></em></p>
+<hr>
+<p><strong>版本号：2026.08.02 ｜ 在线预览：<a href="https://bitcalc.blockcoach.com">https://bitcalc.blockcoach.com</a></strong></p>
+<p>BitCalc 是一个完全离线的比特币地址计算工具——单文件 HTML，浏览器打开即用，支持脑钱包、随机钱包、BIP39 助记词与 BIP84 SegWit 地址。本次 8 月 1 日、2 日连续两天发布重大升级：<strong>第一天加固安全内核，第二天打磨体验细节</strong>。这篇文章带你完整了解新版本。</p>
+<p><img src="2026-08-02-A/screenshot.avif" alt=""></p>
+<hr>
+<h2>一、为什么做这次升级</h2>
+<p>BitCalc 的随机数生成代码源自 bitaddress.org（2011 年的经典实现）。对其做了<strong>逐行代码审计</strong>，对照现代密码学标准后发现：时代的烙印依然存在——有些设计在当年合理，在 2026 年却可能成为风险。故而决定在上一版本基础上，进行全面加固和优化。</p>
+<hr>
+<h2>二、安全内核：随机数生成全面加固（8 月 1 日）</h2>
+<h3>1. 私钥强度：永远是完整的 256 位</h3>
+<p><strong>旧问题</strong>：选择 12 词助记词时，随机钱包只生成 16 字节（128 位）熵，且直接当作私钥使用——密钥强度只有标准的一半。</p>
+<p><strong>新方案</strong>：无论 12 词还是 24 词，经典路径（P2PKH/SegWit/WIF）私钥<strong>始终是完整的 32 字节（256 位）</strong>。12 词助记词按 BIP39 规范取初始熵的前 16 字节（128 位熵）——这是行业标准，而裸私钥则是满配的 256 位。</p>
+<h3>2. 随机源：彻底告别 <code>Math.random()</code></h3>
+<p>审计发现，AES IV 生成、ISO 10126 填充等安全敏感路径仍在使用 <code>Math.random()</code>——它不是密码学安全随机数。新版本中：</p>
+<ul>
+<li><strong>所有安全敏感路径全部改用密码学安全生成器</strong>（<code>crypto.getRandomValues</code> 与熵池 PRNG 的混合）</li>
+<li><code>Math.random()</code> 仅保留在非密钥用途（如 UI 计数器）</li>
+</ul>
+<h3>3. 失败即关闭（fail-closed）：宁可不出结果，绝不出弱密钥</h3>
+<p><strong>旧行为</strong>：浏览器不支持 <code>crypto.getRandomValues</code>（如纯 HTTP 环境、老浏览器）时，工具静默回退到弱随机——用户毫不知情地拿到了弱私钥。</p>
+<p><strong>新行为</strong>：检测到无安全随机源时<strong>直接拒绝生成</strong>，并显示红色警告横幅，明确告知“请使用现代浏览器并通过 HTTPS 访问”。安全不是选择题，弱密钥等于没有密钥。</p>
+<h3>4. 熵池修复：播种数据永远生效</h3>
+<p>bitaddress.org 的原始实现有一个遗留缺陷（代码里写着 <code>TODO: allow reseeding</code>）：ArcFour 熵池只初始化一次，如果播种发生在首次随机输出之后，鼠标/键盘收集的熵会被<strong>静默浪费</strong>。</p>
+<p>新版本实现 <strong>poolDirty 机制</strong>：任何新播种数据都会在下次输出前强制重新混入熵池——无论调用顺序如何，用户的熵永远不会白费。</p>
+<h3>5. 告别“晃动鼠标”时代</h3>
+<p><strong>旧体验</strong>：必须先移动鼠标 200~455 次、看着进度条走满，才能解锁“生成”按钮——这是 2011 年浏览器 API 不完善时代的产物。</p>
+<p><strong>新体验</strong>：</p>
+<ul>
+<li><strong>点一下，立即生成</strong>。2026 年的浏览器自带操作系统级安全随机源（CSPRNG），不需要人工“聚熵”</li>
+<li>鼠标/键盘/高精度时间（<code>performance.now()</code> 微秒级）仍然<strong>被动</strong>混入熵池，作为零成本的纵深防御层——输出始终是 <code>CSPRNG ⊕ 熵池</code> 的混合，多一层保险，不多一分负担</li>
+<li>生成按钮旁新增<strong>实时熵混合指示器</strong>：脉冲圆点 + 累计从鼠标、键盘和高精度计时器收集的熵字节数，透明展示后台熵混合的活跃度</li>
+</ul>
+<h3>6. 脑钱包：密码熵实时评估</h3>
+<p>脑钱包（密码 → SHA256 → 私钥）是高风险用法——<strong>密码熵直接等于私钥熵</strong>，没有 KDF 拉伸的保护。新版本提供两道防线：</p>
+<p><strong>输入时</strong>：密码框上方实时显示评估——</p>
+<ul>
+<li>密码长度 + 熵估算（字符集 × 长度，自动检测并扣除弱密码模式，如重复、序列、键盘走位、常见密码库等）</li>
+<li>三档评级：<strong>&lt;60 位弱 / 60-127 位一般 / ≥128 位强</strong>（128 位是密码学安全线）</li>
+<li>短于 30 字符的密码永远不能评“强”（与密码框提示一致）</li>
+<li>空密码也会立即警告——因为空密码真的可以直接生成</li>
+</ul>
+<p><strong>生成后</strong>：如果地址由 &lt;128 位密码派生，输出区顶部显示红色/橙色警告横幅，明确告知“私钥易被暴力破解，请勿存入资金”。<strong>只警告、不阻止</strong>——工具如实告知风险，选择权在用户。</p>
+<hr>
+<h2>三、体验升级：UI 打磨与移动端（8 月 2 日）</h2>
+<h3>1. 品牌：BitCalc 与 BC 徽章</h3>
+<p>Logo 保持 <strong>BitCalc</strong>（Bit橙色 + Calc白色），旁边新增橙色 <strong>BC</strong> 缩写徽章，建立品牌关联。副标题（“比特币地址计算器”）不再重复品牌名，在 PC 端位于 logo 右侧、移动端自动换行到下方。</p>
+<h3>2. 敏感信息遮罩：防肩窥</h3>
+<p>助记词、WIF 私钥、熵/种子 Hex 等 <strong>12 个敏感字段默认模糊遮罩</strong>，点击后显示，悬停有 🔒 提示。在地铁、咖啡馆等公共场所使用时不至于一眼泄露私钥。（说明：这是防肩窥保护，值始终在页面中——它防“被看到”，不防“被窃取”。请务必在只有一个人的私密环境中离线使用！）</p>
+<h3>3. 移动端：真正适配</h3>
+<p><strong>根因修复</strong>：旧页面缺少 viewport meta，手机上看不清。新版本：</p>
+<ul>
+<li>加入 <code>viewport</code> 声明，页面按设备真实宽度渲染</li>
+<li>窄屏自动切换<strong>单列布局</strong>：五个功能标签页均分整行、表单纵向堆叠（标签一行、输入框全宽一行）、二维码单列居中、按钮全宽易点</li>
+<li>输入框 16px 字号，同时防止 iOS 聚焦时自动缩放页面</li>
+</ul>
+<h3>4. 页脚完善</h3>
+<ul>
+<li><strong>使用建议</strong>：“下载本页面后离线使用，以浏览器无痕模式打开”</li>
+<li><strong>版本标识</strong>：“当前版本：2026.08.02”——以发布日期作为版本号，升级可追溯</li>
+<li><strong>捐赠区</strong>独立于分隔线下，配 ☕ 图标</li>
+</ul>
+<hr>
+<h2>四、相比 bitaddress.org：改了什么、修了什么</h2>
+<p>BitCalc 的底层库继承自 bitaddress.org，但本次升级针对它的历史遗留问题做了<strong>定向修复与超越</strong>：</p>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">bitaddress.org（2011 设计）</th>
+<th align="left">BitCalc 2026.08（新）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">强制播种门禁</td>
+<td align="left">必须晃动鼠标 200~455 次才能解锁生成</td>
+<td align="left"><strong>一键生成</strong>；鼠标/键盘/高精度时间被动混熵</td>
+</tr>
+<tr>
+<td align="left">熵池重新播种</td>
+<td align="left"><code>TODO: allow reseeding</code> 从未实现——播种可能被早期随机调用静默浪费</td>
+<td align="left"><strong>poolDirty 机制</strong>：播种数据在任何时序下必然生效</td>
+</tr>
+<tr>
+<td align="left">无安全随机源（HTTP/老浏览器）</td>
+<td align="left">静默回退到弱随机（Math.random 池），用户毫不知情</td>
+<td align="left"><strong>fail-closed</strong>：直接拒绝生成 + 红色警告横幅</td>
+</tr>
+<tr>
+<td align="left">安全路径中的 <code>Math.random()</code></td>
+<td align="left">捆绑的 cryptojs 中 <code>randomBytes</code>/ISO 10126 仍用 <code>Math.random()</code></td>
+<td align="left"><strong>全部替换</strong>为 CSPRNG 混合生成器</td>
+</tr>
+<tr>
+<td align="left">密码熵提示</td>
+<td align="left">无任何评估，脑钱包风险全靠自觉</td>
+<td align="left"><strong>实时熵评估</strong>（长度+熵位，三档评级）+ 生成后低熵警告</td>
+</tr>
+<tr>
+<td align="left">私钥强度</td>
+<td align="left">默认 32 字节</td>
+<td align="left">随机钱包私钥<strong>始终 256 位</strong>（修复了 12 词模式仅 128 位的偏差）</td>
+</tr>
+<tr>
+<td align="left">敏感信息展示</td>
+<td align="left">明文直接展示</td>
+<td align="left"><strong>模糊遮罩 + 点击显示</strong>（防肩窥）</td>
+</tr>
+<tr>
+<td align="left">移动端</td>
+<td align="left">不支持</td>
+<td align="left"><strong>viewport + 单列布局</strong>，触控优化</td>
+</tr>
+<tr>
+<td align="left">密码熵评估阈值</td>
+<td align="left">无</td>
+<td align="left">128 位密码学安全线；&lt;30 字符永不评强</td>
+</tr>
+</tbody></table>
+<p><strong>总结</strong>：保留了 bitaddress.org 的正确内核（secp256k1、ArcFour+系统熵混合的架构），修复了它留了 15 年的 TODO，并淘汰了它在 2026 年已不再必要的历史包袱。</p>
+<hr>
+<h2>五、升级总览</h2>
+<table>
+<thead>
+<tr>
+<th align="left">维度</th>
+<th align="left">2026.08.01（安全内核）</th>
+<th align="left">2026.08.02（体验打磨）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">密钥</td>
+<td align="left">私钥始终 256 位</td>
+<td align="left">—</td>
+</tr>
+<tr>
+<td align="left">随机源</td>
+<td align="left">移除 Math.random、fail-closed</td>
+<td align="left">—</td>
+</tr>
+<tr>
+<td align="left">熵池</td>
+<td align="left">poolDirty 重新播种</td>
+<td align="left">熵混合指示器</td>
+</tr>
+<tr>
+<td align="left">交互</td>
+<td align="left">移除强制播种进度条</td>
+<td align="left">移动端适配、敏感遮罩</td>
+</tr>
+<tr>
+<td align="left">脑钱包</td>
+<td align="left">密码熵评估 + 低熵警告</td>
+<td align="left">—</td>
+</tr>
+<tr>
+<td align="left">品牌/页脚</td>
+<td align="left">免责声明强化</td>
+<td align="left">BC 徽章、版本号、使用建议</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>六、使用建议</h2>
+<ol>
+<li><strong>离线使用</strong>：下载 <code>bitcalc.html</code> 到本地，断网后打开（使用浏览器无痕模式）</li>
+<li><strong>安全环境</strong>：在线使用请通过 HTTPS；工具会在不安全环境显示红色警告并拒绝生成</li>
+<li><strong>纸质备份</strong>：生成的助记词/私钥务必抄写并密封保存，页面不保存任何数据，关闭即失</li>
+<li><strong>自检验证</strong>：页面内置自检页，25 项测试向量一键验证核心功能正确性</li>
+</ol>
+<hr>
+<h2>七、邀请预览</h2>
+<p>新版本已部署：<strong><a href="https://bitcalc.blockcoach.com">https://bitcalc.blockcoach.com</a></strong></p>
+<p>建议体验路径：</p>
+<ul>
+<li><strong>随机钱包</strong> 一键生成，观察熵混合指示器与 256 位私钥</li>
+<li><strong>脑钱包</strong> 输入弱密码/强密码，观察实时熵评级与生成后警告</li>
+<li><strong>手机浏览器</strong> 感受单列布局与触控优化</li>
+<li><strong>自检页</strong> 运行 25 项测试向量</li>
+</ul>
+<p>任何问题、建议，欢迎到 GitHub 提 issue：<a href="https://github.com/hmisty/bitcalc">github.com/hmisty/bitcalc</a>，或在社群直接反馈。</p>
+<hr>
+<p><em>BitCalc 处于预览版阶段，无担保，使用风险自负。推荐使用AI辅助对代码进行独立审计。所有地址与私钥生成后，建议使用其他独立工具交叉验证。</em></p>
+<hr>
+<p><strong>免责声明</strong>：本文纯属教链个人主观认知分享，不构成任何投资建议。加密市场波动巨大，风险极高，请自行判断、谨慎决策、承担风险和后果。<br><strong>加入教链会员</strong>：欢迎关注公众号并发消息「会员」或「VIP」了解详情。<br><strong>点击延伸阅读</strong>👉<a href="https://member.liujiaolian.com/i/20260731">教链内参｜加息悬念落定之后，BTC吸筹区间与监管变局的双重奏</a></p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

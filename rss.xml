@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜BitCalc 2026.08.02版本发布：全面加固和优化</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-02-A-bitcalc-20260802</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-02-A-bitcalc-20260802</guid>
+		<pubDate>Sun, 02 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[_前文：《刘教链｜BitCalc 2026.6.24 更新说明》 《刘教链｜手搓了一个冷钱包 BTC 地址计算器》_]]></description>
+	</item>
+  
+	<item>
 		<title>73/十年之约｜硬件钱包又被破解，你的BTC还安全吗？</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-01-A-tenyrs-7B</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-01-A-tenyrs-7B</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202607/2026-07-13-A-bip110-saylor-back-draft</guid>
 		<pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC回落到63k附近。横盘久了，消息面的风吹草动就容易起波澜。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜1400万成本19亿票房，这匹电影黑马和比特币共用一个底层密码</title>
-		<link>https://blockcoach.com/2026/202607/2026-07-12-A-circle-vs-market</link>
-		<guid>https://blockcoach.com/2026/202607/2026-07-12-A-circle-vs-market</guid>
-		<pubDate>Sun, 12 Jul 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[昨天陪媳妇去看了电影《给阿嬷的情书》。看完后她久久意难平。看网上说好像票房已经冲破19亿了。对于一部成本只有1400多万的影片这是什么概念？]]></description>
 	</item>
   
 	</channel>
