@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜夏普率是个陷阱</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-03-A-sharp-ratio-myth</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-03-A-sharp-ratio-myth</guid>
+		<pubDate>Mon, 03 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[最近看到一条消息刷屏。一个前OpenAI研究员，靠着一只名叫「态势感知」的对冲基金，用接近4倍的杠杆重仓AI硬件股，短短一年半把450亿美刀的盘子做到了年回报439%。一时风头无两，人称AI股神。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜BitCalc 2026.08.02版本发布：全面加固和优化</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-02-A-bitcalc-20260802</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-02-A-bitcalc-20260802</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202607/2026-07-14-A-fidelity-power-law</guid>
 		<pubDate>Tue, 14 Jul 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[距离1号创下的57.8k低点，已经过去了近半个月。反弹了，但冲劲儿不足。横在这里，如鲠在喉。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜分裂不分裂，BTC升降两茫茫</title>
-		<link>https://blockcoach.com/2026/202607/2026-07-13-A-bip110-saylor-back-draft</link>
-		<guid>https://blockcoach.com/2026/202607/2026-07-13-A-bip110-saylor-back-draft</guid>
-		<pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC回落到63k附近。横盘久了，消息面的风吹草动就容易起波澜。]]></description>
 	</item>
   
 	</channel>

@@ -2,11 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://blockcoach.com</loc>
-		<lastmod>2026-08-02</lastmod>
+		<lastmod>2026-08-03</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 	
+	<url>
+		<loc>https://blockcoach.com/2026/202608/2026-08-03-A-sharp-ratio-myth</loc>
+		<lastmod>2026-08-03T00:00:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+  
 	<url>
 		<loc>https://blockcoach.com/2026/202608/2026-08-02-A-bitcalc-20260802</loc>
 		<lastmod>2026-08-02T00:00:00+00:00</lastmod>
