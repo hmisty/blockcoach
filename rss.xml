@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜自托管信仰，走向崩溃还是浴火重生？</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-08-A-self-custody-to-die-or-rebirth</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-08-A-self-custody-to-die-or-rebirth</guid>
+		<pubDate>Sat, 08 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[BTC持续爬升已近65k。周末的行情波澜不惊。但比特币社区的这个周末，注定不太平。]]></description>
+	</item>
+  
+	<item>
 		<title>74/十年之约｜扭曲现实力场</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-06-A-tenyrs8A</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-06-A-tenyrs8A</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202607/2026-07-18-A-btc-middle-state</guid>
 		<pubDate>Sat, 18 Jul 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[夕阳时分坐在湖边，看BTC一度跌破62k又拉回64k。湖水的颜色是锡白色的。水面静止时，像未磨的镜子；波纹卷动时，又像光滑的绸缎。夕阳倒映在湖面，悄悄藏进西边山里，映照出漫天的火烧云，红彤彤的。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜Stripe欲购PayPal，一个时代的谢幕</title>
-		<link>https://blockcoach.com/2026/202607/2026-07-17-A-stripe-buy-paypal</link>
-		<guid>https://blockcoach.com/2026/202607/2026-07-17-A-stripe-buy-paypal</guid>
-		<pubDate>Fri, 17 Jul 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[在BTC未能继续上行，复又撤回63k附近之际，一条震撼支付行业的消息映入教链的眼帘：估值1590亿美刀的全球最大私营支付公司Stripe，联手私募Advent，以530亿美刀向老牌支付巨头PayPal发出收购要约，报价每股60.5美刀，溢价约28%。]]></description>
 	</item>
   
 	</channel>
