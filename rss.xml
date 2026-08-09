@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜veto不是vote</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-09-A-veto-not-vote</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-09-A-veto-not-vote</guid>
+		<pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[关注BTC的朋友应该会注意到，今天比特币社区的一件大事在海外社交网络上刷屏。这就是BIP-110向Bitcoin Core发起了「华山论剑」的挑战。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜自托管信仰，走向崩溃还是浴火重生？</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-08-A-self-custody-to-die-or-rebirth</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-08-A-self-custody-to-die-or-rebirth</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202607/2026-07-19-A-dog-mode</guid>
 		<pubDate>Sun, 19 Jul 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC还在64k上下。市场仿佛在等待什么。但社区却并不平静。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜上善若水而无常形</title>
-		<link>https://blockcoach.com/2026/202607/2026-07-18-A-btc-middle-state</link>
-		<guid>https://blockcoach.com/2026/202607/2026-07-18-A-btc-middle-state</guid>
-		<pubDate>Sat, 18 Jul 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[夕阳时分坐在湖边，看BTC一度跌破62k又拉回64k。湖水的颜色是锡白色的。水面静止时，像未磨的镜子；波纹卷动时，又像光滑的绸缎。夕阳倒映在湖面，悄悄藏进西边山里，映照出漫天的火烧云，红彤彤的。]]></description>
 	</item>
   
 	</channel>
