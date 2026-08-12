@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜比特币，做空法币的永续合约</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-12-A-bitcoin-perpetual-short-fiat</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-12-A-bitcoin-perpetual-short-fiat</guid>
+		<pubDate>Wed, 12 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[BTC 在 63k 一线徘徊，多空都不痛快。就在这种平淡里，教链注意到一件事：某头部大所正在把永续合约的战场扩大到美股。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜BIP-110失败，Luke Dashjr去职</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-11-A-bip110-and-luke-failed</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-11-A-bip110-and-luke-failed</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202607/2026-07-22-A-68k-test</guid>
 		<pubDate>Wed, 22 Jul 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC连续四周反弹，一度站上了66k，创下一个多月来的新高。从本月初的低点57.8k算起，累计反弹了约15%。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜美股AI领跌，BTC逆势走强，热钱大逃亡或一触即发</title>
-		<link>https://blockcoach.com/2026/202607/2026-07-21-A-ai-selloff-btc-safe-haven</link>
-		<guid>https://blockcoach.com/2026/202607/2026-07-21-A-ai-selloff-btc-safe-haven</guid>
-		<pubDate>Tue, 21 Jul 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC悄然间已拉回66k一线，相比4天前的57.8k已拉升近万刀。纳指100从6月份的高点30661回落到28870，AI概念股领跌。]]></description>
 	</item>
   
 	</channel>
