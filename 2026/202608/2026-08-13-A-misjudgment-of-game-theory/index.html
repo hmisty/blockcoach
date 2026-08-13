@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜对博弈论的误判 - BlockCoach - 刘教链</title>
+	<meta name="description" content="BTC在64k下方震荡，不上不下。就在这种僵持不下之间，一场关于博弈论的实验轰轰烈烈地开始，又虎头蛇尾地戛然而止了：BIP-110软分叉强制信号开始大约8小时，只挖出两个区块，然后归于沉寂。主链领先超过80个区块[3]，99.85%的算力留在原网络[3]。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜对博弈论的误判">
+	<meta property="og:description" content="BTC在64k下方震荡，不上不下。就在这种僵持不下之间，一场关于博弈论的实验轰轰烈烈地开始，又虎头蛇尾地戛然而止了：BIP-110软分叉强制信号开始大约8小时，只挖出两个区块，然后归于沉寂。主链领先超过80个区块[3]，99.85%的算力留在原网络[3]。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202608/2026-08-13-A-misjudgment-of-game-theory">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-08-13">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜对博弈论的误判">
+	<meta name="twitter:description" content="BTC在64k下方震荡，不上不下。就在这种僵持不下之间，一场关于博弈论的实验轰轰烈烈地开始，又虎头蛇尾地戛然而止了：BIP-110软分叉强制信号开始大约8小时，只挖出两个区块，然后归于沉寂。主链领先超过80个区块[3]，99.85%的算力留在原网络[3]。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202608/2026-08-13-A-misjudgment-of-game-theory">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜对博弈论的误判",
+		"description": "BTC在64k下方震荡，不上不下。就在这种僵持不下之间，一场关于博弈论的实验轰轰烈烈地开始，又虎头蛇尾地戛然而止了：BIP-110软分叉强制信号开始大约8小时，只挖出两个区块，然后归于沉寂。主链领先超过80个区块[3]，99.85%的算力留在原网络[3]。",
+		"url": "https://blockcoach.com/2026/202608/2026-08-13-A-misjudgment-of-game-theory",
+		"datePublished": "2026-08-13",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202608">2026年08月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜对博弈论的误判</h1>
+			<div class="meta">
+				发布时间：2026-08-13
+				
+			</div>
+			<div class="content">
+				<p>BTC在64k下方震荡，不上不下。就在这种僵持不下之间，一场关于博弈论的实验轰轰烈烈地开始，又虎头蛇尾地戛然而止了：BIP-110软分叉强制信号开始大约8小时，只挖出两个区块，然后归于沉寂。主链领先超过80个区块[3]，99.85%的算力留在原网络[3]。</p>
+<h2>一、相似的误判</h2>
+<p>BIP-110强制信号开始之前，有位推友AdamSimecka发了一篇博弈论分析《Bitcoin Chicken: BIP 110 Game Theory》[1]。核心论点是：BIP-110是软分叉，信号区块对所有节点有效，未信号区块会被BIP-110节点拒绝。因此先信号的矿池不会冒孤儿块风险，却能获得协调溢价，成为全网唯一安全的选择，矿工和算力会向它汇聚。只需要一个矿池先动，BIP-110就会成功。</p>
+<p>这个推理，教链很熟悉。2026年3月2日，比特币区块链迎来历史上首个BIP-110信号区块，教链写了<a href="/2026/202603/2026-03-02-A-first-blood/">《第一滴血》</a>。当时的思想实验与这个推理有些相似：符合BIP-110的区块一定符合所有节点的规范，反之不成立。矿工要么生产100%畅销的商品，要么甘冒滞销的风险。教链当时算过一笔账，拒绝率阈值很低，一旦有矿工停止观望，趋势就会像雪崩一样加速。</p>
+<p>区别在于，AdamSimecka讲的是先发优势，而教链说的则是更退一步的从众效应。</p>
+<h2>二、两区块夭折</h2>
+<p>后来的事实是，没有矿池跟进，没有算力汇聚，没有协调溢价。BIP-110分叉上线大约8小时，只产生了两个区块[2]。先动者没有赢得协调溢价，没有引起跟随风潮，先动者先流了血。OCEAN矿池官宣将算力切回非BIP-110挖矿，Luke Dashjr被移除BIP编辑权限，随后辞去OCEAN矿池董事长和CTO职务[5]。有人评价道，Luke Dashjr财务和信誉双双破产[4]。</p>
+<p>（注：矿工Roughnecks仍未放弃孤立的BIP-110链，他们还在流血坚持，目前已经把BIP-110分叉链延长至4个区块了。Respect~）</p>
+<h2>三、拒绝即自绝</h2>
+<p>原帖说，先信号的矿池不会孤立自己的区块。这句话只对了一半。信号区块确实不会被他人拒绝，软分叉的兼容性保证了这一点。但作者漏掉了另一半：拒绝别人的区块，也可能让自己陷入孤立。</p>
+<p>要命的是，对了一半放在全局共识的语境下就等于完全错误。</p>
+<p>关键在于，谁站在最长链上。</p>
+<p>BIP-110节点拒绝未信号区块，然后呢？他们自己的链只延续了两个区块。拒绝没有让主链损失一个区块，却让自己站到了一条无法延续的链上。分叉链上的币不在最长链上，不被共识承认，是无效的币。拿无效的币去惩罚别人，构不成惩罚。把算力浪费在一条无效的分叉链上，才是自我惩罚。</p>
+<p>拒绝他人，不一定是惩罚他人，也可能是自绝于人民。</p>
+<p>在PoW的世界里，惩罚对手的唯一手段，是用超过对手的算力，把对方踢出最长链。拒绝验证、不承认、道德谴责，都只是立场表达，不构成经济打击。谁站在最长链上，谁就享有币的有效性这个最终裁判权。</p>
+<p>易传曰：安其身而后动。站住最长链，就是先安定自身。安身才能立命。身不安，何谈谋定而后动？BIP-110的支持者把力气花在拒绝上，却没有能力站住最长链，于是先输了自己。</p>
+<h2>四、共识的唯物性</h2>
+<p>由此不禁想到一个更根本的问题：究竟什么是所谓共识（consensus）？</p>
+<p>consensus这个词，来自拉丁语consentire，共同感觉。这个词天然带着主体间同意的色彩，好像共识是大家商量好、达成一致。但中本聪在白皮书里几乎不用这个词，他用的是proof-of-work、longest chain、CPU power（仅在最后一节结论中用了一次this consensus mechanism）。他描述的机制里没有商量，只有一条链上累积了最多的功。</p>
+<p>把共识解释成参与者的认识、赞成，总归有点落于唯心。事实上，共识就是那条最大PoW链（累积最多工作量证明的链，又称最长链）。它是一串耗费现实物理资源计算出来的数字，不可伪造、极难重制。算力消耗是单向的，最长链是做功的档案，是能量在时间里的化石。伪造它需要重做全部历史功，这在物理上难度极高。</p>
+<p>BTC的共识不是虚无缥缈的一致、赞成，而是实实在在的一串数字，耗费巨量真实世界资源凝结而成的一串数字。它是完全客观、唯物的存在，不因谁的支持而存在，也不因谁的反对而消亡。</p>
+<h2>五、价值的锚</h2>
+<p>当然，BTC是物理的，其价值却是社会性的。一枚币值多少钱，取决于人与人之间的经济关系、认知结构和动态博弈。但社会性的价值也需要一个锚。黄金的价值也是社会性的。黄金的物理属性，稀缺、不可伪造、难以低成本复制，让它成了数千年的价值锚定物。比特币复制了这个结构。PoW最长链，就是比特币价值的锚。</p>
+<p>锚是物理的。船随社会情绪漂移，锚沉在海底。没有锚的币，是漂流物。BIP-110分叉链上的币，失去了锚，也就是失去了价值的根。</p>
+<h2>六、结语</h2>
+<p>对博弈论的误判，误在哪里？误在以为共识是观点之争。共识从来不是观点之争，共识是力量之争。误在以为拒绝可以惩罚别人。拒绝往往先孤立自己。误在以为先动者赢。事实上，只有站在最长链上的人，才配谈赢。比特币的共识从来不问谁同意，只问谁做有用功。而判定做的是有用功还是无用功的唯一标准，是最长链共识。</p>
+<hr>
+<p><strong>免责声明</strong>：本文纯属教链个人主观认知分享，不构成任何投资建议。加密市场波动巨大，风险极高，请自行判断、谨慎决策、承担风险和后果。<br><strong>加入教链会员</strong>：欢迎关注公众号并发消息「会员」或「VIP」了解详情。<br><strong>点击延伸阅读</strong>👉<a href="https://member.liujiaolian.com/i/20260812">教链内参｜ETF连续吸金与SEC绕道出招，BTC筹码集中与机构入场共振</a></p>
+<hr>
+<p>参考资料：<br>[1] AdamSimecka, &quot;Bitcoin Chicken: BIP 110 Game Theory&quot;, X, 2026-08-13. <a href="https://x.com/AdamSimecka/article/2076895671202750763">链接</a><br>[2] BIP-110 Monitor, &quot;BIP-110 signaling and fork status&quot;, bip110.orange.surf, 2026-08-09. <a href="https://bip110.orange.surf/live.html">链接</a><br>[3] Michael Saylor, &quot;Anyone can fork Bitcoin, but a fork without security, utility, capital and users is meaningless&quot;, X, 2026-08-09. <a href="https://x.com/saylor/status/2086388339989492039">链接</a><br>[4] Wang Chun, &quot;OCEAN co-founder Luke Dashjr bankrupt in both finance and reputation&quot;, X, 2026-08-10. <a href="https://x.com/satofishi/status/2086493169919635948">链接</a><br>[5] Luke Dashjr, &quot;Leave OCEAN&quot;, X, 2026-08-11. <a href="https://x.com/LukeDashjr/status/2086919123599036926">链接</a></p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>
