@@ -8,6 +8,22 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜Jameson Lopp的BIP-110复盘：比特币由博弈论而非道德驱动</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-19-A-bip110-postmortem</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-19-A-bip110-postmortem</guid>
+		<pubDate>Wed, 19 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[夏天的尾巴上，BTC还在64k区间震荡。波动率低得让人犯困，链上链下都静悄悄的，像是一出大戏开启之前的焦躁等待。]]></description>
+	</item>
+  
+	<item>
+		<title>刘教链｜牛来，对精英发起的堂吉诃德式冲锋</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-17-A-niu-lai</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-17-A-niu-lai</guid>
+		<pubDate>Mon, 17 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[BTC近期突破失败，再次回到62k-63k区间。一个叫“牛来”的模因币（meme）突然爆火。刚看了一眼，市值已经高达3000万美刀。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜致命的税务数据隐私泄露</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-15-A-france-tax-leak-wrench-attacks</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-15-A-france-tax-leak-wrench-attacks</guid>
@@ -149,22 +165,6 @@
 		<guid>https://blockcoach.com/2026/202607/2026-07-27-A-bull-signals-bitwise-cio</guid>
 		<pubDate>Mon, 27 Jul 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[过去几天，BTC回踩了一下64k又开始继续拉升。全球金融市场正屏息等待本周的超级央行周。美联储、日本央行和英国央行即将同一周公布利率决议。币圈则还在等年底的「最后一跌」。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜微策略CEO推荐阅读书单（755～953小时阅读量）</title>
-		<link>https://blockcoach.com/2026/202607/2026-07-26-A-michael-saylor-books</link>
-		<guid>https://blockcoach.com/2026/202607/2026-07-26-A-michael-saylor-books</guid>
-		<pubDate>Sun, 26 Jul 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[教链按：今天，最大比特币财库公司微策略（Strategy）CEO、创始人Michael Saylor发了一篇名为《升级世界：面向领导者的文明课程——助您在商业、政治、金融与科技领域做出更优决策的三十八部著作》的书单和推荐文。全文照译如下，供热爱读书的各位读者参考。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜底部信号交叉验证，BTC到了关键决断时刻</title>
-		<link>https://blockcoach.com/2026/202607/2026-07-25-A-bottom-signals</link>
-		<guid>https://blockcoach.com/2026/202607/2026-07-25-A-bottom-signals</guid>
-		<pubDate>Sat, 25 Jul 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC从7月初的低点57.8k默默爬到66.9k，目前回撤到64k，紧贴30日均线上空滑行。这个价格距离历史高点126k仍然几近腰斩。市场从去年10月触顶算起，已经走了约40周的下跌。]]></description>
 	</item>
   
 	</channel>
