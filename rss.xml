@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜隔夜大饼突然“豹拉”</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-20-A-overnight-btc-pumping</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-20-A-overnight-btc-pumping</guid>
+		<pubDate>Thu, 20 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[隔夜BTC骤然发力，从64k附近忽然爆拉，一口气冲上69k，逼近7万整数关口，日涨幅超5%。Coinglass数据显示，这波拉升的一个小时里，全市场爆掉11.4亿美刀空单，BTC独占6.78亿 [1]。多空天平在一夜之间骤然倾斜，打破了一个多月以来的沉寂。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜Jameson Lopp的BIP-110复盘：比特币由博弈论而非道德驱动</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-19-A-bip110-postmortem</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-19-A-bip110-postmortem</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202607/2026-07-28-A-jimmy-song-bip110-what-will-happen</guid>
 		<pubDate>Tue, 28 Jul 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[教链按：比特币社区又一次站在了十字路口。BIP110——这项旨在限制比特币区块内OP_RETURN数据负载大小的软分叉提案，在2026年夏天引发了一场关于比特币治理、矿工激励与链分叉风险的激烈辩论。与过往的硬分叉不同，BIP110的独特之处在于它可能制造出一个“混乱的中间地带”：既不是提案顺利通过，也不是被干净利落地否决，而是一条少数派链与多数派链长期共存、互相牵制、甚至一方可能随时“擦除”另一方]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜金秋牛市复苏？Bitwise首席投资官如是说</title>
-		<link>https://blockcoach.com/2026/202607/2026-07-27-A-bull-signals-bitwise-cio</link>
-		<guid>https://blockcoach.com/2026/202607/2026-07-27-A-bull-signals-bitwise-cio</guid>
-		<pubDate>Mon, 27 Jul 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[过去几天，BTC回踩了一下64k又开始继续拉升。全球金融市场正屏息等待本周的超级央行周。美联储、日本央行和英国央行即将同一周公布利率决议。币圈则还在等年底的「最后一跌」。]]></description>
 	</item>
   
 	</channel>
