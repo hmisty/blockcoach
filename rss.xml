@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜大饼重上200日线，金叉在望：牛回速归？</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-21-A-bitcoin-200dma-golden-cross</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-21-A-bitcoin-200dma-golden-cross</guid>
+		<pubDate>Fri, 21 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[影片《牛来》热映，大饼豹拉牛来。（教链注：豹拉、牛来是影片中的两个主要角色的名字）]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜隔夜大饼突然“豹拉”</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-20-A-overnight-btc-pumping</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-20-A-overnight-btc-pumping</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202607/2026-07-29-A-crazy-week</guid>
 		<pubDate>Wed, 29 Jul 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[7月29日隔夜，BTC一度跌穿63k，触及7月17日以来的低点。24小时多头爆仓超过5.1亿美刀[1]。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜Jimmy Song：8月8日会发生什么？</title>
-		<link>https://blockcoach.com/2026/202607/2026-07-28-A-jimmy-song-bip110-what-will-happen</link>
-		<guid>https://blockcoach.com/2026/202607/2026-07-28-A-jimmy-song-bip110-what-will-happen</guid>
-		<pubDate>Tue, 28 Jul 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[教链按：比特币社区又一次站在了十字路口。BIP110——这项旨在限制比特币区块内OP_RETURN数据负载大小的软分叉提案，在2026年夏天引发了一场关于比特币治理、矿工激励与链分叉风险的激烈辩论。与过往的硬分叉不同，BIP110的独特之处在于它可能制造出一个“混乱的中间地带”：既不是提案顺利通过，也不是被干净利落地否决，而是一条少数派链与多数派链长期共存、互相牵制、甚至一方可能随时“擦除”另一方]]></description>
 	</item>
   
 	</channel>
