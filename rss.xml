@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜桥水基金达利欧：买一点儿比特币</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-23-A-dalio-buy-bitcoin</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-23-A-dalio-buy-bitcoin</guid>
+		<pubDate>Sun, 23 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周末，BTC爆拉后回撤至76k一线整理。爆拉之后的歇脚，没什么新鲜事。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜抄底要趁早</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-22-A-accumulate-early</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-22-A-accumulate-early</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-01-A-tenyrs-7B</guid>
 		<pubDate>Sat, 01 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[本系列上一篇：《72/十年之约｜Strategy突然又卖了3588枚BTC》]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜FOMC按兵不动，沃什的第二次考试</title>
-		<link>https://blockcoach.com/2026/202607/2026-07-30-A-fomc-hold-warsh</link>
-		<guid>https://blockcoach.com/2026/202607/2026-07-30-A-fomc-hold-warsh</guid>
-		<pubDate>Thu, 30 Jul 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[隔夜今晨，美联储7月FOMC议息会议结果出炉：联邦基金利率维持3.5-3.75不变[1]。消息落地后，BTC从63k附近小幅反弹至64k上方。市场松了一口气，但松得并不彻底。]]></description>
 	</item>
   
 	</channel>
