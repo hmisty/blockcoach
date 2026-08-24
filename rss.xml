@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜日本的死局，BTC的燃料</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-25-A-japan-deadlock-btc-fuel</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-25-A-japan-deadlock-btc-fuel</guid>
+		<pubDate>Tue, 25 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[BTC过去一周从63k一线拔地而起，一路顶到79k上方，剑指八万关口。市场的目光都聚在华尔街的ETF资金流上，聚在华盛顿的监管闪电战上。很少有人注意到，这一周真正的深水区，在东京。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜桥水基金达利欧：买一点儿比特币</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-23-A-dalio-buy-bitcoin</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-23-A-dalio-buy-bitcoin</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-02-A-bitcalc-20260802</guid>
 		<pubDate>Sun, 02 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[_前文：《刘教链｜BitCalc 2026.6.24 更新说明》 《刘教链｜手搓了一个冷钱包 BTC 地址计算器》_]]></description>
-	</item>
-  
-	<item>
-		<title>73/十年之约｜硬件钱包又被破解，你的BTC还安全吗？</title>
-		<link>https://blockcoach.com/2026/202608/2026-08-01-A-tenyrs-7B</link>
-		<guid>https://blockcoach.com/2026/202608/2026-08-01-A-tenyrs-7B</guid>
-		<pubDate>Sat, 01 Aug 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[本系列上一篇：《72/十年之约｜Strategy突然又卖了3588枚BTC》]]></description>
 	</item>
   
 	</channel>
