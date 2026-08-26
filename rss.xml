@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜最后一跌的回响</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-26-A-echo-last-dip</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-26-A-echo-last-dip</guid>
+		<pubDate>Wed, 26 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[过去一周BTC的走势，真真儿称得上「豹拉」二字（注：化用《牛来》梗，下文同）。从62k附近起步，一周之内接连突破70k、80k两道关口，最高摸到81k上方，周涨幅约25%，创下近五年第二大单周纪录[1]。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜日本的死局，BTC的燃料</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-25-A-japan-deadlock-btc-fuel</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-25-A-japan-deadlock-btc-fuel</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-03-A-sharp-ratio-myth</guid>
 		<pubDate>Mon, 03 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[最近看到一条消息刷屏。一个前OpenAI研究员，靠着一只名叫「态势感知」的对冲基金，用接近4倍的杠杆重仓AI硬件股，短短一年半把450亿美刀的盘子做到了年回报439%。一时风头无两，人称AI股神。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜BitCalc 2026.08.02版本发布：全面加固和优化</title>
-		<link>https://blockcoach.com/2026/202608/2026-08-02-A-bitcalc-20260802</link>
-		<guid>https://blockcoach.com/2026/202608/2026-08-02-A-bitcalc-20260802</guid>
-		<pubDate>Sun, 02 Aug 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[_前文：《刘教链｜BitCalc 2026.6.24 更新说明》 《刘教链｜手搓了一个冷钱包 BTC 地址计算器》_]]></description>
 	</item>
   
 	</channel>
