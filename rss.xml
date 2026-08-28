@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜64亿期权交割，8万刀得而复失</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-28-A-options-settlement-80k</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-28-A-options-settlement-80k</guid>
+		<pubDate>Fri, 28 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[今日BTC开盘80k，盘中一度冲上81.5k。然而北京时间16点，Deribit交割钟声敲响之后，价格一路回落，暂居79k上方，8万刀关口得而复失。8.17万枚BTC的期权到期，名义价值64.4亿美刀[1]。看涨4.46万张，看跌3.71万张，整体偏多[1]。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜牛来就是牛来的原因</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-27-A-fed-study-beliefs-returns</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-27-A-fed-study-beliefs-returns</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-05-A-jim-cramer-quantum-fud</guid>
 		<pubDate>Wed, 05 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC继续爬升至64k上方，重新站上30日均线。昨天，一位知名财经主持人高调唱空BTC，但是市场毫无波澜。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜美日联合干预汇率</title>
-		<link>https://blockcoach.com/2026/202608/2026-08-04-A-usd-jpy-manipulation</link>
-		<guid>https://blockcoach.com/2026/202608/2026-08-04-A-usd-jpy-manipulation</guid>
-		<pubDate>Tue, 04 Aug 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC在30日均线下方爬升已进入第4天，回升至63k-64k区间。日本30年期国债收益率逼近4%。美日联手干了件罕见的事，干预日元对美元的汇率。]]></description>
 	</item>
   
 	</channel>
