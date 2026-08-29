@@ -2,11 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://blockcoach.com</loc>
-		<lastmod>2026-08-28</lastmod>
+		<lastmod>2026-08-29</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 	
+	<url>
+		<loc>https://blockcoach.com/2026/202608/2026-08-29-A-earn-percentage-spend-absolute</loc>
+		<lastmod>2026-08-29T00:00:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+  
 	<url>
 		<loc>https://blockcoach.com/2026/202608/2026-08-28-A-options-settlement-80k</loc>
 		<lastmod>2026-08-28T00:00:00+00:00</lastmod>
