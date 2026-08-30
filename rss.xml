@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜十年老币，万倍收益</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-30-A-oldcoin-awakening</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-30-A-oldcoin-awakening</guid>
+		<pubDate>Sun, 30 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周末BTC在78k附近高位盘整，仿佛是前些天爆拉后有些劳累，需要稍事歇息。宏观面上，沃什Jackson Hole鹰派首秀余波未平，9月加息概率抬升到五成以上[1]。价格上没什么新鲜事，链上却翻起一朵浪花。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜赚钱百分比，花钱绝对值</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-29-A-earn-percentage-spend-absolute</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-29-A-earn-percentage-spend-absolute</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-08-A-self-custody-to-die-or-rebirth</guid>
 		<pubDate>Sat, 08 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC持续爬升已近65k。周末的行情波澜不惊。但比特币社区的这个周末，注定不太平。]]></description>
-	</item>
-  
-	<item>
-		<title>74/十年之约｜扭曲现实力场</title>
-		<link>https://blockcoach.com/2026/202608/2026-08-06-A-tenyrs8A</link>
-		<guid>https://blockcoach.com/2026/202608/2026-08-06-A-tenyrs8A</guid>
-		<pubDate>Thu, 06 Aug 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[本系列上一篇：《73/十年之约｜硬件钱包又被破解，你的BTC还安全吗？》]]></description>
 	</item>
   
 	</channel>
