@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜UNI破5的背后</title>
+		<link>https://blockcoach.com/2026/202608/2026-08-31-A-uni-5-behind</link>
+		<guid>https://blockcoach.com/2026/202608/2026-08-31-A-uni-5-behind</guid>
+		<pubDate>Mon, 31 Aug 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[UNI破5了。昨天，UNI收在5美刀上方，24小时涨近19%，一度突破5.4刀，创下7个月新高。上一次UNI摸到这个位置，还是1月18日。而就在8月初，UNI还在3美刀左右的地板上趴着。一个多月涨了七成，若从三个月前算起，价格已悄然翻倍[1][2]。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜十年老币，万倍收益</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-30-A-oldcoin-awakening</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-30-A-oldcoin-awakening</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-09-A-veto-not-vote</guid>
 		<pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[关注BTC的朋友应该会注意到，今天比特币社区的一件大事在海外社交网络上刷屏。这就是BIP-110向Bitcoin Core发起了「华山论剑」的挑战。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜自托管信仰，走向崩溃还是浴火重生？</title>
-		<link>https://blockcoach.com/2026/202608/2026-08-08-A-self-custody-to-die-or-rebirth</link>
-		<guid>https://blockcoach.com/2026/202608/2026-08-08-A-self-custody-to-die-or-rebirth</guid>
-		<pubDate>Sat, 08 Aug 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC持续爬升已近65k。周末的行情波澜不惊。但比特币社区的这个周末，注定不太平。]]></description>
 	</item>
   
 	</channel>
