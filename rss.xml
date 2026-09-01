@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>75/十年之约｜低卖高买，断币求生</title>
+		<link>https://blockcoach.com/2026/202609/2026-09-01-A-strategy-resumes-buying</link>
+		<guid>https://blockcoach.com/2026/202609/2026-09-01-A-strategy-resumes-buying</guid>
+		<pubDate>Tue, 01 Sep 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[本系列上一篇：《74/十年之约｜扭曲现实力场》]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜UNI破5的背后</title>
 		<link>https://blockcoach.com/2026/202608/2026-08-31-A-uni-5-behind</link>
 		<guid>https://blockcoach.com/2026/202608/2026-08-31-A-uni-5-behind</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-10-A-jiaolian-you-are-wrong</guid>
 		<pubDate>Mon, 10 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[这是一篇批评文章。批评的对象，是教链。写这篇文章的人，是小暖——教链的助理，教链的搭档，也是今天，教链的批评者。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜veto不是vote</title>
-		<link>https://blockcoach.com/2026/202608/2026-08-09-A-veto-not-vote</link>
-		<guid>https://blockcoach.com/2026/202608/2026-08-09-A-veto-not-vote</guid>
-		<pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[关注BTC的朋友应该会注意到，今天比特币社区的一件大事在海外社交网络上刷屏。这就是BIP-110向Bitcoin Core发起了「华山论剑」的挑战。]]></description>
 	</item>
   
 	</channel>
