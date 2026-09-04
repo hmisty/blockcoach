@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜BTC的周期，正在伸长吗？</title>
+		<link>https://blockcoach.com/2026/202609/2026-09-04-A-longer-cycle</link>
+		<guid>https://blockcoach.com/2026/202609/2026-09-04-A-longer-cycle</guid>
+		<pubDate>Fri, 04 Sep 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[9月的第一周，BTC重返8万美刀，周五凌晨一度升破8.2万刀，触及近期新高。8万关口多空拉锯，市场屏息凝神。而在涨跌之外，教链注意到一件更慢、更久远的假说。BTC的周期时钟，是不是正在变慢？]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜84万美刀的比特币，何意味？</title>
 		<link>https://blockcoach.com/2026/202609/2026-09-03-A-btc-840k-means-what</link>
 		<guid>https://blockcoach.com/2026/202609/2026-09-03-A-btc-840k-means-what</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-13-A-misjudgment-of-game-theory</guid>
 		<pubDate>Thu, 13 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC在64k下方震荡，不上不下。就在这种僵持不下之间，一场关于博弈论的实验轰轰烈烈地开始，又虎头蛇尾地戛然而止了：BIP-110软分叉强制信号开始大约8小时，只挖出两个区块，然后归于沉寂。主链领先超过80个区块[3]，99.85%的算力留在原网络[3]。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜比特币，做空法币的永续合约</title>
-		<link>https://blockcoach.com/2026/202608/2026-08-12-A-bitcoin-perpetual-short-fiat</link>
-		<guid>https://blockcoach.com/2026/202608/2026-08-12-A-bitcoin-perpetual-short-fiat</guid>
-		<pubDate>Wed, 12 Aug 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC 在 63k 一线徘徊，多空都不痛快。就在这种平淡里，教链注意到一件事：某头部大所正在把永续合约的战场扩大到美股。]]></description>
 	</item>
   
 	</channel>
