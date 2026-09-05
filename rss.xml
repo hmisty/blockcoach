@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜非农意外强劲，大饼再失8万刀</title>
+		<link>https://blockcoach.com/2026/202609/2026-09-05-A-nonfarm-strong-btc-dip</link>
+		<guid>https://blockcoach.com/2026/202609/2026-09-05-A-nonfarm-strong-btc-dip</guid>
+		<pubDate>Sat, 05 Sep 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周五晚上美国劳工统计局发布非农就业数据。一记闷棍。BTC再失8万刀。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜BTC的周期，正在伸长吗？</title>
 		<link>https://blockcoach.com/2026/202609/2026-09-04-A-longer-cycle</link>
 		<guid>https://blockcoach.com/2026/202609/2026-09-04-A-longer-cycle</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-14-A-standard-chartered-uni-100</guid>
 		<pubDate>Fri, 14 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC又跌回到了63k下方。市场更冷了。虽说机会在冬季，但是真到了冬季，人人唯恐避之不及，又有几人愿意出来抓机会呢？实在是太少了。就在这片肃杀和萧瑟的市场里，渣打银行分析师Geoff Kendrick给客户写了封信，说他两个月前给UNI定下的2030年100美刀目标价，恐怕还是太低了[1]。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜对博弈论的误判</title>
-		<link>https://blockcoach.com/2026/202608/2026-08-13-A-misjudgment-of-game-theory</link>
-		<guid>https://blockcoach.com/2026/202608/2026-08-13-A-misjudgment-of-game-theory</guid>
-		<pubDate>Thu, 13 Aug 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC在64k下方震荡，不上不下。就在这种僵持不下之间，一场关于博弈论的实验轰轰烈烈地开始，又虎头蛇尾地戛然而止了：BIP-110软分叉强制信号开始大约8小时，只挖出两个区块，然后归于沉寂。主链领先超过80个区块[3]，99.85%的算力留在原网络[3]。]]></description>
 	</item>
   
 	</channel>
