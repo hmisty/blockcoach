@@ -8,11 +8,19 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜8万之后路在何方</title>
+		<link>https://blockcoach.com/2026/202609/2026-09-08-A-btc-way-after-80k</link>
+		<guid>https://blockcoach.com/2026/202609/2026-09-08-A-btc-way-after-80k</guid>
+		<pubDate>Tue, 08 Sep 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周五，美国非农数据意外强劲，大饼被一把砸到8万刀下方，还没来得及看清，又自己爬了回来。周末两天，大饼就在8万刀附近来回拉扯，像守城的卒子，守着这道整数关口。昨晚，终于破位，今晨回落跌破79k。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜弄丢比特币的人，说比特币无背书</title>
 		<link>https://blockcoach.com/2026/202609/2026-09-07-A-schiff-no-backing</link>
 		<guid>https://blockcoach.com/2026/202609/2026-09-07-A-schiff-no-backing</guid>
 		<pubDate>Mon, 07 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[周六，BTC在8万刀附近徘徊，过去一周的走势像过山车。非农数据把价格打到8万下方，很快又收复失地。就在市场重新讨论数字黄金叙事的时候，一位老朋友又出来泼冷水了。]]></description>
+		<description><![CDATA[BTC在8万刀附近徘徊，过去一周的走势像过山车。非农数据把价格打到8万下方，很快又收复失地。就在市场重新讨论数字黄金叙事的时候，一位老朋友又出来泼冷水了。]]></description>
 	</item>
   
 	<item>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-19-A-bip110-postmortem</guid>
 		<pubDate>Wed, 19 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[夏天的尾巴上，BTC还在64k区间震荡。波动率低得让人犯困，链上链下都静悄悄的，像是一出大戏开启之前的焦躁等待。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜牛来，对精英发起的堂吉诃德式冲锋</title>
-		<link>https://blockcoach.com/2026/202608/2026-08-17-A-niu-lai</link>
-		<guid>https://blockcoach.com/2026/202608/2026-08-17-A-niu-lai</guid>
-		<pubDate>Mon, 17 Aug 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC近期突破失败，再次回到62k-63k区间。一个叫“牛来”的模因币（meme）突然爆火。刚看了一眼，市值已经高达3000万美刀。]]></description>
 	</item>
   
 	</channel>
