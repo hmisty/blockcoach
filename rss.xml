@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜油价冲击下的比特币</title>
+		<link>https://blockcoach.com/2026/202609/2026-09-09-A-oil-shock-btc</link>
+		<guid>https://blockcoach.com/2026/202609/2026-09-09-A-oil-shock-btc</guid>
+		<pubDate>Wed, 09 Sep 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[隔夜，油价（Brent Crude）一度逼近100美刀一桶。美伊在霍尔木兹海峡重新交火，这条窄窄的水道承运着全世界大约五分之一的石油。道指应声跌了614点，跌幅1.15%，标普500也收跌0.37%[1]。风险资产集体喘气的时候，BTC报78.5k美刀，微微一跌，以示尊敬。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜8万之后路在何方</title>
 		<link>https://blockcoach.com/2026/202609/2026-09-08-A-btc-way-after-80k</link>
 		<guid>https://blockcoach.com/2026/202609/2026-09-08-A-btc-way-after-80k</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-20-A-overnight-btc-pumping</guid>
 		<pubDate>Thu, 20 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[隔夜BTC骤然发力，从64k附近忽然爆拉，一口气冲上69k，逼近7万整数关口，日涨幅超5%。Coinglass数据显示，这波拉升的一个小时里，全市场爆掉11.4亿美刀空单，BTC独占6.78亿 [1]。多空天平在一夜之间骤然倾斜，打破了一个多月以来的沉寂。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜Jameson Lopp的BIP-110复盘：比特币由博弈论而非道德驱动</title>
-		<link>https://blockcoach.com/2026/202608/2026-08-19-A-bip110-postmortem</link>
-		<guid>https://blockcoach.com/2026/202608/2026-08-19-A-bip110-postmortem</guid>
-		<pubDate>Wed, 19 Aug 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[夏天的尾巴上，BTC还在64k区间震荡。波动率低得让人犯困，链上链下都静悄悄的，像是一出大戏开启之前的焦躁等待。]]></description>
 	</item>
   
 	</channel>
