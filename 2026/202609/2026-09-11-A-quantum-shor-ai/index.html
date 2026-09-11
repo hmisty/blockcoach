@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜量子之剑，AI打磨 - BlockCoach - 刘教链</title>
+	<meta name="description" content="大饼继续回撤至76k附近，市场在等今晚的美国CPI数据。量子计算对比特币的威胁，一把悬了很久的剑，有些新动向。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜量子之剑，AI打磨">
+	<meta property="og:description" content="大饼继续回撤至76k附近，市场在等今晚的美国CPI数据。量子计算对比特币的威胁，一把悬了很久的剑，有些新动向。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202609/2026-09-11-A-quantum-shor-ai">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-09-11">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜量子之剑，AI打磨">
+	<meta name="twitter:description" content="大饼继续回撤至76k附近，市场在等今晚的美国CPI数据。量子计算对比特币的威胁，一把悬了很久的剑，有些新动向。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202609/2026-09-11-A-quantum-shor-ai">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜量子之剑，AI打磨",
+		"description": "大饼继续回撤至76k附近，市场在等今晚的美国CPI数据。量子计算对比特币的威胁，一把悬了很久的剑，有些新动向。",
+		"url": "https://blockcoach.com/2026/202609/2026-09-11-A-quantum-shor-ai",
+		"datePublished": "2026-09-11",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202609">2026年09月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜量子之剑，AI打磨</h1>
+			<div class="meta">
+				发布时间：2026-09-11
+				
+			</div>
+			<div class="content">
+				<p>大饼继续回撤至76k附近，市场在等今晚的美国CPI数据。量子计算对比特币的威胁，一把悬了很久的剑，有些新动向。</p>
+<h2>利剑悬顶</h2>
+<p>比特币和以太坊的签名安全，建立在椭圆曲线密码学之上。你转账用的私钥，对应着一个公开在链上的公钥。想偷币，就得从公钥反推出私钥。这道题叫椭圆曲线离散对数问题，经典计算机算起来慢得让人绝望，需要的时间比宇宙的年龄还长。</p>
+<p>1994年，数学家Peter Shor提出了一个量子算法，能在多项式时间内解掉这类问题。也就是说，一旦有了足够强大的量子计算机，从公钥倒推私钥、伪造签名、掏空钱包，就只是跑一遍程序的事。业界把量子计算机真正具备这种能力的那一天，叫做Q-Day。</p>
+<p>Q-Day什么时候来，尚无定论。但有一个问题，是可以现在就动手算清楚的：跑一次Shor算法，到底要多少资源。</p>
+<h2>一场公开的磨剑比赛</h2>
+<p>今年5月底，Eigen Labs发起了一项名为ECDSA.Fail的公开挑战。一百多名参与者，做的事只有一件：给secp256k1这条曲线，也就是比特币和以太坊签名所用的那条曲线，设计量子电路[1]。</p>
+<p>量子电路是Shor算法在门级的具体实现。要在一台真实量子计算机上跑Shor，就得先把它编译成由一个个量子门搭起来的电路。而整条链路上最吃资源的瓶颈，是椭圆曲线的点加运算。因为Shor破解离散对数的核心是算点乘，点乘又由海量的点加与倍点组成，这些可逆算术电路，吃掉了绝大部分的量子比特和门资源。点加，就是那把剑的剑刃。</p>
+<p>挑战给所有电路设了同一个分数：峰值逻辑量子比特数，乘以平均执行的Toffoli门数。前者是纠错后的量子比特规模，后者是一种昂贵且难以制备的量子操作，两者的乘积，就是对资源的综合量度。</p>
+<p>到7月26日数据截止时，参与者把这个分数从107.5亿压到了14.96亿，降幅86.1%。最优的电路用1151个逻辑量子比特，配约130万个Toffoli门。论文提到，这个成绩比谷歌量子AI此前公布的点加门槛低了一半以上，但论文同时声明双方计数口径不同，不能直接比较[1]。</p>
+<h2>AI赋能</h2>
+<p>这次挑战一个引人注目的地方，是AI的参与。</p>
+<p>先说磨剑人。论文作者名单里，挂着一串加密圈熟悉的名字，Eigen Labs、以太坊基金会、StarkWare、Trail of Bits，还有以太坊基金会的Justin Drake[1]。磨剑的多是加密业内人士。动机很简单：想知道敌人的剑多久能铸成，最好的办法就是先替敌人画一遍图纸。只有把攻击的成本算清楚，防御的时间表才有意义。</p>
+<p>再说磨剑的工具。论文把这次实践命名为开放自动研究，参与者与AI智能体一起，迭代地生成、实现、测试、分享候选改进，由验证器把关，在公开排行榜上竞速[1]。AI在这里的角色，是研究流程的加速器，它让搜索更优电路的效率成倍提升。换句话说，磨掉那86%的，不只是一百多个人，还有一群不知疲倦的AI助手。</p>
+<h2>一盆冷水</h2>
+<p>别急着兴奋或者恐惧。四点：</p>
+<p>第一，挑战测的只是点加这一个环节，不是完整的攻击。论文额外构造了一个兼容分窗法的版本，用1162个量子比特、约168万个Toffoli门，实测成功率约99.81%，但作者自己声明，这属于单次调用的敏感度模型，并不是完整Shor算法的成功率估计。真正的攻击要反复调用，成本远高于此。</p>
+<p>第二，基准测试里有一个加数是经典给定的，完整攻击的接口对齐仍在讨论之中。</p>
+<p>第三，与谷歌那些数字的对比存在口径差异，论文自己也非常克制，只承认数值更低，不宣称正式超越。</p>
+<p>第四，也是最要紧的一条：这一切都还停留在算法与电路的资源估算层面。它并没有破解任何一把私钥，更没有造出一台能跑起来的量子计算机。从账面资源到Q-Day之间，隔着的是整个硬件工程乃至物理法则的鸿沟。</p>
+<h2>为什么现在就要关注</h2>
+<p>因为迁移是件慢事，而时间表已经在倒计时。</p>
+<p>美国国家标准与技术研究院的NIST IR 8547草案提出，2030年之后逐步弃用112位安全级别的经典公钥算法，2035年之后禁用。以太坊把2029年12月设为基础层实现抗量子的自我截止线。比特币这边，围绕BIP-360和BIP-361的讨论今年明显加速，后者计划分阶段从ECDSA与Schnorr签名迁移[3]。美国商务部刚敲定向Rigetti、D-Wave与Quantinuum各提供最高1亿美刀的拨款，并持有三家的少数股权[3]。Galaxy Digital承诺最多500万美刀用于相关研究，贝莱德、Coinbase、Strategy等九家机构则联合承诺三年1500万美刀，投入包括抗量子在内的比特币安全研究[2]。</p>
+<p>还有那个绕不开的数字：数百万枚比特币躺在公钥已经暴露的地址里，其中估计约100万枚属于中本聪[3]。这些币的迁移，比其他任何资产都要棘手。</p>
+<h2>时刻准备着</h2>
+<p>对待量子这件事的立场，容易走两个极端。一种是耸人听闻，把每一次资源估算的下降，都说成达摩克利斯之剑明天就要落下；另一种是掩耳盗铃，觉得Q-Day遥遥无期，与我无关。</p>
+<p>教链觉得，两样都不可取。专业的做法是把它当作一场长跑：剑在慢慢磨，盾也要提前修。抗量子迁移的技术路径、标准时间表、生态协同，这些功课已经在做了，而且进度不慢。对持币的人而言，值得留意的不是某个吓人的百分比，而是整个生态能否在硬件追上来之前，把新签名算法准备好、把旧地址的迁移安排妥当。</p>
+<p>未雨绸缪、有所准备的人，才能临危不惧，云淡风轻。</p>
+<hr>
+<p><strong>免责声明</strong>：本文纯属教链个人主观认知分享，不构成任何投资建议。加密市场波动巨大，风险极高，请自行判断、谨慎决策、承担风险和后果。<br><strong>点击延伸阅读</strong>👉<a href="https://member.liujiaolian.com/i/20260911">教链内参｜8万城门：立法冲刺与筹码关口</a><br><strong>加入教链会员</strong>：欢迎关注公众号并发消息「会员」或「VIP」了解详情。</p>
+<hr>
+<p>参考资料：<br>[1] Jieyi Long et al., &quot;Open Autoresearch for Optimizing Elliptic-Curve Point Addition in Shor&#39;s Algorithm&quot;, <em>arXiv</em>, 2026-09. <a href="https://arxiv.org/abs/2609.09582">链接</a><br>[2] Decrypt, &quot;AI Agents Just Slashed the Cost of a Quantum Attack on Bitcoin&quot;, <em>Decrypt</em>, 2026-09-10. <a href="https://decrypt.co/377925/ai-agents-slash-cost-quantum-attack-bitcoin">链接</a><br>[3] CoinDesk, &quot;Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push&quot;, <em>CoinDesk</em>, 2026-09-09. <a href="https://www.coindesk.com/tech/2026/09/09/bitcoin-and-ethereum-race-quantum-clock-as-u-s-backs-usd300-million-hardware-push">链接</a></p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>
