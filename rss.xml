@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜黄金交叉箭在弦上</title>
+		<link>https://blockcoach.com/2026/202609/2026-09-12-A-cpi-technicals</link>
+		<guid>https://blockcoach.com/2026/202609/2026-09-12-A-cpi-technicals</guid>
+		<pubDate>Sat, 12 Sep 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周五美CPI数据落地，大饼先跌后涨，再从高位回落。价格从76k上方一路摸到79.8k，眼看要重返8万，随即又滑回77k+，收出一根上影线[1]。技术面同样反复：日线级别的黄金交叉盘中一度成立，当日又告失效。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜量子之剑，AI打磨</title>
 		<link>https://blockcoach.com/2026/202609/2026-09-11-A-quantum-shor-ai</link>
 		<guid>https://blockcoach.com/2026/202609/2026-09-11-A-quantum-shor-ai</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-23-A-dalio-buy-bitcoin</guid>
 		<pubDate>Sun, 23 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[周末，BTC爆拉后回撤至76k一线整理。爆拉之后的歇脚，没什么新鲜事。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜抄底要趁早</title>
-		<link>https://blockcoach.com/2026/202608/2026-08-22-A-accumulate-early</link>
-		<guid>https://blockcoach.com/2026/202608/2026-08-22-A-accumulate-early</guid>
-		<pubDate>Sat, 22 Aug 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[隔夜BTC继续爆拉，作势要再破昨日上影线高点79.5k。连续3根大阳线，已经把周涨幅拉高到接近25%了。一周爆拉四成，这么长的阳线，在BTC近几年以来的整个盘面上，也不多见。]]></description>
 	</item>
   
 	</channel>
