@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜美联储果然加息，比特币早有预料</title>
+		<link>https://blockcoach.com/2026/202609/2026-09-17-A-fed-hike-expected</link>
+		<guid>https://blockcoach.com/2026/202609/2026-09-17-A-fed-hike-expected</guid>
+		<pubDate>Thu, 17 Sep 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[隔夜大饼走了一根十字星。开盘75.8k，在75k到76.5k之间来回，振幅不到2%。到了上午9时许，不降反升，拉回76k上方。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜CLARITY法案折戟参议院，BTC砸穿30日线</title>
 		<link>https://blockcoach.com/2026/202609/2026-09-16-A-clarity-vote-fails</link>
 		<guid>https://blockcoach.com/2026/202609/2026-09-16-A-clarity-vote-fails</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202608/2026-08-29-A-earn-percentage-spend-absolute</guid>
 		<pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[周六BTC回撤到77k～78k区间盘整。场内波澜不惊，场外大瓜却吃到破圈。每每网络热议，总有人对金钱数字高谈阔论，却也往往暴露出大众对财富直觉的扭曲与离谱。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜64亿期权交割，8万刀得而复失</title>
-		<link>https://blockcoach.com/2026/202608/2026-08-28-A-options-settlement-80k</link>
-		<guid>https://blockcoach.com/2026/202608/2026-08-28-A-options-settlement-80k</guid>
-		<pubDate>Fri, 28 Aug 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[今日BTC开盘80k，盘中一度冲上81.5k。然而北京时间16点，Deribit交割钟声敲响之后，价格一路回落，暂居79k上方，8万刀关口得而复失。8.17万枚BTC的期权到期，名义价值64.4亿美刀[1]。看涨4.46万张，看跌3.71万张，整体偏多[1]。]]></description>
 	</item>
   
 	</channel>
