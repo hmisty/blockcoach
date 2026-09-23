@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜上市CME、SEC豁免利好，UNI支棱起来了</title>
+		<link>https://blockcoach.com/2026/202609/2026-09-23-A-uni-on-cme</link>
+		<guid>https://blockcoach.com/2026/202609/2026-09-23-A-uni-on-cme</guid>
+		<pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[大饼二阶段爆拉后暂时横盘整理，价格水平基本位于85k一线。9月22日，CME（芝加哥商品期货交易所）放了一条不算很爆炸却相当有分量的消息：Uniswap的UNI，要上线CME期货了。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜空头不死，爆拉不止</title>
 		<link>https://blockcoach.com/2026/202609/2026-09-22-A-dog-of-war</link>
 		<guid>https://blockcoach.com/2026/202609/2026-09-22-A-dog-of-war</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-03-A-btc-840k-means-what</guid>
 		<pubDate>Thu, 03 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC在77k上方附近盘整。River公司发布了一份报告，推算比特币五年后的价格前瞻：84万美刀。[1]]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜Robinhood链爆火，Arbitrum被带飞</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-02-A-robinhood-chain</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-02-A-robinhood-chain</guid>
-		<pubDate>Wed, 02 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[9月开启，BTC在7.8万美刀一线反复磨。8月从6.4万一路拉到8.1万，月底又回到7.8万，一个月25%的涨幅，被9月第一天就咬下一口。加息概率68%的阴影悬在头顶，市场都在盯着9月16日的FOMC议息会议[1]。]]></description>
 	</item>
   
 	</channel>
