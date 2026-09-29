@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜代币化股票30天DEX交易量Uniswap独占六成</title>
+		<link>https://blockcoach.com/2026/202609/2026-09-29-A-tokenized-stocks-dex-uniswap</link>
+		<guid>https://blockcoach.com/2026/202609/2026-09-29-A-tokenized-stocks-dex-uniswap</guid>
+		<pubDate>Tue, 29 Sep 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周二，大饼贴着83k，盘面安静下沉。昨天教链刚在《美SEC定调代币回购，UNI或可受益》里写过，回购的合规疑问拿到了SEC的一句宽慰。市场数据则呈现了另外一个视角：过去30天，代币化股票在DEX上成交209亿刀，Uniswap一家独占约六成，合126亿刀：v4 40.7%，v3 19.4%，两个版本加起来，约有六成[1]。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜美SEC定调代币回购，UNI或可受益</title>
 		<link>https://blockcoach.com/2026/202609/2026-09-28-A-sec-token-buyback</link>
 		<guid>https://blockcoach.com/2026/202609/2026-09-28-A-sec-token-buyback</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-08-A-btc-way-after-80k</guid>
 		<pubDate>Tue, 08 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[上周五美国非农数据意外强劲，大饼被一把砸到8万刀下方，还没来得及看清，又自己爬了回来。周末两天，大饼就在8万刀附近来回拉扯，像守城的卒子，守着这道整数关口。昨晚，终于破位，今晨回落跌破79k。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜弄丢比特币的人，说比特币无背书</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-07-A-schiff-no-backing</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-07-A-schiff-no-backing</guid>
-		<pubDate>Mon, 07 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC在8万刀附近徘徊，过去一周的走势像过山车。非农数据把价格打到8万下方，很快又收复失地。就在市场重新讨论数字黄金叙事的时候，一位老朋友又出来泼冷水了。]]></description>
 	</item>
   
 	</channel>
