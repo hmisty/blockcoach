@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜浮盈回调预警的是与非</title>
+		<link>https://blockcoach.com/2026/202609/2026-09-30-A-cryptoquant-correction-alert</link>
+		<guid>https://blockcoach.com/2026/202609/2026-09-30-A-cryptoquant-correction-alert</guid>
+		<pubDate>Wed, 30 Sep 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周三早间，大饼还在8.3万一线。据报道，分析机构cryptoquant提醒，短期交易者的链上未实现利润已创21个月新高，市场或将回调[1]。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜代币化股票30天DEX交易量Uniswap独占六成</title>
 		<link>https://blockcoach.com/2026/202609/2026-09-29-A-tokenized-stocks-dex-uniswap</link>
 		<guid>https://blockcoach.com/2026/202609/2026-09-29-A-tokenized-stocks-dex-uniswap</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-09-A-oil-shock-btc</guid>
 		<pubDate>Wed, 09 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[隔夜，油价（Brent Crude）一度逼近100美刀一桶。美伊在霍尔木兹海峡重新交火，这条窄窄的水道承运着全世界大约五分之一的石油。道指应声跌了614点，跌幅1.15%，标普500也收跌0.37%[1]。风险资产集体喘气的时候，BTC报78.5k美刀，微微一跌，以示尊敬。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜8万之后路在何方</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-08-A-btc-way-after-80k</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-08-A-btc-way-after-80k</guid>
-		<pubDate>Tue, 08 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[上周五美国非农数据意外强劲，大饼被一把砸到8万刀下方，还没来得及看清，又自己爬了回来。周末两天，大饼就在8万刀附近来回拉扯，像守城的卒子，守着这道整数关口。昨晚，终于破位，今晨回落跌破79k。]]></description>
 	</item>
   
 	</channel>
