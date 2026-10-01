@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>77/十年之约｜十一重回十万</title>
+		<link>https://blockcoach.com/2026/202610/2026-10-01-A-tenyrs9B</link>
+		<guid>https://blockcoach.com/2026/202610/2026-10-01-A-tenyrs9B</guid>
+		<pubDate>Thu, 01 Oct 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[本系列上一篇：《76/十年之约｜定投日的礼物》]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜浮盈回调预警的是与非</title>
 		<link>https://blockcoach.com/2026/202609/2026-09-30-A-cryptoquant-correction-alert</link>
 		<guid>https://blockcoach.com/2026/202609/2026-09-30-A-cryptoquant-correction-alert</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-10-A-liquid-trust-chain</guid>
 		<pubDate>Thu, 10 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[宏观承压，这几天大饼跌跌不休，已经回落至77k一线。几天前，比特币侧链Liquid的联盟金库里，近4000枚BTC悄无声息地被人提走了，价值约3.2亿美刀。最大的问题在于：并没有密钥泄露，币却丢了。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜油价冲击下的比特币</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-09-A-oil-shock-btc</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-09-A-oil-shock-btc</guid>
-		<pubDate>Wed, 09 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[隔夜，油价（Brent Crude）一度逼近100美刀一桶。美伊在霍尔木兹海峡重新交火，这条窄窄的水道承运着全世界大约五分之一的石油。道指应声跌了614点，跌幅1.15%，标普500也收跌0.37%[1]。风险资产集体喘气的时候，BTC报78.5k美刀，微微一跌，以示尊敬。]]></description>
 	</item>
   
 	</channel>
