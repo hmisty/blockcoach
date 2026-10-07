@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>78/十年之约｜中位数本金投资者</title>
+		<link>https://blockcoach.com/2026/202610/2026-10-07-A-tenyrs10A</link>
+		<guid>https://blockcoach.com/2026/202610/2026-10-07-A-tenyrs10A</guid>
+		<pubDate>Wed, 07 Oct 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[按：本系列为实盘验证，大饼是否是值得中位数本金投资者长投的标的，不构成任何投资建议或示范，切忌盲信盲从。]]></description>
+	</item>
+  
+	<item>
 		<title>77/十年之约｜十一重回十万</title>
 		<link>https://blockcoach.com/2026/202610/2026-10-01-A-tenyrs9B</link>
 		<guid>https://blockcoach.com/2026/202610/2026-10-01-A-tenyrs9B</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-11-A-quantum-shor-ai</guid>
 		<pubDate>Fri, 11 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[大饼继续回撤至76k附近，市场在等今晚的美国CPI数据。量子计算对比特币的威胁，一把悬了很久的剑，有些新动向。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜严防死守，4000枚BTC却还是被盗了</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-10-A-liquid-trust-chain</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-10-A-liquid-trust-chain</guid>
-		<pubDate>Thu, 10 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[宏观承压，这几天大饼跌跌不休，已经回落至77k一线。几天前，比特币侧链Liquid的联盟金库里，近4000枚BTC悄无声息地被人提走了，价值约3.2亿美刀。最大的问题在于：并没有密钥泄露，币却丢了。]]></description>
 	</item>
   
 	</channel>
