@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜数学超级智能或可在数月内攻破比特币签名算法？</title>
+		<link>https://blockcoach.com/2026/202610/2026-10-08-A-will-ai-break-crypto</link>
+		<guid>https://blockcoach.com/2026/202610/2026-10-08-A-will-ai-break-crypto</guid>
+		<pubDate>Thu, 08 Oct 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[隔夜BTC继续回调，跌破83k整数关口。近日，以太坊联合创始人Vitalik Buterin的一番言论，将AI与加密安全这个看似遥远的话题推到了台前。他警告，如果AI在两年内取得相当于过去50年的数学进展，那么不仅椭圆曲线密码学面临风险，连被视为抗量子希望的格密码学也可能被削弱[1]。这一判断的背景，是OpenAI在几天前发布的一批AI生成的数学研究成果，以及以太坊研究员Justin Drake据]]></description>
+	</item>
+  
+	<item>
 		<title>78/十年之约｜中位数本金投资者</title>
 		<link>https://blockcoach.com/2026/202610/2026-10-07-A-tenyrs10A</link>
 		<guid>https://blockcoach.com/2026/202610/2026-10-07-A-tenyrs10A</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-12-A-cpi-technicals</guid>
 		<pubDate>Sat, 12 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[周五美CPI数据落地，大饼先跌后涨，再从高位回落。价格从76k上方一路摸到79.8k，眼看要重返8万，随即又滑回77k+，收出一根上影线[1]。技术面同样反复：日线级别的黄金交叉盘中一度成立，当日又告失效。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜量子之剑，AI打磨</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-11-A-quantum-shor-ai</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-11-A-quantum-shor-ai</guid>
-		<pubDate>Fri, 11 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[大饼继续回撤至76k附近，市场在等今晚的美国CPI数据。量子计算对比特币的威胁，一把悬了很久的剑，有些新动向。]]></description>
 	</item>
   
 	</channel>
