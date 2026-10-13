@@ -8,11 +8,19 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜全额储备，也怕挤兑</title>
+		<link>https://blockcoach.com/2026/202610/2026-10-13-A-full-reserve-bank-run</link>
+		<guid>https://blockcoach.com/2026/202610/2026-10-13-A-full-reserve-bank-run</guid>
+		<pubDate>Tue, 13 Oct 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周二，大饼再次从30日线82.8k俯冲下探，回踩50日线81.1k后，又拉回30日线附近震荡。舞台之上，一份来自国际监管机构的报告，却把已逾三千亿美刀之巨的稳定币市场再次推到了安全问题的聚光灯下。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜安全是最大的豪华</title>
 		<link>https://blockcoach.com/2026/202610/2026-10-12-A-safety-is-luxury</link>
 		<guid>https://blockcoach.com/2026/202610/2026-10-12-A-safety-is-luxury</guid>
 		<pubDate>Mon, 12 Oct 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC上周五（10/9）悄然回踩50日线（约80.7k）后，周末两日又拉回83k。但让市场背后发凉的，并非行情的波动，而是硬件钱包Ledger遭遇了让很多人大开眼界的供应链攻击，遇盗资金据称直逼1亿刀！]]></description>
+		<description><![CDATA[BTC上周五（10/9）悄然回踩50日线（约80.7k）后，隔了周末两日，又拉回83-84k。但让市场背后发凉的，并非行情的波动，而是硬件钱包Ledger遭遇了让很多人大开眼界的供应链攻击，遇盗资金据称直逼1亿刀！]]></description>
 	</item>
   
 	<item>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-15-A-strategy-bitcoin-investor-guide</guid>
 		<pubDate>Tue, 15 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[教链按：本文基于 Strategy 发布的《比特币投资者指南（Bitcoin Investor Guide）》（2026年9月13日修订，数据截至2026年9月11日）整理，旨在提炼核心观点，供读者快速理解当前机构视角下的比特币投资框架。**本文不构成任何投资建议。**]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜高盛改口，加息共识一夜翻盘</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-14-A-goldman-flip</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-14-A-goldman-flip</guid>
-		<pubDate>Mon, 14 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[周一开门就来了个下马威。大饼一度跌破7.7万刀，回踩76k一线，压在市场头上的，是本周三那场议息会议。目前，市场对加息的定价已经站上85%，甚至接近90%。]]></description>
 	</item>
   
 	</channel>
