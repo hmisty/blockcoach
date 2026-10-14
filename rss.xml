@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜固定供应是缺陷还是特性？一场BTC货币论战</title>
+		<link>https://blockcoach.com/2026/202610/2026-10-14-A-fixed-supply-debate</link>
+		<guid>https://blockcoach.com/2026/202610/2026-10-14-A-fixed-supply-debate</guid>
+		<pubDate>Wed, 14 Oct 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周三，大饼站回83-84k一线小幅整理，行情乏善可陈。盘外，一场围绕BTC固定供应的论战，在两位经济学家之间打得有来有回。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜全额储备，也怕挤兑</title>
 		<link>https://blockcoach.com/2026/202610/2026-10-13-A-full-reserve-bank-run</link>
 		<guid>https://blockcoach.com/2026/202610/2026-10-13-A-full-reserve-bank-run</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-16-A-clarity-vote-fails</guid>
 		<pubDate>Wed, 16 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[隔夜大饼一路走低，从9月4日82k局部高位以近乎直线下降的速度回撤到75k区间，30日均线直接击穿，仿佛丝毫没有任何承接力度似的。华盛顿那边，加密行业等了两年多的《CLARITY法案》，在参议院的一场程序性投票里止步了。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜比特币投资指南（2026年9月版）要点解析</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-15-A-strategy-bitcoin-investor-guide</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-15-A-strategy-bitcoin-investor-guide</guid>
-		<pubDate>Tue, 15 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[教链按：本文基于 Strategy 发布的《比特币投资者指南（Bitcoin Investor Guide）》（2026年9月13日修订，数据截至2026年9月11日）整理，旨在提炼核心观点，供读者快速理解当前机构视角下的比特币投资框架。**本文不构成任何投资建议。**]]></description>
 	</item>
   
 	</channel>
