@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜25年悬案：椭圆曲线的种子，是一串时间戳 - BlockCoach - 刘教链</title>
+	<meta name="description" content="周六，大饼在81k一线低位整理，市场情绪偏冷。与此同时，一桩悬了25年的密码学旧案，有了新进展。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜25年悬案：椭圆曲线的种子，是一串时间戳">
+	<meta property="og:description" content="周六，大饼在81k一线低位整理，市场情绪偏冷。与此同时，一桩悬了25年的密码学旧案，有了新进展。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202610/2026-10-17-A-nist-curve-seed-mystery">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-10-17">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜25年悬案：椭圆曲线的种子，是一串时间戳">
+	<meta name="twitter:description" content="周六，大饼在81k一线低位整理，市场情绪偏冷。与此同时，一桩悬了25年的密码学旧案，有了新进展。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202610/2026-10-17-A-nist-curve-seed-mystery">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜25年悬案：椭圆曲线的种子，是一串时间戳",
+		"description": "周六，大饼在81k一线低位整理，市场情绪偏冷。与此同时，一桩悬了25年的密码学旧案，有了新进展。",
+		"url": "https://blockcoach.com/2026/202610/2026-10-17-A-nist-curve-seed-mystery",
+		"datePublished": "2026-10-17",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202610">2026年10月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜25年悬案：椭圆曲线的种子，是一串时间戳</h1>
+			<div class="meta">
+				发布时间：2026-10-17
+				
+			</div>
+			<div class="content">
+				<p>周六，大饼在81k一线低位整理，市场情绪偏冷。与此同时，一桩悬了25年的密码学旧案，有了新进展。</p>
+<p>众所周知，BTC核心使用的数字签名算法是ECDSA（椭圆曲线数字签名算法），这是当今应用最广的椭圆曲线密码标准之一，1999年随ANSI X9.62公布，2000年被NIST（美国国家标准与技术研究院）纳入FIPS 186-2数字签名标准。标准给每条曲线配了一个seed（种子）参数，在NIST的生成流程中，seed的哈希值决定了曲线的系数b（注：NIST的椭圆曲线方程为 y^2 = x^3 - 3x + b ）。蹊跷之处在于，这些seed由NSA（美国国家安全局）提供，随标准一同公布，却没有任何解释[1]。</p>
+<p>拿应用最广的P-256来说，它又称secp256r1，字母r即Random（随机）之意。它的种子是这么一串十六进制数：C49D3608 86E70493 6A6678E1 139D26B7 819F7E90。为什么是它，而不是别的？1999年公布之初，就有人在新闻组上追问过[2]。但是NSA一直保持沉默。</p>
+<p>这一沉默，就是25年。Koblitz和Menezes为它写过一篇综述，题为《谜中之谜》[1]。线索有过几条：X9.62标准里那批二元域曲线的种子中，反复出现一串字节，正是字符串MinghuaQu（一位密码学家的名字）的ASCII编码，可见它们未必来自哈希。而流传最广的说法来自NSA的Jerry Solinas。2015年他在邮件里回忆，种子是拿一句玩笑话做哈希生成的，大意是「给Bob和Jerry加薪」，可惜原话和算法细节都记不得了。2023年初，Solinas去世，线索就中断了[1][2]。密码学家Filippo Valsorda还为此设过悬赏，赏金36,864美刀[1]。</p>
+<p>转机出现在今年10月。知名AI公司Anthropic的几名员工追过这个谜题，都没追出来。有人换了个思路，让内部的研究模型在不给任何线索的情况下试试。不到半小时，AI大模型Claude就找到了P-192、P-224、P-256、P-384、P-521这五条曲线的种子来历[1]。Valsorda 已独立验证并支付赏金，Anthropic 团队将赏金捐给了 Internet Security Research Group。</p>
+<p>原来，生成种子的，是1990年代C标准库里那个叫lrand48的线性同余随机数生成器，而它的初始值，是一个Unix时间戳。P-256 的种子来自 1997 年 8 月 16 日 01:52:34 UTC 初始化的生成器，是第 1842 个候选值。NIST 的五条素数域曲线，加上 ANSI X9.62 中另外五条示例素数曲线，共十条素数域曲线的时间戳，都落在1997年5月到1998年4月之间[1]。</p>
+<p><img src="2026-10-17-A/seed-years.avif" alt=""></p>
+<p>Anthropic的结论是，这不是对ECDSA算法的密码学破解或新攻击方法，倒是破译了seed的生成方式，让人对这批曲线25年来是否人为刻意留有漏洞的猜疑打消了大半[1]。安全研究者 Steve Weis 认为，同一份 X9.62 文档里混着MinghuaQu这种明显随手取的种子，NSA 若真要系统性做手脚，大概不会和这种开玩笑的种子混在一起。</p>
+<p>教链在<a href="https://leanpub.com/history-of-bitcoin">《比特币史话》</a>第三章里介绍过这段历史：P-256公布之后，就有密码学家质疑系数b来得蹊跷，请NIST解释，NIST称没有相关文档，NSA则不再回应。5年后的2008年，中本聪放弃NIST标准化的P-256，给比特币另选了一条曲线secp256k1（又称素数域Koblitz曲线），它的参数是a等于0、b等于7（注：椭圆曲线方程为 y^2 = x^3 + 7 ），简单到一眼看穿。那时没人知道NIST的种子里藏着什么，中本聪的选择显然是预防万一的明智之举。</p>
+<p>如今回头看，中本聪未必预见到了什么后门。他要的，是一条参数简单、来源清楚、谁都能当场验证的曲线。这份警惕，与其说来自对NSA的怀疑，不如说来自密码学的常识：安全不取决于提供者的信誉，取决于参数能不能被任何人独立复现。一个拒绝解释来历的种子，哪怕事后证明清白，也已经预先输掉了信任。</p>
+<p>谜题也没有全部解开。二元域曲线B-163的种子至今无从解释；P-192 的基点已经被解释了（来自 FreeLIP，种子整数 20000），但P-224、P-256、P-384、P-521的基点（base point）当初怎么选的，同样没有答案[1]。种子能对上一串时间戳，说明它确实是随手取来的；而当年那台机器上剩下的候选值，那些被跳过的曲线，也许永远无从考证了。</p>
+<p><img src="2026-10-17-A/skipped-curves.avif" alt=""></p>
+<p>回到secp256r1 (P-256)，种子已经破译，但基点依然成谜。时间戳算法的破译固然挽回部分信任，但25年来的猜疑和顾虑绝非一时可以打消的。无论如何，即便站在2026年的今天，回望18年前中本聪的谨慎之举，也依然不得不感慨他的先见之明。</p>
+<hr>
+<p><strong>免责声明</strong>：本文纯属教链个人主观认知分享，不构成任何投资建议。加密市场波动巨大，风险极高，请自行判断、谨慎决策、承担风险和后果。<br><strong>点击延伸阅读</strong>👉<a href="https://member.liujiaolian.com/i/20261016">教链内参｜Ledger回应，USDC入欧，CPI升温</a><br><strong>加入教链会员</strong>：欢迎关注公众号并发消息「会员」或「VIP」了解详情。</p>
+<hr>
+<p>参考资料：<br>[1] Anthropic, &quot;Claude reveals ECDSA curve origins&quot;, <em>Anthropic</em>, 2026-10. <a href="https://www.anthropic.com/research/ecdsa-curve-origins">链接</a><br>[2] Steve Weis, &quot;How were the NIST ECDSA curve parameters generated?&quot;, <em>saweis.net</em>, 2026. <a href="https://saweis.net/posts/nist-curve-seed-origins.html">链接</a></p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>

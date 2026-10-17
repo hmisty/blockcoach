@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜25年悬案：椭圆曲线的种子，是一串时间戳</title>
+		<link>https://blockcoach.com/2026/202610/2026-10-17-A-nist-curve-seed-mystery</link>
+		<guid>https://blockcoach.com/2026/202610/2026-10-17-A-nist-curve-seed-mystery</guid>
+		<pubDate>Sat, 17 Oct 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周六，大饼在81k一线低位整理，市场情绪偏冷。与此同时，一桩悬了25年的密码学旧案，有了新进展。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜Strategy会被踢出指数吗？</title>
 		<link>https://blockcoach.com/2026/202610/2026-10-16-A-will-strategy-be-kicked-out</link>
 		<guid>https://blockcoach.com/2026/202610/2026-10-16-A-will-strategy-be-kicked-out</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-20-A-miss-out-blow-out</guid>
 		<pubDate>Sun, 20 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[周五教链写完《76k，空头的清欢》余音未散，晚间忽然一根大阳线超5%的拉升，把BTC从9月初以来的震荡下降趋势中摆脱，一举拉回30日均线78k之上，并在周六拉到最高逼近82k。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜76k，空头的清欢</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-18-A-76k-happy-shorts</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-18-A-76k-happy-shorts</guid>
-		<pubDate>Fri, 18 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[隔夜到今晨，大饼拉回76k上方并在76.5k附近拉锯。周二一度跌到75.6k，本月最低；加息落地之后，止跌企稳，重新站上76k一线。]]></description>
 	</item>
   
 	</channel>
