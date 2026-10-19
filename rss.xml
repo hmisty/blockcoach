@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜击碎量子FUD：跨越 10³⁰⁰ 个参数的工程鸿沟</title>
+		<link>https://blockcoach.com/2026/202610/2026-10-19-A-quantum-fud-engineering-gap</link>
+		<guid>https://blockcoach.com/2026/202610/2026-10-19-A-quantum-fud-engineering-gap</guid>
+		<pubDate>Mon, 19 Oct 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[因为Justin Sun在采访视频中用量子计算和AI破解为理由看空BTC，这几天量子恐慌又刷屏了。有人吓坏了，认为破解BTC私钥的倒计时已经开始，甚至说1到1.5年内就能实现。周一，大饼在8万刀上方一线拉锯，倒是风平浪静地丝毫未见恐慌的样子。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜Claude破译签名算法种子来历，中本聪的先见之明</title>
 		<link>https://blockcoach.com/2026/202610/2026-10-17-A-nist-curve-seed-mystery</link>
 		<guid>https://blockcoach.com/2026/202610/2026-10-17-A-nist-curve-seed-mystery</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-21-A-only-bitcoin-left</guid>
 		<pubDate>Mon, 21 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[82k，这是大饼这个月第二次摸到的高度。上一次是9月初，摸完就掉头向下，一直滑到76k附近。这一次是周末，站上去之后没有立刻跌回来，稳稳落在了8万刀上方。市场情绪也跟着换了副面孔，社交媒体上充斥着牛回速归的吆喝声。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜爆空和踏空</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-20-A-miss-out-blow-out</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-20-A-miss-out-blow-out</guid>
-		<pubDate>Sun, 20 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[周五教链写完《76k，空头的清欢》余音未散，晚间忽然一根大阳线超5%的拉升，把BTC从9月初以来的震荡下降趋势中摆脱，一举拉回30日均线78k之上，并在周六拉到最高逼近82k。]]></description>
 	</item>
   
 	</channel>
