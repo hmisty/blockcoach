@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜摩根大通首次测算BTC长期回报</title>
+		<link>https://blockcoach.com/2026/202610/2026-10-21-A-jpmorgan-prices-btc</link>
+		<guid>https://blockcoach.com/2026/202610/2026-10-21-A-jpmorgan-prices-btc</guid>
+		<pubDate>Wed, 21 Oct 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[82k，这是BTC这一周反复试探，又没有真正离开的位置。周一，美国现货BTC ETF净流入5.27亿刀，是9月22日以来最好的一天，贝莱德的IBIT一家买进6.65亿刀，把10月的净流出收窄到约0.88亿刀[1]。资金在回流，价格却原地踏步。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜替中本聪做主的机构，坐上了桌</title>
 		<link>https://blockcoach.com/2026/202610/2026-10-20-A-who-decides-for-satoshi</link>
 		<guid>https://blockcoach.com/2026/202610/2026-10-20-A-who-decides-for-satoshi</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-23-A-uni-on-cme</guid>
 		<pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[大饼二阶段爆拉后暂时横盘整理，价格水平基本位于85k一线。9月22日，CME（芝加哥商品期货交易所）放了一条不算很爆炸却相当有分量的消息：Uniswap的UNI，要上线CME期货了。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜空头不死，爆拉不止</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-22-A-dog-of-war</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-22-A-dog-of-war</guid>
-		<pubDate>Tue, 22 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[隔夜大饼忽然发力，一根超过7%的大阳线，从81k一线直接干到87k，创出8月下旬这波反弹以来的新高。市场一片欢腾。有的人在为错过捶胸顿足，有的人在紧急调整方向，有的人在沾沾自喜。]]></description>
 	</item>
   
 	</channel>
