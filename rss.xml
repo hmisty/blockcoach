@@ -8,11 +8,19 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜熵减经济学：一种重建价值论的尝试</title>
+		<link>https://blockcoach.com/2026/202610/2026-10-27-A-neg-entropy-economy</link>
+		<guid>https://blockcoach.com/2026/202610/2026-10-27-A-neg-entropy-economy</guid>
+		<pubDate>Tue, 27 Oct 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[一瓶1982年的拉菲，为什么比同酒庄的新酒贵几十倍？BTC不产生任何消费品，为什么能值几万美元？]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜BTC跌破8万刀</title>
 		<link>https://blockcoach.com/2026/202610/2026-10-26-A-hashrate-defies-price</link>
 		<guid>https://blockcoach.com/2026/202610/2026-10-26-A-hashrate-defies-price</guid>
 		<pubDate>Mon, 26 Oct 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[周一开门就是一根下影线。BTC终究还是击穿了8万刀整数关口，最低一度探到79k附近，周末堆积的杠杆多头被清扫了一遍[1]。触发点并不意外，美国在中东的撤侨动作把避险情绪推了上来，风险资产一起承压。]]></description>
+		<description><![CDATA[周一开门就是一根下影线。BTC终究还是击穿了8万刀整数关口，最低一度探到79k附近，周末堆积的杠杆多头被清扫了一遍[1]。触发点并不意外，美国在中东的撤离动作把避险情绪推了上来，风险资产一起承压。]]></description>
 	</item>
   
 	<item>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-28-A-sec-token-buyback</guid>
 		<pubDate>Mon, 28 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[周一盘面退守83k一线，周末的清淡还没散。SEC那边倒是没有闲着，没有发布会，没有高层发声，公司金融部上周五悄悄往网站上挂了一批更新的常见问题解答（FAQ），其中一条划了条线：加密网络一旦运转起来，宣布代币回购，不算承诺「重大管理努力」[1]。《CLARITY法案》在参议院搁浅之后，SEC没有等国会，先用现有监管权限把规则的细则一节节铺开，这份FAQ正是其中一节[2]。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜年内BTC ETF净流入转正</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-27-A-etf-flows-turn-positive</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-27-A-etf-flows-turn-positive</guid>
-		<pubDate>Sun, 27 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[周日BTC还在84k区间整理。教链在9月22日《空头不死，爆拉不止》里写过，这波拉升的点火来自轧空，燃料是连环爆仓的空头。]]></description>
 	</item>
   
 	</channel>
