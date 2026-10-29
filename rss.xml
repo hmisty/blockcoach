@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜量子恐慌压制大饼价格</title>
+		<link>https://blockcoach.com/2026/202610/2026-10-29-A-quantum-fear-is-a-bet</link>
+		<guid>https://blockcoach.com/2026/202610/2026-10-29-A-quantum-fear-is-a-bet</guid>
+		<pubDate>Thu, 29 Oct 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周四早上开盘以后，大饼（BTC）就在80k附近来回晃，一天下来也没晃出什么方向。价格跌下来又站上去，站上去又跌下来。两边来回拉锯，成交量也不比前一天多多少。盘面安静得很，有几分熊市末期的沉闷感，对一些人而言是垃圾时间，对另一些人而言是未雨绸缪。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜ETH被证伪？此ETH非彼ETH！</title>
 		<link>https://blockcoach.com/2026/202610/2026-10-28-A-eth-not-ethereum</link>
 		<guid>https://blockcoach.com/2026/202610/2026-10-28-A-eth-not-ethereum</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202609/2026-09-30-A-cryptoquant-correction-alert</guid>
 		<pubDate>Wed, 30 Sep 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[周三早间，大饼还在8.3万一线。据报道，分析机构cryptoquant提醒，短期交易者的链上未实现利润已创21个月新高，市场或将回调[1]。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜代币化股票30天DEX交易量Uniswap独占六成</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-29-A-tokenized-stocks-dex-uniswap</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-29-A-tokenized-stocks-dex-uniswap</guid>
-		<pubDate>Tue, 29 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[周二，大饼贴着83k，盘面安静下沉。昨天教链刚在《美SEC定调代币回购，UNI或可受益》里写过，回购的合规疑问拿到了SEC的一句宽慰。市场数据则呈现了另外一个视角：过去30天，代币化股票在DEX上成交209亿刀，Uniswap一家独占约六成，合126亿刀：v4 40.7%，v3 19.4%，两个版本加起来，约有六成[1]。]]></description>
 	</item>
   
 	</channel>
