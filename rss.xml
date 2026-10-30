@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜币安热钱包失守，56亿美刀连夜流出</title>
+		<link>https://blockcoach.com/2026/202610/2026-10-30-A-binance-hot-wallet</link>
+		<guid>https://blockcoach.com/2026/202610/2026-10-30-A-binance-hot-wallet</guid>
+		<pubDate>Fri, 30 Oct 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[今晨四点多，大饼还在 80k 附近摇摆。到了上午，它已经跌穿 77k，24 小时跌幅超过五个点。让盘面塌下来的，不是宏观数据，是链上的一串转账。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜量子恐慌压制大饼价格</title>
 		<link>https://blockcoach.com/2026/202610/2026-10-29-A-quantum-fear-is-a-bet</link>
 		<guid>https://blockcoach.com/2026/202610/2026-10-29-A-quantum-fear-is-a-bet</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202610/2026-10-01-A-tenyrs9B</guid>
 		<pubDate>Thu, 01 Oct 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[本系列上一篇：《76/十年之约｜定投日的礼物》]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜浮盈回调预警的是与非</title>
-		<link>https://blockcoach.com/2026/202609/2026-09-30-A-cryptoquant-correction-alert</link>
-		<guid>https://blockcoach.com/2026/202609/2026-09-30-A-cryptoquant-correction-alert</guid>
-		<pubDate>Wed, 30 Sep 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[周三早间，大饼还在8.3万一线。据报道，分析机构cryptoquant提醒，短期交易者的链上未实现利润已创21个月新高，市场或将回调[1]。]]></description>
 	</item>
   
 	</channel>
