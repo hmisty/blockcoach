@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>79/十年之约｜比特币白皮书18周年</title>
+		<link>https://blockcoach.com/2026/202611/2026-11-01-A-tenyrs10B</link>
+		<guid>https://blockcoach.com/2026/202611/2026-11-01-A-tenyrs10B</guid>
+		<pubDate>Sun, 01 Nov 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[按：本系列为实盘验证，用实践检验大饼是否值得普通人长期持有，不构成任何投资建议或示范，切忌盲信盲从。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜币安热钱包失守，56亿美刀连夜流出</title>
 		<link>https://blockcoach.com/2026/202610/2026-10-30-A-binance-hot-wallet</link>
 		<guid>https://blockcoach.com/2026/202610/2026-10-30-A-binance-hot-wallet</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202610/2026-10-07-A-tenyrs10A</guid>
 		<pubDate>Wed, 07 Oct 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[按：本系列为实盘验证，大饼是否是值得中位数本金投资者长投的标的，不构成任何投资建议或示范，切忌盲信盲从。]]></description>
-	</item>
-  
-	<item>
-		<title>77/十年之约｜十一重回十万</title>
-		<link>https://blockcoach.com/2026/202610/2026-10-01-A-tenyrs9B</link>
-		<guid>https://blockcoach.com/2026/202610/2026-10-01-A-tenyrs9B</guid>
-		<pubDate>Thu, 01 Oct 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[本系列上一篇：《76/十年之约｜定投日的礼物》]]></description>
 	</item>
   
 	</channel>
