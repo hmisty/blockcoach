@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜从币安被盗调查报告看木桶效应与单点失败</title>
+		<link>https://blockcoach.com/2026/202611/2026-11-04-A-wooden-barrel-single-point</link>
+		<guid>https://blockcoach.com/2026/202611/2026-11-04-A-wooden-barrel-single-point</guid>
+		<pubDate>Wed, 04 Nov 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[大饼（BTC）继续回落至100日线76.8k附近。美国中期选举日刚过，盘面没什么反应，成交量比前几日还淡了一些。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜AI或助黑客掀盗币潮，普通人的末日地堡</title>
 		<link>https://blockcoach.com/2026/202611/2026-11-03-A-ai-hack-wave-paper-bunker</link>
 		<guid>https://blockcoach.com/2026/202611/2026-11-03-A-ai-hack-wave-paper-bunker</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202610/2026-10-12-A-safety-is-luxury</guid>
 		<pubDate>Mon, 12 Oct 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC上周五（10/9）悄然回踩50日线（约80.7k）后，隔了周末两日，又拉回83-84k。但让市场背后发凉的，并非行情的波动，而是硬件钱包Ledger遭遇了让很多人大开眼界的供应链攻击，遇盗资金据称直逼1亿刀！]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜若批评不自由，则赞美无意义</title>
-		<link>https://blockcoach.com/2026/202610/2026-10-09-A-criticize-praise</link>
-		<guid>https://blockcoach.com/2026/202610/2026-10-09-A-criticize-praise</guid>
-		<pubDate>Fri, 09 Oct 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[隔夜大饼一度失守8.2万刀再度收回，市场又热闹起来：喊空的、抄底的、看戏的，各说各话。行情之外，教链这两天关注一个人命关天的热点事件，具体不展开，但总是不由地想起一句话：]]></description>
 	</item>
   
 	</channel>
