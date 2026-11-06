@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜量子地雷，一个应对量子计算的新思路 - BlockCoach - 刘教链</title>
+	<meta name="description" content="隔夜大饼80k上方没站稳，摔了下来。开发者邮件列表里冒出来一个新词儿。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜量子地雷，一个应对量子计算的新思路">
+	<meta property="og:description" content="隔夜大饼80k上方没站稳，摔了下来。开发者邮件列表里冒出来一个新词儿。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202611/2026-11-06-A-quantum-landmine">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-11-06">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜量子地雷，一个应对量子计算的新思路">
+	<meta name="twitter:description" content="隔夜大饼80k上方没站稳，摔了下来。开发者邮件列表里冒出来一个新词儿。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202611/2026-11-06-A-quantum-landmine">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜量子地雷，一个应对量子计算的新思路",
+		"description": "隔夜大饼80k上方没站稳，摔了下来。开发者邮件列表里冒出来一个新词儿。",
+		"url": "https://blockcoach.com/2026/202611/2026-11-06-A-quantum-landmine",
+		"datePublished": "2026-11-06",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202611">2026年11月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜量子地雷，一个应对量子计算的新思路</h1>
+			<div class="meta">
+				发布时间：2026-11-06
+				
+			</div>
+			<div class="content">
+				<p>隔夜大饼80k上方没站稳，摔了下来。开发者邮件列表里冒出来一个新词儿。</p>
+<p>11月4日，开发者 Cory Fields 在 bitcoin-dev 邮件列表里提出了一个叫量子地雷的机制[1]。他在 MIT 数字货币计划工作，也是 Bitcoin Core 的开发者。这个提案还没有被写成正式的改进建议，他自己也说，这只是一个思想实验。</p>
+<p>机制本身不难懂。任何想要领走脆弱地址（比如早年的P2PK地址或暴露了公钥的地址）里 BTC 的人，必须先从量子安全钱包里押上等额的 BTC 作为抵押。目标地址里的币和这笔抵押会一起被锁住，比如锁三十天。在这段等待期里，如果地址的主人能拿出隐藏的所有权证明，就可以把自己的币收回去，顺手把冒领者押上的那一份也拿走。</p>
+<p>这个想法有趣的地方在于，它思考的方向是博弈论，而不是密码学。</p>
+<p>过去几年围绕量子威胁的讨论，主线一直是迁移。P2QRH 这类方案要换签名算法，软分叉要让全网的节点和钱包跟着升级，所有的持币人都得把币从旧地址搬到新地址。这条路在技术上成立，难的是动员。几百万个沉寂多年的地址，主人可能已经丢了私钥，可能已经不在人世，也可能根本不知道有这么一回事。</p>
+<p>量子地雷换了一个方向。它不是去动员持有人迁移，而是去让冒领者身陷险境。你想偷一笔一个亿的币，先押一个亿；偷成了，赚一个亿，被抓了，赔一个亿。把赔率改成这样，理性的人就不会动手。</p>
+<p>思路确实漂亮。可在往下深入之前，得补充一点：地雷需要持有人自己埋，协议不会自动去做。</p>
+<p>埋雷的动作发生在所谓 Q-day （即量子计算攻破私钥之日）之前。持有人需要用一个新的量子安全地址，创建一笔很小的输出，里面藏着一份承诺。承诺的内容说起来很简单，就是证明我在量子计算机能算出私钥之前，已经掌握这个旧地址的私钥。承诺本身不揭示私钥，只把我知道这件事提前固定在链上，等到需要的时候再拿出来验证[2]。</p>
+<p>为什么非得赶在 Q-day 之前？因为量子攻击者 Q-day 之后理论上也能算出同一把私钥。光看签名，链上分不出谁是原来的主人，谁是后来才算出钥匙的人。只有在 Q-day 之前埋下的承诺，才能把先知道的人和后算出来的人分开。</p>
+<p>等 Q-day 来临，新的验证规则激活。到那时要动一笔旧地址里的币，必须等额抵押，还要走一条带时间锁的替代花费路径。开发者举的例子是这样的：Alice 在一个旧输出里放 1 BTC，量子安全钱包里放 1 BTC，另外埋一个很小的地雷。冒领者来动那 1 BTC，必须自己再押 1 BTC，两笔一起锁大约三十天。这三十天里，Alice 揭示承诺（引爆地雷），取回自己的币，顺手把冒领者押的那份拿走。</p>
+<p>冒领者事先看不出哪些地址埋了雷。这是整个设计的关键：每下一次手，都要先押上等额本金，中不中雷全凭运气。踩上一次，本金就没了。</p>
+<p>可是到这一步还缺了一块：主人自己该怎么领？</p>
+<p>开发者的机制是为抓贼设计的。按现有框架，主人要主动迁移，也得走那套抵押流程。他在邮件里承认，需要执行规则把抵押负担压到冒领者身上，同时给诚实迁移者留一条不用等额抵押的路。这条规则他没写。</p>
+<p>顺着这个问题往下想，其实也许可以有解法。承诺可以用量子安全地址来签，冒领者算得出旧私钥，却无法伪造承诺本身；再加上承诺携带的时间戳证据，能证明是哪一天埋的。有了这两样，主人出示承诺，就应该可以直接把币领走，不必抵押等额。</p>
+<p>更妙的是，主人还有一个选择：不急着领，等人来踩。冒领者押上等额本金，锁进等待期，主人这时揭示承诺，把自己的币和冒领者的抵押品一起拿走。地雷从被动的防御，变成了主动的伏击。</p>
+<p>由此想来，等待期似乎也值得拉长。锁定期三十天，一年能试十二轮；如果锁一年，一年只能试一轮。单次赔率没有变，覆盖的地址数量却差了一个量级。找不到足够多的空地址，就凑不出正收益的样本。拉长锁定期削弱的是试探的覆盖面，还有资金周转速度。</p>
+<p>资金雄厚的冒领者可以用并行抵押来换时间，同时押很多笔，代价是数倍的消耗。所以它镇得住中小冒领者，压不住无限火力。BTC的绝对稀缺这个优点就凸显了：谁也没有无限火力。</p>
+<p>这样稍作改动，它和 BIP-361（草案）的差别就清楚了。BIP-361 是限期迁移，过期冻结，协议替所有人做决定；而量子地雷这个思路留了一个抵押出口，没来得及证明的人还能抵押一年把币领出来，同时用踩雷和资金占用威慑冒领。对产权的处理，比一刀切冻结要温和得多。</p>
+<p>当然，对于确已失去所有者的那些币，仍然没有解决。地雷只对还握着私钥的人有用，私钥已经丢了的币，包括中本聪那批早期持仓，没有主人能出来揭示承诺。</p>
+<p>无论哪条路，前提都差不多：主人都得在 Q-day 之前动一次。Q-day 之后，能证明的东西只剩下知道私钥，而那时知道私钥已无法等于你是真正的所有人。唯一还有效的证明，是我在 Q-day 之前就知道。可这个证明只能在那之前留下，时间戳不会倒流。事前没有动作的人，事后没有补救的办法。</p>
+<p>上面这些延伸思考，是教链顺着开发者的思路往下推的，并非他的原方案。这个埋雷思路的启发性不在某个细节，而在方向。过去几年量子威胁的讨论，几乎都在密码学里打转，换签名算法、改地址格式、限期迁移；这位开发者把问题焦点转向了博弈论，让攻击的成本本身成为设计对象。</p>
+<p>这个方向也许还有更好的走法。教链把自己的思考写出来，也是抛砖引玉，希望更多人一起来探讨：除了让人迁移，除了把币冻住，除了抵押，还有没有更好的方案。</p>
+<hr>
+<p><strong>免责声明</strong>：本文纯属教链个人主观认知分享，不构成任何投资建议。加密市场波动巨大，风险极高，请自行判断、谨慎决策、承担风险和后果。<br><strong>点击延伸阅读</strong>👉<a href="https://member.liujiaolian.com/i/20261106">教链内参｜安全成为主线，8万上方开始获利了结</a><br><strong>加入教链会员</strong>：欢迎关注公众号并发消息「会员」或「VIP」了解详情。</p>
+<hr>
+<p>参考资料：<br>[1] TFTC, &quot;Bitcoin Quantum Landmines: Cory Fields&#39; Collateral Trap Proposal&quot;, <em>TFTC</em>, 2026-11-05. <a href="https://www.tftc.io/quantum-landmines-bitcoin-cory-fields-collateral-trap">链接</a><br>[2] CoinDesk, &quot;Bitcoin Developer Proposes &#39;Landmines&#39; to Make Quantum Thieves Lose Their Own BTC&quot;, <em>CoinDesk</em>, 2026-11-05. <a href="https://www.coindesk.com/tech/2026/11/05/bitcoin-developer-proposes-landmines-to-make-quantum-thieves-lose-their-own-btc">链接</a></p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>
