@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- 基础SEO -->
+	<title>刘教链｜从钱包被盗看四种安全策略 - BlockCoach - 刘教链</title>
+	<meta name="description" content="大饼重回75k，行情本身没什么好说的。一早起来，看到钱包基础设施又发生了安全事故。">
+	<meta name="keywords" content="区块链,比特币,加密货币,投资,教链">
+	<meta name="author" content="教链">
+
+	<!-- Open Graph (社交媒体优化) -->
+	<meta property="og:title" content="刘教链｜从钱包被盗看四种安全策略">
+	<meta property="og:description" content="大饼重回75k，行情本身没什么好说的。一早起来，看到钱包基础设施又发生了安全事故。">
+	<meta property="og:url" content="https://blockcoach.com/2026/202611/2026-11-09-A-four-security-strategies">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="BlockCoach - 刘教链">
+
+	<!-- 文章元数据 -->
+	<meta property="article:published_time" content="2026-11-09">
+	<meta property="article:author" content="教链">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="刘教链｜从钱包被盗看四种安全策略">
+	<meta name="twitter:description" content="大饼重回75k，行情本身没什么好说的。一早起来，看到钱包基础设施又发生了安全事故。">
+
+	<!-- Canonical URL (避免重复内容) -->
+	<link rel="canonical" href="https://blockcoach.com/2026/202611/2026-11-09-A-four-security-strategies">
+
+	<!-- 结构化数据 (Schema.org, 对Google重要) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"headline": "刘教链｜从钱包被盗看四种安全策略",
+		"description": "大饼重回75k，行情本身没什么好说的。一早起来，看到钱包基础设施又发生了安全事故。",
+		"url": "https://blockcoach.com/2026/202611/2026-11-09-A-four-security-strategies",
+		"datePublished": "2026-11-09",
+		"author": {
+			"@type": "Person",
+			"name": "教链"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "BlockCoach - 刘教链"
+		}
+	}
+	</script>
+
+	<!-- RSS Feed链接 -->
+	<link rel="alternate" type="application/rss+xml" title="BlockCoach - 刘教链" href="/rss.xml">
+
+	<style>
+		/* 基本样式，确保移动端友好 */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			color: #333;
+		}
+		pre {
+			background: #f4f4f4;
+			padding: 1em;
+			overflow-x: auto;
+		}
+		code {
+			background: #f4f4f4;
+			padding: 0.2em 0.4em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		/* 添加更多样式... */
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">首页</a> > 
+			<a href="/2026">2026</a> > 
+			<a href="/2026/202611">2026年11月</a>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<h1>刘教链｜从钱包被盗看四种安全策略</h1>
+			<div class="meta">
+				发布时间：2026-11-09
+				
+			</div>
+			<div class="content">
+				<p>大饼重回75k，行情本身没什么好说的。一早起来，看到钱包基础设施又发生了安全事故。</p>
+<p>Keplr 的社交登录钱包出了事，几千个账户被转走资产，官方把原因指向 Web3Auth 的基础设施漏洞[1]。被盗的用户大多没做错什么，只是当初图方便，用 Google 或 Apple 登录建了这个钱包。</p>
+<p>具体的事故原因还没有详细披露。厂商之间也在相互推诿。教链顺着这条线索稍微研究了一下，把几个典型的钱包所用的安全策略并列一下，看看有什么问题。</p>
+<p>先把传统的加密货币自托管策略作为参考基准，也就是用户自己抄下助记词，写在纸上，妥善保管起来。</p>
+<p>这种策略很简单，钥匙在你手里，谁也不知道。它的安全边界就是你自己：纸别丢、别拍照、别告诉任何人。缺点是人的记性靠不住，火灾、搬家、洗衣服，都可能让那张纸消失。但它的好处是，风险环节就在这张纸这里，你一眼就能看见，也十分清楚。十分清楚，就知道应该引起120%的重视，严防死守。</p>
+<p>有了这个参考基准，我们接下来看看目前业内几种较为流行的钱包App的私钥托管策略。注意我们这里排除中心化交易所那种直接托管全部控制权的方案，讨论的是托管私钥助记词但不托管完整的资产控制权的方案。</p>
+<p>先看 Uniswap 钱包的做法：它的策略比较简单，就是把助记词加密之后，备份到你自己的 iCloud 或 Google Drive。</p>
+<p>苹果的服务器上存着一串密文，解开的密码在你脑子里。恢复的时候，要登录你的云账户，再输入当初专门用来加密助记词的那个密码，它和 Apple ID 不是同一个。云服务商拿到的只是密文，理论上解不开。风险就转移到了账户这一侧：Apple ID 被盗、验证码被截、钓鱼网站骗走密码，任何一种都可能让备份落到别人手里。但至少，风险还在你熟悉的地方，云账户和密码，都是你天天在用的东西。</p>
+<p>云端的风险只有一个：苹果或者谷歌的存储服务被黑客攻破。当然，这也是为何它选择苹果和谷歌而不是其他云服务商的原因，就是相对更信任这两家巨头的安全实力。</p>
+<p>然后就是最经典的web3钱包 MetaMask（俗称小狐狸钱包）的社交登录。它的做法要复杂的多：加密后的助记词存在 MetaMask 自己的服务器上，解密的钥匙被拆成几片，分给不同的服务器节点；恢复时要有两样东西，一是 Google、Apple 或 Telegram 的登录凭证，二是你设的密码[3]。两样凑齐，才能把钥匙拼回来。</p>
+<p>MetaMask 特意说明，就算服务器全被人端了，攻击者拿到的也只是碎片，还得破解你的密码。这话没错，但要看在什么前提下。平时走在线恢复，登录凭证是第一道门，服务端的速率限制是第二道，密码只是第三道，弱密码并不会被立即攻破。可一旦分片节点失守，攻击者拿到碎片，就可以在自己机器上离线穷举，速率限制失效，这时候密码强度才成了唯一的防线。</p>
+<p>最后再看一下这次出事的 Keplr 用的那套方案。密钥拆成三片，一片在用户设备，一片在云端服务器，一片作为恢复备份，登录之后由服务器参与重组[4]。设计上这是三片里任意两片就能重组恢复出私钥，但只要其中两片实际都由同一家服务商控制，三片的门槛就退化成了单点突破口。这次的事故，教链直觉上觉得很可能出在这个地方，不过真实情况还得等厂商进一步披露更多具体的技术细节才知道。</p>
+<p>把上面四种方式摆在一起对比对比，一个反直觉的规律就浮现出来了。</p>
+<p>从第一种到第四种，看起来锁越来越多，组件越来越多，系统越来越复杂，声称或承诺复杂的加密策略能提高安全性。可用户能看清的风险，反而越来越少。抄在纸上的钥匙，你知道它在哪；存进 iCloud 的密文，你还知道在苹果那里；到了 MetaMask 那套，密文在服务器、碎片在节点、密码在你脑子里，你得先弄懂四个角色才说得清；到 Keplr 这一步，出了事，用户连问责都不知道该问谁。</p>
+<p>另一方面，在系统复杂度对用户理解不断升高的同时，系统对黑客暴露的攻击面却在变大。黑客怎能不心中窃喜？纸和笔只有一个风险，被偷或者被烧；iCloud 备份多了一个云账户；MetaMask 那套多了登录服务商、分片节点、密码强度；Keplr 那套多了整条基础设施。每加一层，就把信任依赖分散到更多层次和环节，而不是把信任消除掉。</p>
+<p>这种信任依赖的扩散可能是致命的。一个简单的算术：一个人自己管钥匙，自己出错则系统出错；换成两个人经手，任何一个人出错，系统就出错。显然，两个人里任意一个出错的可能性，要超过一个人自己出错的可能性。串联的环节，可靠性只会往下走，不会往上走。</p>
+<p>那为什么还要这么设计？因为第一种方式里，一个人出错的可能性实在太高了。抄错一个词、纸弄丢、被家里人当废纸扔掉，这些事每天都在发生。社交登录把用户的失误率压下去一大截，代价是引入服务商那一段风险。账面上可能划算，问题是这两个概率，用户一个都看不见，也没法验证。</p>
+<p>最讽刺的地方就在这里。一套方案需要十页文档解释它为什么安全，普通用户已经失去了判断能力。他只能选择相信，而相信不是安全，是赌。</p>
+<p>教链不禁又回想起中本聪在比特币白皮书里写的那句话：「当存在逆转的可能性时，对信任的需求就扩散了。」虽然中本聪说的是在线支付场景，但是类比到私钥的恢复，这本身是一个可逆过程，也必然会带来信任需求的扩散。</p>
+<p>而这种扩散，本身就意味着黑客攻击面的扩大。每一个需要信任的环节，就是黑客可能入手的切入点。</p>
+<p>真正经得起时间的保管方式，往往简单、直观、易懂，环节最少，信任需求最小。简单不是简陋，是把复杂留在实现里，把可判断性留给用户。</p>
+<p>如果一个钱包说不清钥匙到底在谁手里，那它所谓的自托管，所谓的安全，就只是一个宣传口号。你想真正拥有一样东西，前提是你能指着它说，这是我的，我100%确信它在那儿。</p>
+<hr>
+<p><strong>免责声明</strong>：本文纯属教链个人主观认知分享，不构成任何投资建议。加密市场波动巨大，风险极高，请自行判断、谨慎决策、承担风险和后果。<br><strong>点击延伸阅读</strong>👉<a href="https://member.liujiaolian.com/i/20261109">教链内参｜46日负溢价，大饼重回75k</a><br><strong>加入教链会员</strong>：欢迎关注公众号并发消息「会员」或「VIP」了解详情。</p>
+<hr>
+<p>参考资料：<br>[1] crypto.news, &quot;Keplr halts Google, Apple logins as $6M wallet drain hits Cosmos&quot;, <em>crypto.news</em>, 2026-11-07. <a href="https://crypto.news/keplr-wallet-hack-web3auth-google-apple-login/">链接</a><br>[2] Uniswap Labs, &quot;I forgot my recovery phrase. What can I do?&quot;, <em>Uniswap Support</em>, 2026. <a href="https://support.uniswap.org/hc/en-us/articles/11306367118349-I-forgot-my-recovery-phrase-What-can-I-do">链接</a><br>[3] MetaMask, &quot;How does social login with MetaMask work?&quot;, <em>MetaMask Support</em>, 2026. <a href="https://support.metamask.io/configure/wallet/social-login">链接</a><br>[4] MetaMask Embedded Wallets, &quot;Embedded Wallets&#39; Shamir Secret Sharing Architecture&quot;, <em>MetaMask Docs</em>, 2026. <a href="https://docs.metamask.io/embedded-wallets/infrastructure/sss-architecture/">链接</a></p>
+
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 BlockCoach - 刘教链</p>
+	</footer>
+</body>
+</html>
