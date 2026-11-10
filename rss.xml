@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜V神回头，ETH重提价值存储</title>
+		<link>https://blockcoach.com/2026/202611/2026-11-10-A-vitalik-returns-to-sov</link>
+		<guid>https://blockcoach.com/2026/202611/2026-11-10-A-vitalik-returns-to-sov</guid>
+		<pubDate>Tue, 10 Nov 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[过去24h，大饼从75k继续跌落。11月8日，以太坊创始人Vitalik Buterin（V神）发了一条长帖，说以太坊该把重心（重新）放到价值存储上，不必再靠手续费销毁撑住估值[1]。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜从钱包被盗看四种安全策略</title>
 		<link>https://blockcoach.com/2026/202611/2026-11-09-A-four-security-strategies</link>
 		<guid>https://blockcoach.com/2026/202611/2026-11-09-A-four-security-strategies</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202610/2026-10-16-A-will-strategy-be-kicked-out</guid>
 		<pubDate>Fri, 16 Oct 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[隔夜，大饼一度短暂击穿8万刀又拉回，目前徘徊在82k下方。盘外，Strategy们正在坐立不安。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜解决问题，还是解决提出问题的人？</title>
-		<link>https://blockcoach.com/2026/202610/2026-10-15-A-deal-with-problem-or-person</link>
-		<guid>https://blockcoach.com/2026/202610/2026-10-15-A-deal-with-problem-or-person</guid>
-		<pubDate>Thu, 15 Oct 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[BTC继续向下，已经要碰触8万刀整数关口了。国际地缘局势动荡，美联储又要偏鹰，宏观上来讲，市场也很难有特别好的预期。这不是BTC的错。]]></description>
 	</item>
   
 	</channel>
