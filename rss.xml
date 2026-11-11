@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜CPI超预期，大饼跌破7.4万</title>
+		<link>https://blockcoach.com/2026/202611/2026-11-11-A-cpi-blowout-btc-74k</link>
+		<guid>https://blockcoach.com/2026/202611/2026-11-11-A-cpi-blowout-btc-74k</guid>
+		<pubDate>Wed, 11 Nov 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[隔夜大饼跌破74k，日内最低摸到72.7k，先小幅回升到73k上方。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜V神回头，ETH重提价值存储</title>
 		<link>https://blockcoach.com/2026/202611/2026-11-10-A-vitalik-returns-to-sov</link>
 		<guid>https://blockcoach.com/2026/202611/2026-11-10-A-vitalik-returns-to-sov</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202610/2026-10-17-A-nist-curve-seed-mystery</guid>
 		<pubDate>Sat, 17 Oct 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[周六，大饼在81k一线低位整理，市场情绪偏冷。与此同时，一桩悬了25年的密码学旧案，有了新进展。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜Strategy会被踢出指数吗？</title>
-		<link>https://blockcoach.com/2026/202610/2026-10-16-A-will-strategy-be-kicked-out</link>
-		<guid>https://blockcoach.com/2026/202610/2026-10-16-A-will-strategy-be-kicked-out</guid>
-		<pubDate>Fri, 16 Oct 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[隔夜，大饼一度短暂击穿8万刀又拉回，目前徘徊在82k下方。盘外，Strategy们正在坐立不安。]]></description>
 	</item>
   
 	</channel>
