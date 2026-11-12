@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜稳定币缩水5%，200日均线生死考验</title>
+		<link>https://blockcoach.com/2026/202611/2026-11-12-A-stablecoin-drain-btc-running-on-empty</link>
+		<guid>https://blockcoach.com/2026/202611/2026-11-12-A-stablecoin-drain-btc-running-on-empty</guid>
+		<pubDate>Thu, 12 Nov 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周三大饼最低击穿200日均线73k。这个位置能否守住，决定了市场多头的心气儿是否还能挺得住。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜CPI超预期，大饼跌破7.4万</title>
 		<link>https://blockcoach.com/2026/202611/2026-11-11-A-cpi-blowout-btc-74k</link>
 		<guid>https://blockcoach.com/2026/202611/2026-11-11-A-cpi-blowout-btc-74k</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202610/2026-10-19-A-quantum-fud-engineering-gap</guid>
 		<pubDate>Mon, 19 Oct 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[因为Justin Sun在采访视频中用量子计算和AI破解为理由看空BTC，这几天量子恐慌又刷屏了。有人吓坏了，认为破解BTC私钥的倒计时已经开始，甚至说1到1.5年内就能实现。周一，大饼在8万刀上方一线拉锯，倒是风平浪静地丝毫未见恐慌的样子。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜Claude破译签名算法种子来历，中本聪的先见之明</title>
-		<link>https://blockcoach.com/2026/202610/2026-10-17-A-nist-curve-seed-mystery</link>
-		<guid>https://blockcoach.com/2026/202610/2026-10-17-A-nist-curve-seed-mystery</guid>
-		<pubDate>Sat, 17 Oct 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[周六，大饼在81k一线低位整理，市场情绪偏冷。与此同时，一桩悬了25年的密码学旧案，有了新进展。]]></description>
 	</item>
   
 	</channel>
