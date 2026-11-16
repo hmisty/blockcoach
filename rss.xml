@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜BTC横盘65k妙妙区间</title>
+		<link>https://blockcoach.com/2026/202611/2026-11-16-A-third-outcome</link>
+		<guid>https://blockcoach.com/2026/202611/2026-11-16-A-third-outcome</guid>
+		<pubDate>Mon, 16 Nov 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[11月上半月，BTC从80k上方加速下跌，一路跌到65k附近。自从11月4日向30日均线（81k）反弹遇阻，5日再次跌落并击穿100日均线（77k）以来，价格便如落雨一般加速下坠：5日跌破80k，13日跌破70k，15日最低下探至62k，随后拉回65k一线。到16日，价格在65k附近勉强站住。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜黄仁勋辞职，比特币大跌</title>
 		<link>https://blockcoach.com/2026/202611/2026-11-13-A-jensen-huang-resigns-btc-slides</link>
 		<guid>https://blockcoach.com/2026/202611/2026-11-13-A-jensen-huang-resigns-btc-slides</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202610/2026-10-21-A-jpmorgan-prices-btc</guid>
 		<pubDate>Wed, 21 Oct 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[82k，这是BTC这一周反复试探，又没有真正离开的位置。周一，美国现货BTC ETF净流入5.27亿刀，是9月22日以来最好的一天，贝莱德的IBIT一家买进6.65亿刀，把10月的净流出收窄到约0.88亿刀[1]。资金在回流，价格却原地踏步。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜替中本聪做主的机构，坐上了桌</title>
-		<link>https://blockcoach.com/2026/202610/2026-10-20-A-who-decides-for-satoshi</link>
-		<guid>https://blockcoach.com/2026/202610/2026-10-20-A-who-decides-for-satoshi</guid>
-		<pubDate>Tue, 20 Oct 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[周二，大饼在81k一线小幅回落，盘面依旧是那副磨人的样子。行情之外，量子计算那条线上倒是有了新动静。10月16日，九家区块链公司宣布成立量子联盟（Quantum Alliance），说是要给区块链、钱包和基础设施定一套量子安全的测试标准。]]></description>
 	</item>
   
 	</channel>
