@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜20亿清算之后，6万刀成了共同锚点</title>
+		<link>https://blockcoach.com/2026/202611/2026-11-17-A-liquidation-anchor-60k</link>
+		<guid>https://blockcoach.com/2026/202611/2026-11-17-A-liquidation-anchor-60k</guid>
+		<pubDate>Tue, 17 Nov 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周日夜里，大饼一度跌到62k，是9月以来的最低位。统计显示，滚动24小时里全市场被强制平掉的仓位超过20亿美刀，其中大约18亿是多头[1]。到周一早间，价格又拉回65k一线。今早依然在这个地方盘旋。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜BTC横盘65k妙妙区间</title>
 		<link>https://blockcoach.com/2026/202611/2026-11-16-A-third-outcome</link>
 		<guid>https://blockcoach.com/2026/202611/2026-11-16-A-third-outcome</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202610/2026-10-22-A-two-four-year-cycles</guid>
 		<pubDate>Thu, 22 Oct 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[BTC昨日假突破30日均线（83.5k）今天一个猛子又扎回50日均线（81.8k）附近。在网上看到有人贴了一张美国中期选举和BTC价格走势的关系图。图里把BTC的价格曲线摆出来，再把美国中期选举的年份标上去，几个箭头指向每一次选举的月份：2014年11月、2018年11月、2022年11月。几乎都压在周期的低位。今年11月3日，即将到来。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜摩根大通首次测算BTC长期回报</title>
-		<link>https://blockcoach.com/2026/202610/2026-10-21-A-jpmorgan-prices-btc</link>
-		<guid>https://blockcoach.com/2026/202610/2026-10-21-A-jpmorgan-prices-btc</guid>
-		<pubDate>Wed, 21 Oct 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[82k，这是BTC这一周反复试探，又没有真正离开的位置。周一，美国现货BTC ETF净流入5.27亿刀，是9月22日以来最好的一天，贝莱德的IBIT一家买进6.65亿刀，把10月的净流出收窄到约0.88亿刀[1]。资金在回流，价格却原地踏步。]]></description>
 	</item>
   
 	</channel>
