@@ -8,6 +8,14 @@
 		<atom:link href="https://blockcoach.com/rss.xml" rel="self" type="application/rss+xml"/>
 		
 	<item>
+		<title>刘教链｜老牌DeFi的流动性危机</title>
+		<link>https://blockcoach.com/2026/202611/2026-11-25-A-shape-of-high-yield</link>
+		<guid>https://blockcoach.com/2026/202611/2026-11-25-A-shape-of-high-yield</guid>
+		<pubDate>Wed, 25 Nov 2026 00:00:00 +0800</pubDate>
+		<description><![CDATA[周三BTC继续在6万刀一线盘整。前段时间，教链的熊市建仓计划进入收官阶段，因此把最后一批弹药从Spark Savings里全部提了出来。]]></description>
+	</item>
+  
+	<item>
 		<title>刘教链｜这世界的颠狂超出AI的想象</title>
 		<link>https://blockcoach.com/2026/202611/2026-11-24-A-ai-cannot-speculate</link>
 		<guid>https://blockcoach.com/2026/202611/2026-11-24-A-ai-cannot-speculate</guid>
@@ -157,14 +165,6 @@
 		<guid>https://blockcoach.com/2026/202611/2026-11-01-A-tenyrs10B</guid>
 		<pubDate>Sun, 01 Nov 2026 00:00:00 +0800</pubDate>
 		<description><![CDATA[按：本系列为实盘验证，用实践检验大饼是否值得普通人长期持有，不构成任何投资建议或示范，切忌盲信盲从。]]></description>
-	</item>
-  
-	<item>
-		<title>刘教链｜币安热钱包失守，56亿美刀连夜流出</title>
-		<link>https://blockcoach.com/2026/202610/2026-10-30-A-binance-hot-wallet</link>
-		<guid>https://blockcoach.com/2026/202610/2026-10-30-A-binance-hot-wallet</guid>
-		<pubDate>Fri, 30 Oct 2026 00:00:00 +0800</pubDate>
-		<description><![CDATA[今晨四点多，大饼还在 80k 附近摇摆。到了上午，它已经跌穿 77k，24 小时跌幅超过五个点。让盘面塌下来的，不是宏观数据，是链上的一串转账。]]></description>
 	</item>
   
 	</channel>
