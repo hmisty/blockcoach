@@ -2,11 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://blockcoach.com</loc>
-		<lastmod>2026-11-26</lastmod>
+		<lastmod>2026-11-27</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 	
+	<url>
+		<loc>https://blockcoach.com/2026/202611/2026-11-27-A-mnav-below-nav</loc>
+		<lastmod>2026-11-27T00:00:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+  
 	<url>
 		<loc>https://blockcoach.com/2026/202611/2026-11-26-A-veterans-afraid-to-buy</loc>
 		<lastmod>2026-11-26T00:00:00+00:00</lastmod>
@@ -9691,13 +9698,6 @@
 	<url>
 		<loc>https://blockcoach.com/2023/202301/2023-01-09-btc-17000-luoyonghao</loc>
 		<lastmod>2023-01-09T00:00:00+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-  
-	<url>
-		<loc>https://blockcoach.com/2023/202301/2023-01-08-lecture2020-audio-remix</loc>
-		<lastmod>2023-01-08T00:00:00+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
